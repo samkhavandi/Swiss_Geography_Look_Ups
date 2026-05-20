@@ -1,0 +1,33 @@
+name: Swiss Post Ortschaftsverzeichnis (Locality Register)
+provider: swisstopo / Swiss Post
+url: https://www.swisstopo.admin.ch/fr/repertoire-officiel-des-localites#Download
+description: >
+  The official locality register mapping PLZ (postal codes) to municipalities
+  (BFS numbers), locality names, and coordinates. Key source for linking
+  PLZ-coded data to official BFS municipality numbers.
+  Note: a single PLZ can span multiple municipalities, and a municipality
+  can have multiple PLZs.
+license: Open
+formats:
+  - CSV
+vintages_available: current snapshot
+last_accessed: 20/05/2026
+local_raw_path: raw/PLZ.csv
+columns:
+  Ortschaftsname: locality name
+  PLZ4: 4-digit postal code
+  Zusatzziffer: additional digit (distinguishes localities sharing a PLZ)
+  ZIP_ID: combined PLZ + Zusatzziffer identifier
+  Gemeindename: municipality name
+  BFS-Nr: BFS municipality number (primary join key)
+  Kantonskürzel: canton abbreviation
+  Adressenanteil: share of addresses in this locality belonging to this municipality
+  E: easting coordinate (LV95)
+  N: northing coordinate (LV95)
+  Sprache: language (de/fr/it/rm)
+  Validity: date from which this entry is valid
+notes: >
+  File is semicolon-delimited with a UTF-8 BOM. For strict annual accuracy
+  across 2012-2022, use archived vintages closest to each reference year.
+  The current snapshot is stable enough for most purposes given PLZ changes
+  are infrequent.

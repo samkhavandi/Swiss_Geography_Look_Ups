@@ -1,0 +1,24 @@
+# Raw source data
+# The three files below are committed for reproducibility.
+# All other files in raw/ are ignored to prevent accidental commits of
+# large downloads (e.g. updated vintages before review).
+raw/*
+!raw/.gitkeep
+!raw/Municipality_historical_directory.xml
+!raw/PLZ.csv
+!raw/medstat.xlsx
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# renv - keep renv.lock but ignore the library itself
+renv/library/
+renv/staging/
+renv/sandbox/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2113 @@
+bfs_nr,municipality,canton,medstat_id,medstat_name,ambiguous,year
+1,Aeugst am Albis,ZH,ZH38,Knonaueramt,FALSE,2022
+2,Affoltern am Albis,ZH,ZH36,Affoltern am Albis,FALSE,2022
+3,Bonstetten,ZH,ZH35,Bonstetten-Reppischtal,FALSE,2022
+4,Hausen am Albis,ZH,ZH38,Knonaueramt,TRUE,2022
+5,Hedingen,ZH,ZH36,Affoltern am Albis,FALSE,2022
+6,Kappel am Albis,ZH,ZH38,Knonaueramt,FALSE,2022
+7,Knonau,ZH,ZH38,Knonaueramt,FALSE,2022
+8,Maschwanden,ZH,ZH37,Obfelden,FALSE,2022
+9,Mettmenstetten,ZH,ZH38,Knonaueramt,FALSE,2022
+10,Obfelden,ZH,ZH36,Affoltern am Albis,TRUE,2022
+11,Ottenbach,ZH,ZH37,Obfelden,FALSE,2022
+12,Rifferswil,ZH,ZH38,Knonaueramt,FALSE,2022
+13,Stallikon,ZH,ZH35,Bonstetten-Reppischtal,TRUE,2022
+14,Wettswil am Albis,ZH,ZH35,Bonstetten-Reppischtal,FALSE,2022
+22,Benken (ZH),ZH,ZH83,Nordweinland,FALSE,2022
+23,Berg am Irchel,ZH,ZH82,Südweinland,FALSE,2022
+24,Buch am Irchel,ZH,ZH82,Südweinland,FALSE,2022
+25,Dachsen,ZH,ZH81,Feuerthalen-Uhwiesen,FALSE,2022
+26,Dorf,ZH,ZH82,Südweinland,FALSE,2022
+27,Feuerthalen,ZH,ZH81,Feuerthalen-Uhwiesen,FALSE,2022
+28,Flaach,ZH,ZH82,Südweinland,FALSE,2022
+29,Flurlingen,ZH,ZH81,Feuerthalen-Uhwiesen,FALSE,2022
+31,Henggart,ZH,ZH82,Südweinland,FALSE,2022
+33,Kleinandelfingen,ZH,ZH83,Nordweinland,FALSE,2022
+34,Laufen-Uhwiesen,ZH,ZH81,Feuerthalen-Uhwiesen,TRUE,2022
+35,Marthalen,ZH,ZH83,Nordweinland,FALSE,2022
+37,Ossingen,ZH,ZH84,Ostweinland,FALSE,2022
+38,Rheinau,ZH,ZH83,Nordweinland,FALSE,2022
+39,Thalheim an der Thur,ZH,ZH84,Ostweinland,FALSE,2022
+40,Trüllikon,ZH,ZH83,Nordweinland,TRUE,2022
+41,Truttikon,ZH,ZH84,Ostweinland,FALSE,2022
+43,Volken,ZH,ZH82,Südweinland,FALSE,2022
+51,Bachenbülach,ZH,ZH88,Bülach,TRUE,2022
+52,Bassersdorf,ZH,ZH25,Bassersdorf-Nürensdorf,FALSE,2022
+53,Bülach,ZH,ZH88,Bülach,TRUE,2022
+54,Dietlikon,ZH,ZH26,Dietlikon-Wangen-Brüttisellen,TRUE,2022
+55,Eglisau,ZH,ZH90,Glattfelden-Rafz,FALSE,2022
+56,Embrach,ZH,ZH91,Embrach,FALSE,2022
+57,Freienstein-Teufen,ZH,ZH91,Embrach,FALSE,2022
+58,Glattfelden,ZH,ZH90,Glattfelden-Rafz,FALSE,2022
+59,Hochfelden,ZH,ZH87,Stadel,TRUE,2022
+60,Höri,ZH,ZH87,Stadel,FALSE,2022
+61,Hüntwangen,ZH,ZH90,Glattfelden-Rafz,FALSE,2022
+62,Kloten,ZH,ZH24,Kloten,TRUE,2022
+63,Lufingen,ZH,ZH91,Embrach,FALSE,2022
+64,Nürensdorf,ZH,ZH25,Bassersdorf-Nürensdorf,FALSE,2022
+65,Oberembrach,ZH,ZH91,Embrach,FALSE,2022
+66,Opfikon,ZH,ZH18,Zürich-Seebach,TRUE,2022
+67,Rafz,ZH,ZH90,Glattfelden-Rafz,FALSE,2022
+68,Rorbas,ZH,ZH91,Embrach,FALSE,2022
+69,Wallisellen,ZH,ZH93,Wallisellen,FALSE,2022
+70,Wasterkingen,ZH,ZH90,Glattfelden-Rafz,FALSE,2022
+71,Wil (ZH),ZH,ZH90,Glattfelden-Rafz,FALSE,2022
+72,Winkel,ZH,ZH88,Bülach,TRUE,2022
+81,Bachs,ZH,ZH87,Stadel,FALSE,2022
+82,Boppelsen,ZH,ZH86,Dielsdorf-Wehntal,TRUE,2022
+83,Buchs (ZH),ZH,ZH92,Unterfurttal,FALSE,2022
+84,Dällikon,ZH,ZH92,Unterfurttal,FALSE,2022
+85,Dänikon,ZH,ZH92,Unterfurttal,FALSE,2022
+86,Dielsdorf,ZH,ZH86,Dielsdorf-Wehntal,FALSE,2022
+87,Hüttikon,ZH,ZH92,Unterfurttal,FALSE,2022
+88,Neerach,ZH,ZH87,Stadel,TRUE,2022
+89,Niederglatt,ZH,ZH85,Hasli-Glatt,FALSE,2022
+90,Niederhasli,ZH,ZH85,Hasli-Glatt,FALSE,2022
+91,Niederweningen,ZH,ZH86,Dielsdorf-Wehntal,FALSE,2022
+92,Oberglatt,ZH,ZH85,Hasli-Glatt,FALSE,2022
+93,Oberweningen,ZH,AG27,Eetel-Surb,TRUE,2022
+94,Otelfingen,ZH,ZH92,Unterfurttal,FALSE,2022
+95,Regensberg,ZH,ZH86,Dielsdorf-Wehntal,FALSE,2022
+96,Regensdorf,ZH,ZH21,Regensdorf,FALSE,2022
+97,Rümlang,ZH,ZH23,Glattbrugg,TRUE,2022
+98,Schleinikon,ZH,ZH86,Dielsdorf-Wehntal,FALSE,2022
+99,Schöfflisdorf,ZH,ZH86,Dielsdorf-Wehntal,FALSE,2022
+100,Stadel,ZH,ZH87,Stadel,FALSE,2022
+101,Steinmaur,ZH,ZH85,Hasli-Glatt,TRUE,2022
+102,Weiach,ZH,ZH87,Stadel,FALSE,2022
+111,Bäretswil,ZH,ZH59,Bäretswil-Hittnau,TRUE,2022
+112,Bubikon,ZH,ZH64,Bubikon-Dürnten,FALSE,2022
+113,Dürnten,ZH,ZH64,Bubikon-Dürnten,TRUE,2022
+114,Fischenthal,ZH,ZH61,Wald-Tösstal,TRUE,2022
+115,Gossau (ZH),ZH,ZH66,Mönchaltorf-Gossau-Grüningen,FALSE,2022
+116,Grüningen,ZH,ZH66,Mönchaltorf-Gossau-Grüningen,FALSE,2022
+117,Hinwil,ZH,ZH60,Hinwil,TRUE,2022
+118,Rüti (ZH),ZH,ZH61,Wald-Tösstal,TRUE,2022
+119,Seegräben,ZH,ZH63,Wetzikon,FALSE,2022
+120,Wald (ZH),ZH,ZH61,Wald-Tösstal,FALSE,2022
+121,Wetzikon (ZH),ZH,ZH63,Wetzikon,TRUE,2022
+131,Adliswil,ZH,ZH10,Zürich-Leimbach-Albisgütli,TRUE,2022
+135,Kilchberg (ZH),ZH,ZH42,Kilchberg-Rüschlikon,FALSE,2022
+136,Langnau am Albis,ZH,ZH40,Langnau am Albis,FALSE,2022
+137,Oberrieden,ZH,ZH41,Thalwil,FALSE,2022
+138,Richterswil,ZH,ZH44,Richterswil,FALSE,2022
+139,Rüschlikon,ZH,ZH42,Kilchberg-Rüschlikon,FALSE,2022
+141,Thalwil,ZH,ZH40,Langnau am Albis,TRUE,2022
+151,Erlenbach (ZH),ZH,ZH52,Herrliberg-Erlenbach,FALSE,2022
+152,Herrliberg,ZH,ZH52,Herrliberg-Erlenbach,FALSE,2022
+153,Hombrechtikon,ZH,ZH50,Oetwil-Hombrechtikon,TRUE,2022
+154,Küsnacht (ZH),ZH,ZH48,Zumikon-Forch,TRUE,2022
+155,Männedorf,ZH,ZH50,Oetwil-Hombrechtikon,TRUE,2022
+156,Meilen,ZH,ZH53,Meilen,FALSE,2022
+157,Oetwil am See,ZH,ZH50,Oetwil-Hombrechtikon,FALSE,2022
+158,Stäfa,ZH,ZH55,Stäfa,TRUE,2022
+159,Uetikon am See,ZH,ZH54,Männedorf-Uetikon,FALSE,2022
+160,Zumikon,ZH,ZH48,Zumikon-Forch,FALSE,2022
+161,Zollikon,ZH,ZH47,Zollikon,FALSE,2022
+172,Fehraltorf,ZH,ZH56,Fehraltorf,TRUE,2022
+173,Hittnau,ZH,ZH59,Bäretswil-Hittnau,FALSE,2022
+176,Lindau,ZH,ZH70,Lindau-Brütten,TRUE,2022
+177,Pfäffikon,ZH,ZH58,Pfäffikon ZH,TRUE,2022
+178,Russikon,ZH,ZH56,Fehraltorf,FALSE,2022
+180,Weisslingen,ZH,ZH69,Illnau-Weisslingen,TRUE,2022
+181,Wila,ZH,ZH57,Wila-Tösstal,FALSE,2022
+182,Wildberg,ZH,ZH56,Fehraltorf,TRUE,2022
+191,Dübendorf,ZH,ZH11,Zürich-Zürichberg,TRUE,2022
+192,Egg,ZH,ZH49,Egg bei Zürich,TRUE,2022
+193,Fällanden,ZH,ZH22,Maur-Fällanden,FALSE,2022
+194,Greifensee,ZH,ZH62,Greifensee,FALSE,2022
+195,Maur,ZH,ZH22,Maur-Fällanden,TRUE,2022
+196,Mönchaltorf,ZH,ZH63,Wetzikon,TRUE,2022
+197,Schwerzenbach,ZH,ZH27,Dübendorf,TRUE,2022
+198,Uster,ZH,ZH65,Uster,TRUE,2022
+199,Volketswil,ZH,ZH28,Volketswil,TRUE,2022
+200,Wangen-Brüttisellen,ZH,ZH26,Dietlikon-Wangen-Brüttisellen,FALSE,2022
+211,Altikon,ZH,ZH84,Ostweinland,FALSE,2022
+213,Brütten,ZH,ZH70,Lindau-Brütten,FALSE,2022
+214,Dägerlen,ZH,ZH78,Seuzach,FALSE,2022
+215,Dättlikon,ZH,ZH77,Neftenbach,FALSE,2022
+216,Dinhard,ZH,ZH79,Wiesendangen-Ellikon,FALSE,2022
+218,Ellikon an der Thur,ZH,ZH79,Wiesendangen-Ellikon,FALSE,2022
+219,Elsau,ZH,ZH71,Elgg-Elsau,FALSE,2022
+220,Hagenbuch,ZH,TG06,Frauenfeld,TRUE,2022
+221,Hettlingen,ZH,ZH78,Seuzach,FALSE,2022
+223,Neftenbach,ZH,ZH77,Neftenbach,FALSE,2022
+224,Pfungen,ZH,ZH77,Neftenbach,FALSE,2022
+225,Rickenbach (ZH),ZH,ZH79,Wiesendangen-Ellikon,FALSE,2022
+226,Schlatt (ZH),ZH,ZH71,Elgg-Elsau,TRUE,2022
+227,Seuzach,ZH,ZH78,Seuzach,FALSE,2022
+228,Turbenthal,ZH,ZH80,Untertösstal,TRUE,2022
+230,Winterthur,ZH,ZH73,Winterthur-Oberwinterthur,TRUE,2022
+231,Zell (ZH),ZH,ZH80,Untertösstal,FALSE,2022
+241,Aesch (ZH),ZH,ZH30,Birmensdorf,FALSE,2022
+242,Birmensdorf (ZH),ZH,ZH30,Birmensdorf,FALSE,2022
+243,Dietikon,ZH,ZH34,Dietikon,FALSE,2022
+244,Geroldswil,ZH,ZH32,Fahrweid-Oetwil,FALSE,2022
+245,Oberengstringen,ZH,ZH29,Engstringen-Weiningen,FALSE,2022
+246,Oetwil an der Limmat,ZH,ZH32,Fahrweid-Oetwil,FALSE,2022
+247,Schlieren,ZH,ZH31,Urdorf,TRUE,2022
+248,Uitikon,ZH,ZH30,Birmensdorf,TRUE,2022
+249,Unterengstringen,ZH,ZH29,Engstringen-Weiningen,TRUE,2022
+250,Urdorf,ZH,ZH31,Urdorf,FALSE,2022
+251,Weiningen (ZH),ZH,ZH29,Engstringen-Weiningen,TRUE,2022
+261,Zürich,ZH,ZH01,Zürich-City,TRUE,2022
+291,Andelfingen,ZH,ZH82,Südweinland,FALSE,2022
+292,Stammheim,ZH,ZH84,Ostweinland,TRUE,2022
+293,Wädenswil,ZH,ZH43,Wädenswil,TRUE,2022
+294,Elgg,ZH,ZH71,Elgg-Elsau,TRUE,2022
+295,Horgen,ZH,ZH45,Horgen,TRUE,2022
+296,Illnau-Effretikon,ZH,ZH68,Effretikon-Kemptthal,TRUE,2022
+297,Bauma,ZH,ZH57,Wila-Tösstal,FALSE,2022
+298,Wiesendangen,ZH,ZH79,Wiesendangen-Ellikon,TRUE,2022
+301,Aarberg,BE,BE26,Aarberg,TRUE,2022
+302,Bargen (BE),BE,BE27,Kallnach-Grosses Moos,FALSE,2022
+303,Grossaffoltern,BE,BE30,Lyssbach-Limpach,FALSE,2022
+304,Kallnach,BE,BE27,Kallnach-Grosses Moos,TRUE,2022
+305,Kappelen,BE,BE27,Kallnach-Grosses Moos,TRUE,2022
+306,Lyss,BE,BE28,Lyss,TRUE,2022
+307,Meikirch,BE,BE11,Bremgarten-Meikirch,FALSE,2022
+309,Radelfingen,BE,BE26,Aarberg,FALSE,2022
+310,Rapperswil (BE),BE,BE30,Lyssbach-Limpach,TRUE,2022
+311,Schüpfen,BE,BE14,Münchenbuchsee,TRUE,2022
+312,Seedorf (BE),BE,BE26,Aarberg,FALSE,2022
+321,Aarwangen,BE,BE51,Aarwangen,FALSE,2022
+322,Auswil,BE,BE48,Huttwil-Dürrenroth,FALSE,2022
+323,Bannwil,BE,BE46,Wangen an der Aare,TRUE,2022
+324,Bleienbach,BE,BE45,Thörigen-Seeberg,FALSE,2022
+325,Busswil bei Melchnau,BE,BE52,Roggwil-Murg,FALSE,2022
+326,Gondiswil,BE,BE52,Roggwil-Murg,FALSE,2022
+329,Langenthal,BE,BE52,Roggwil-Murg,TRUE,2022
+331,Lotzwil,BE,BE45,Thörigen-Seeberg,TRUE,2022
+332,Madiswil,BE,BE47,Madiswil-Oeschenbach,TRUE,2022
+333,Melchnau,BE,LU29,Rottal-Luthern,TRUE,2022
+335,Oeschenbach,BE,BE47,Madiswil-Oeschenbach,FALSE,2022
+336,Reisiswil,BE,BE52,Roggwil-Murg,FALSE,2022
+337,Roggwil (BE),BE,BE52,Roggwil-Murg,FALSE,2022
+338,Rohrbach,BE,BE48,Huttwil-Dürrenroth,FALSE,2022
+339,Rohrbachgraben,BE,BE48,Huttwil-Dürrenroth,FALSE,2022
+340,Rütschelen,BE,BE47,Madiswil-Oeschenbach,FALSE,2022
+341,Schwarzhäusern,BE,BE51,Aarwangen,FALSE,2022
+342,Thunstetten,BE,BE51,Aarwangen,FALSE,2022
+344,Ursenbach,BE,BE47,Madiswil-Oeschenbach,FALSE,2022
+345,Wynau,BE,BE52,Roggwil-Murg,FALSE,2022
+351,Bern,BE,BE09,Wohlen-Frauenkappelen,TRUE,2022
+352,Bolligen,BE,BE15,Bolligen-Worbletal,TRUE,2022
+353,Bremgarten bei Bern,BE,BE11,Bremgarten-Meikirch,FALSE,2022
+354,Kirchlindach,BE,BE11,Bremgarten-Meikirch,FALSE,2022
+355,Köniz,BE,BE22,Wangental-Scherli,TRUE,2022
+356,Muri bei Bern,BE,BE17,Muri,TRUE,2022
+357,Oberbalm,BE,BE22,Wangental-Scherli,TRUE,2022
+358,Stettlen,BE,BE15,Bolligen-Worbletal,TRUE,2022
+359,Vechigen,BE,BE15,Bolligen-Worbletal,TRUE,2022
+360,Wohlen bei Bern,BE,BE11,Bremgarten-Meikirch,TRUE,2022
+361,Zollikofen,BE,BE13,Zollikofen,FALSE,2022
+362,Ittigen,BE,BE12,Ittigen,FALSE,2022
+363,Ostermundigen,BE,BE15,Bolligen-Worbletal,TRUE,2022
+371,Biel/Bienne,BE,BE34,Nördlicher Bielersee,TRUE,2022
+372,Evilard,BE,BE34,Nördlicher Bielersee,FALSE,2022
+381,Arch,BE,BE95,Büren-Arch,FALSE,2022
+382,Büetigen,BE,BE29,Diessbach-Worben,TRUE,2022
+383,Büren an der Aare,BE,BE95,Büren-Arch,FALSE,2022
+385,Diessbach bei Büren,BE,BE29,Diessbach-Worben,FALSE,2022
+386,Dotzigen,BE,BE29,Diessbach-Worben,TRUE,2022
+387,Lengnau (BE),BE,BE94,Lengnau,FALSE,2022
+388,Leuzigen,BE,BE95,Büren-Arch,FALSE,2022
+389,Meienried,BE,BE95,Büren-Arch,FALSE,2022
+390,Meinisberg,BE,BE94,Lengnau,FALSE,2022
+391,Oberwil bei Büren,BE,BE95,Büren-Arch,FALSE,2022
+392,Pieterlen,BE,BE35,Orpund-Pieterlen,FALSE,2022
+393,Rüti bei Büren,BE,BE95,Büren-Arch,FALSE,2022
+394,Wengi,BE,BE30,Lyssbach-Limpach,FALSE,2022
+401,Aefligen,BE,BE59,Kirchberg,FALSE,2022
+402,Alchenstorf,BE,BE60,Wynigen,FALSE,2022
+403,Bäriswil,BE,BE23,Schönbühl,FALSE,2022
+404,Burgdorf,BE,BE56,Hasle-Oberburg,TRUE,2022
+405,Ersigen,BE,BE60,Wynigen,TRUE,2022
+406,Hasle bei Burgdorf,BE,BE56,Hasle-Oberburg,TRUE,2022
+407,Heimiswil,BE,BE56,Hasle-Oberburg,TRUE,2022
+408,Hellsau,BE,BE60,Wynigen,FALSE,2022
+409,Hindelbank,BE,BE54,Hindelbank,FALSE,2022
+410,Höchstetten,BE,BE60,Wynigen,FALSE,2022
+411,Kernenried,BE,BE53,Fraubrunnen-Bätterkinden,FALSE,2022
+412,Kirchberg (BE),BE,BE55,Burgdorf,TRUE,2022
+413,Koppigen,BE,BE60,Wynigen,FALSE,2022
+414,Krauchthal,BE,BE54,Hindelbank,FALSE,2022
+415,Lyssach,BE,BE54,Hindelbank,TRUE,2022
+418,Oberburg,BE,BE54,Hindelbank,TRUE,2022
+420,Rüdtligen-Alchenflüh,BE,BE59,Kirchberg,FALSE,2022
+421,Rumendingen,BE,BE60,Wynigen,FALSE,2022
+422,Rüti bei Lyssach,BE,BE54,Hindelbank,FALSE,2022
+423,Willadingen,BE,BE60,Wynigen,FALSE,2022
+424,Wynigen,BE,BE60,Wynigen,TRUE,2022
+431,Corgémont,BE,BE39,La Neuveville,TRUE,2022
+432,Cormoret,BE,BE98,Erguel,FALSE,2022
+433,Cortébert,BE,BE40,Basse Suze,TRUE,2022
+434,Courtelary,BE,BE98,Erguel,TRUE,2022
+435,La Ferrière,BE,BE98,Erguel,FALSE,2022
+437,Mont-Tramelan,BE,BE99,Tramelan,FALSE,2022
+438,Orvin,BE,BE39,La Neuveville,TRUE,2022
+441,Renan (BE),BE,BE98,Erguel,FALSE,2022
+442,Romont (BE),BE,BE40,Basse Suze,FALSE,2022
+443,Saint-Imier,BE,BE98,Erguel,TRUE,2022
+444,Sonceboz-Sombeval,BE,BE40,Basse Suze,TRUE,2022
+445,Sonvilier,BE,BE98,Erguel,TRUE,2022
+446,Tramelan,BE,BE99,Tramelan,FALSE,2022
+448,Villeret,BE,BE98,Erguel,TRUE,2022
+449,Sauge,BE,BE40,Basse Suze,FALSE,2022
+450,Péry-La Heutte,BE,BE40,Basse Suze,TRUE,2022
+491,Brüttelen,BE,BE27,Kallnach-Grosses Moos,FALSE,2022
+492,Erlach,BE,BE25,Ins-Grosses Moos,FALSE,2022
+493,Finsterhennen,BE,BE27,Kallnach-Grosses Moos,FALSE,2022
+494,Gals,BE,BE25,Ins-Grosses Moos,TRUE,2022
+495,Gampelen,BE,BE25,Ins-Grosses Moos,FALSE,2022
+496,Ins,BE,BE25,Ins-Grosses Moos,FALSE,2022
+497,Lüscherz,BE,BE27,Kallnach-Grosses Moos,TRUE,2022
+498,Müntschemier,BE,BE25,Ins-Grosses Moos,FALSE,2022
+499,Siselen,BE,BE27,Kallnach-Grosses Moos,FALSE,2022
+500,Treiten,BE,BE27,Kallnach-Grosses Moos,FALSE,2022
+501,Tschugg,BE,BE25,Ins-Grosses Moos,FALSE,2022
+502,Vinelz,BE,BE25,Ins-Grosses Moos,TRUE,2022
+533,Bätterkinden,BE,BE53,Fraubrunnen-Bätterkinden,TRUE,2022
+535,Deisswil bei Münchenbuchsee,BE,BE14,Münchenbuchsee,FALSE,2022
+538,Fraubrunnen,BE,BE53,Fraubrunnen-Bätterkinden,FALSE,2022
+540,Jegenstorf,BE,BE24,Jegenstorf,FALSE,2022
+541,Iffwil,BE,BE24,Jegenstorf,FALSE,2022
+543,Mattstetten,BE,BE23,Schönbühl,FALSE,2022
+544,Moosseedorf,BE,BE23,Schönbühl,TRUE,2022
+546,Münchenbuchsee,BE,BE13,Zollikofen,TRUE,2022
+551,Urtenen-Schönbühl,BE,BE23,Schönbühl,FALSE,2022
+552,Utzenstorf,BE,BE61,Utzenstorf,FALSE,2022
+553,Wiggiswil,BE,BE14,Münchenbuchsee,FALSE,2022
+554,Wiler bei Utzenstorf,BE,BE61,Utzenstorf,FALSE,2022
+556,Zielebach,BE,SO23,Derendingen-Gerlafingen,FALSE,2022
+557,Zuzwil (BE),BE,BE24,Jegenstorf,FALSE,2022
+561,Adelboden,BE,BE87,Frutigen-Adelboden,FALSE,2022
+562,Aeschi bei Spiez,BE,BE83,Spiez,FALSE,2022
+563,Frutigen,BE,BE87,Frutigen-Adelboden,TRUE,2022
+564,Kandergrund,BE,BE88,Kandertal-Kiental,FALSE,2022
+565,Kandersteg,BE,BE88,Kandertal-Kiental,FALSE,2022
+566,Krattigen,BE,BE83,Spiez,FALSE,2022
+567,Reichenbach im Kandertal,BE,BE88,Kandertal-Kiental,TRUE,2022
+571,Beatenberg,BE,BE89,Interlaken,FALSE,2022
+572,Bönigen,BE,BE91,Brienzersee,FALSE,2022
+573,Brienz (BE),BE,BE91,Brienzersee,FALSE,2022
+574,Brienzwiler,BE,BE93,Oberhasli,FALSE,2022
+575,Därligen,BE,BE89,Interlaken,FALSE,2022
+576,Grindelwald,BE,BE92,Grindelwald,TRUE,2022
+577,Gsteigwiler,BE,BE90,Lauterbrunnen,TRUE,2022
+578,Gündlischwand,BE,BE90,Lauterbrunnen,TRUE,2022
+579,Habkern,BE,BE63,Oberes Emmental,TRUE,2022
+580,Hofstetten bei Brienz,BE,BE93,Oberhasli,FALSE,2022
+581,Interlaken,BE,BE89,Interlaken,FALSE,2022
+582,Iseltwald,BE,BE91,Brienzersee,FALSE,2022
+584,Lauterbrunnen,BE,BE90,Lauterbrunnen,FALSE,2022
+585,Leissigen,BE,BE89,Interlaken,FALSE,2022
+586,Lütschental,BE,BE92,Grindelwald,FALSE,2022
+587,Matten bei Interlaken,BE,BE89,Interlaken,TRUE,2022
+588,Niederried bei Interlaken,BE,BE91,Brienzersee,FALSE,2022
+589,Oberried am Brienzersee,BE,BE91,Brienzersee,FALSE,2022
+590,Ringgenberg (BE),BE,BE91,Brienzersee,FALSE,2022
+591,Saxeten,BE,BE90,Lauterbrunnen,FALSE,2022
+592,Schwanden bei Brienz,BE,BE91,Brienzersee,FALSE,2022
+593,Unterseen,BE,BE89,Interlaken,FALSE,2022
+594,Wilderswil,BE,BE90,Lauterbrunnen,FALSE,2022
+602,Arni (BE),BE,BE66,Grosshöchstetten,FALSE,2022
+603,Biglen,BE,BE66,Grosshöchstetten,FALSE,2022
+605,Bowil,BE,BE62,Zollbrück,TRUE,2022
+606,Brenzikofen,BE,BE72,Oberdiessbach,FALSE,2022
+607,Freimettigen,BE,BE68,Konolfingen,FALSE,2022
+608,Grosshöchstetten,BE,BE66,Grosshöchstetten,FALSE,2022
+609,Häutligen,BE,BE68,Konolfingen,FALSE,2022
+610,Herbligen,BE,BE72,Oberdiessbach,FALSE,2022
+611,Kiesen,BE,BE69,Wichtrach,FALSE,2022
+612,Konolfingen,BE,BE68,Konolfingen,FALSE,2022
+613,Landiswil,BE,BE62,Zollbrück,TRUE,2022
+614,Linden,BE,BE72,Oberdiessbach,TRUE,2022
+615,Mirchel,BE,BE66,Grosshöchstetten,TRUE,2022
+616,Münsingen,BE,BE67,Münsingen,TRUE,2022
+617,Niederhünigen,BE,BE68,Konolfingen,FALSE,2022
+619,Oberdiessbach,BE,BE72,Oberdiessbach,FALSE,2022
+620,Oberthal,BE,BE66,Grosshöchstetten,FALSE,2022
+622,Oppligen,BE,BE69,Wichtrach,FALSE,2022
+623,Rubigen,BE,BE17,Muri,TRUE,2022
+626,Walkringen,BE,BE66,Grosshöchstetten,TRUE,2022
+627,Worb,BE,BE18,Worb,TRUE,2022
+628,Zäziwil,BE,BE66,Grosshöchstetten,TRUE,2022
+629,Oberhünigen,BE,BE68,Konolfingen,TRUE,2022
+630,Allmendingen,BE,BE17,Muri,FALSE,2022
+632,Wichtrach,BE,BE68,Konolfingen,TRUE,2022
+662,Ferenbalm,BE,BE96,Gümmenen-Exklaven,TRUE,2022
+663,Frauenkappelen,BE,BE09,Wohlen-Frauenkappelen,FALSE,2022
+665,Gurbrü,BE,BE96,Gümmenen-Exklaven,TRUE,2022
+666,Kriechenwil,BE,BE96,Gümmenen-Exklaven,FALSE,2022
+667,Laupen,BE,BE97,Laupen-Neuenegg,FALSE,2022
+668,Mühleberg,BE,BE96,Gümmenen-Exklaven,TRUE,2022
+669,Münchenwiler,BE,BE96,Gümmenen-Exklaven,FALSE,2022
+670,Neuenegg,BE,BE97,Laupen-Neuenegg,TRUE,2022
+671,Wileroltigen,BE,BE96,Gümmenen-Exklaven,FALSE,2022
+681,Belprahon,BE,BE43,Moutier,FALSE,2022
+683,Champoz,BE,BE42,Court,FALSE,2022
+687,Corcelles (BE),BE,BE43,Moutier,FALSE,2022
+690,Court,BE,BE42,Court,FALSE,2022
+691,Crémines,BE,BE43,Moutier,TRUE,2022
+692,Eschert,BE,BE43,Moutier,FALSE,2022
+694,Grandval,BE,BE43,Moutier,FALSE,2022
+696,Loveresse,BE,BE41,Tavannes-Pichoux,TRUE,2022
+701,Perrefitte,BE,BE43,Moutier,FALSE,2022
+703,Reconvilier,BE,BE41,Tavannes-Pichoux,FALSE,2022
+704,Roches (BE),BE,BE43,Moutier,FALSE,2022
+706,Saicourt,BE,BE41,Tavannes-Pichoux,TRUE,2022
+707,Saules (BE),BE,BE41,Tavannes-Pichoux,FALSE,2022
+708,Schelten,BE,JU04,Val Terbi,FALSE,2022
+709,Seehof,BE,BE43,Moutier,FALSE,2022
+711,Sorvilier,BE,BE42,Court,FALSE,2022
+713,Tavannes,BE,BE41,Tavannes-Pichoux,TRUE,2022
+715,Rebévelier,BE,BE41,Tavannes-Pichoux,FALSE,2022
+716,Petit-Val,BE,BE41,Tavannes-Pichoux,FALSE,2022
+717,Valbirse,BE,BE42,Court,FALSE,2022
+723,La Neuveville,BE,BE34,Nördlicher Bielersee,TRUE,2022
+724,Nods,BE,BE39,La Neuveville,TRUE,2022
+726,Plateau de Diesse,BE,BE39,La Neuveville,FALSE,2022
+731,Aegerten,BE,BE36,Brügg-Studen,FALSE,2022
+732,Bellmund,BE,BE38,Südlicher Bielersee,TRUE,2022
+733,Brügg,BE,BE32,Biel/Bienne-Madretsch,TRUE,2022
+734,Bühl,BE,BE38,Südlicher Bielersee,FALSE,2022
+735,Epsach,BE,BE27,Kallnach-Grosses Moos,FALSE,2022
+736,Hagneck,BE,BE38,Südlicher Bielersee,FALSE,2022
+737,Hermrigen,BE,BE38,Südlicher Bielersee,FALSE,2022
+738,Jens,BE,BE38,Südlicher Bielersee,FALSE,2022
+739,Ipsach,BE,BE38,Südlicher Bielersee,FALSE,2022
+740,Ligerz,BE,BE34,Nördlicher Bielersee,FALSE,2022
+741,Merzligen,BE,BE38,Südlicher Bielersee,FALSE,2022
+742,Mörigen,BE,BE38,Südlicher Bielersee,FALSE,2022
+743,Nidau,BE,BE32,Biel/Bienne-Madretsch,TRUE,2022
+744,Orpund,BE,BE33,Biel/Bienne-Bözingen,TRUE,2022
+745,Port,BE,BE37,Nidau-Port,FALSE,2022
+746,Safnern,BE,BE35,Orpund-Pieterlen,FALSE,2022
+747,Scheuren,BE,BE35,Orpund-Pieterlen,FALSE,2022
+748,Schwadernau,BE,BE35,Orpund-Pieterlen,FALSE,2022
+749,Studen (BE),BE,BE36,Brügg-Studen,FALSE,2022
+750,Sutz-Lattrigen,BE,BE38,Südlicher Bielersee,FALSE,2022
+751,Täuffelen,BE,BE38,Südlicher Bielersee,FALSE,2022
+754,Walperswil,BE,BE27,Kallnach-Grosses Moos,FALSE,2022
+755,Worben,BE,BE29,Diessbach-Worben,FALSE,2022
+756,Twann-Tüscherz,BE,BE34,Nördlicher Bielersee,TRUE,2022
+761,Därstetten,BE,BE84,Niedersimmental,FALSE,2022
+762,Diemtigen,BE,BE84,Niedersimmental,FALSE,2022
+763,Erlenbach im Simmental,BE,BE84,Niedersimmental,FALSE,2022
+766,Oberwil im Simmental,BE,BE84,Niedersimmental,TRUE,2022
+767,Reutigen,BE,BE76,Thun-Westring,TRUE,2022
+768,Spiez,BE,BE83,Spiez,TRUE,2022
+769,Wimmis,BE,BE83,Spiez,TRUE,2022
+770,Stocken-Höfen,BE,BE82,Stockental,FALSE,2022
+782,Guttannen,BE,BE93,Oberhasli,FALSE,2022
+783,Hasliberg,BE,BE93,Oberhasli,FALSE,2022
+784,Innertkirchen,BE,BE93,Oberhasli,FALSE,2022
+785,Meiringen,BE,BE93,Oberhasli,FALSE,2022
+786,Schattenhalb,BE,BE93,Oberhasli,FALSE,2022
+791,Boltigen,BE,BE86,Obersimmental,TRUE,2022
+792,Lenk,BE,BE86,Obersimmental,FALSE,2022
+793,St. Stephan,BE,BE86,Obersimmental,FALSE,2022
+794,Zweisimmen,BE,BE86,Obersimmental,TRUE,2022
+841,Gsteig,BE,BE85,Saanenland,FALSE,2022
+842,Lauenen,BE,BE85,Saanenland,FALSE,2022
+843,Saanen,BE,BE85,Saanenland,FALSE,2022
+852,Guggisberg,BE,BE73,Schwarzenburg,FALSE,2022
+853,Rüschegg,BE,BE73,Schwarzenburg,FALSE,2022
+855,Schwarzenburg,BE,BE73,Schwarzenburg,FALSE,2022
+861,Belp,BE,BE70,Gürbetal,TRUE,2022
+863,Burgistein,BE,BE71,Seftigen-Wattenwil,FALSE,2022
+866,Gerzensee,BE,BE70,Gürbetal,FALSE,2022
+867,Gurzelen,BE,BE71,Seftigen-Wattenwil,FALSE,2022
+868,Jaberg,BE,BE69,Wichtrach,FALSE,2022
+869,Kaufdorf,BE,BE70,Gürbetal,FALSE,2022
+870,Kehrsatz,BE,BE21,Belp-Kehrsatz,FALSE,2022
+872,Kirchdorf (BE),BE,BE70,Gürbetal,TRUE,2022
+877,Niedermuhlern,BE,BE74,Wald-Riggisberg,FALSE,2022
+879,Riggisberg,BE,BE70,Gürbetal,TRUE,2022
+880,Rüeggisberg,BE,BE74,Wald-Riggisberg,TRUE,2022
+883,Seftigen,BE,BE71,Seftigen-Wattenwil,FALSE,2022
+884,Toffen,BE,BE21,Belp-Kehrsatz,TRUE,2022
+885,Uttigen,BE,BE81,Heimberg-Uetendorf,FALSE,2022
+886,Wattenwil,BE,BE71,Seftigen-Wattenwil,FALSE,2022
+888,Wald (BE),BE,BE74,Wald-Riggisberg,FALSE,2022
+889,Thurnen,BE,BE70,Gürbetal,FALSE,2022
+901,Eggiwil,BE,BE63,Oberes Emmental,TRUE,2022
+902,Langnau im Emmental,BE,BE65,Trub-Napf,TRUE,2022
+903,Lauperswil,BE,BE62,Zollbrück,TRUE,2022
+904,Röthenbach im Emmental,BE,BE63,Oberes Emmental,TRUE,2022
+905,Rüderswil,BE,BE62,Zollbrück,TRUE,2022
+906,Schangnau,BE,BE63,Oberes Emmental,FALSE,2022
+907,Signau,BE,BE62,Zollbrück,FALSE,2022
+908,Trub,BE,BE65,Trub-Napf,TRUE,2022
+909,Trubschachen,BE,BE65,Trub-Napf,TRUE,2022
+921,Amsoldingen,BE,BE82,Stockental,FALSE,2022
+922,Blumenstein,BE,BE82,Stockental,FALSE,2022
+923,Buchholterberg,BE,BE79,Goldiwil-Schattenhalb,TRUE,2022
+924,Eriz,BE,BE79,Goldiwil-Schattenhalb,TRUE,2022
+925,Fahrni,BE,BE78,Steffisburg,TRUE,2022
+927,Heiligenschwendi,BE,BE79,Goldiwil-Schattenhalb,FALSE,2022
+928,Heimberg,BE,BE72,Oberdiessbach,TRUE,2022
+929,Hilterfingen,BE,BE80,Hilterfingen-Sigriswil,TRUE,2022
+931,Homberg,BE,BE79,Goldiwil-Schattenhalb,FALSE,2022
+932,Horrenbach-Buchen,BE,BE79,Goldiwil-Schattenhalb,FALSE,2022
+934,Oberhofen am Thunersee,BE,BE80,Hilterfingen-Sigriswil,FALSE,2022
+935,Oberlangenegg,BE,BE63,Oberes Emmental,TRUE,2022
+936,Pohlern,BE,BE82,Stockental,FALSE,2022
+938,Sigriswil,BE,BE80,Hilterfingen-Sigriswil,TRUE,2022
+939,Steffisburg,BE,BE78,Steffisburg,TRUE,2022
+940,Teuffenthal (BE),BE,BE79,Goldiwil-Schattenhalb,FALSE,2022
+941,Thierachern,BE,BE82,Stockental,FALSE,2022
+942,Thun,BE,BE76,Thun-Westring,TRUE,2022
+943,Uebeschi,BE,BE82,Stockental,FALSE,2022
+944,Uetendorf,BE,BE76,Thun-Westring,TRUE,2022
+945,Unterlangenegg,BE,BE79,Goldiwil-Schattenhalb,FALSE,2022
+946,Wachseldorn,BE,BE63,Oberes Emmental,FALSE,2022
+948,Forst-Längenbühl,BE,BE71,Seftigen-Wattenwil,TRUE,2022
+951,Affoltern im Emmental,BE,BE57,Sumiswald,TRUE,2022
+952,Dürrenroth,BE,BE47,Madiswil-Oeschenbach,TRUE,2022
+953,Eriswil,BE,BE48,Huttwil-Dürrenroth,FALSE,2022
+954,Huttwil,BE,BE48,Huttwil-Dürrenroth,FALSE,2022
+955,Lützelflüh,BE,BE58,Lützelflüh,TRUE,2022
+956,Rüegsau,BE,BE57,Sumiswald,TRUE,2022
+957,Sumiswald,BE,BE57,Sumiswald,TRUE,2022
+958,Trachselwald,BE,BE58,Lützelflüh,TRUE,2022
+959,Walterswil (BE),BE,BE47,Madiswil-Oeschenbach,TRUE,2022
+960,Wyssachen,BE,BE48,Huttwil-Dürrenroth,TRUE,2022
+971,Attiswil,BE,BE49,Attiswil-Bipp,FALSE,2022
+972,Berken,BE,BE46,Wangen an der Aare,FALSE,2022
+973,Bettenhausen,BE,BE45,Thörigen-Seeberg,FALSE,2022
+975,Farnern,BE,BE49,Attiswil-Bipp,FALSE,2022
+976,Graben,BE,BE46,Wangen an der Aare,FALSE,2022
+977,Heimenhausen,BE,BE46,Wangen an der Aare,FALSE,2022
+979,Herzogenbuchsee,BE,BE44,Herzogenbuchsee,FALSE,2022
+980,Inkwil,BE,BE46,Wangen an der Aare,FALSE,2022
+981,Niederbipp,BE,BE49,Attiswil-Bipp,FALSE,2022
+982,Niederönz,BE,BE44,Herzogenbuchsee,TRUE,2022
+983,Oberbipp,BE,BE49,Attiswil-Bipp,FALSE,2022
+985,Ochlenberg,BE,BE45,Thörigen-Seeberg,FALSE,2022
+987,Rumisberg,BE,BE49,Attiswil-Bipp,FALSE,2022
+988,Seeberg,BE,BE45,Thörigen-Seeberg,TRUE,2022
+989,Thörigen,BE,BE45,Thörigen-Seeberg,TRUE,2022
+990,Walliswil bei Niederbipp,BE,BE46,Wangen an der Aare,FALSE,2022
+991,Walliswil bei Wangen,BE,BE46,Wangen an der Aare,FALSE,2022
+992,Wangen an der Aare,BE,BE46,Wangen an der Aare,TRUE,2022
+995,Wiedlisbach,BE,BE49,Attiswil-Bipp,TRUE,2022
+1001,Doppleschwand,LU,LU26,Wolhusen,TRUE,2022
+1002,Entlebuch,LU,LU31,Unteres Entlebuch,TRUE,2022
+1004,Flühli,LU,LU32,Mittleres Entlebuch - Mariental,TRUE,2022
+1005,Hasle (LU),LU,LU31,Unteres Entlebuch,TRUE,2022
+1007,Romoos,LU,LU31,Unteres Entlebuch,TRUE,2022
+1008,Schüpfheim,LU,LU32,Mittleres Entlebuch - Mariental,FALSE,2022
+1009,Werthenstein,LU,LU26,Wolhusen,FALSE,2022
+1010,Escholzmatt-Marbach,LU,LU33,Oberes Entlebuch,TRUE,2022
+1021,Aesch (LU),LU,LU19,Seetal,FALSE,2022
+1023,Ballwil,LU,LU11,Emmen-Inwil,TRUE,2022
+1024,Emmen,LU,LU08,Emmenbrücke,TRUE,2022
+1025,Ermensee,LU,LU19,Seetal,FALSE,2022
+1026,Eschenbach (LU),LU,LU11,Emmen-Inwil,TRUE,2022
+1030,Hitzkirch,LU,LU19,Seetal,TRUE,2022
+1031,Hochdorf,LU,LU18,Hochdorf,TRUE,2022
+1032,Hohenrain,LU,LU24,Lindenberg,TRUE,2022
+1033,Inwil,LU,LU11,Emmen-Inwil,TRUE,2022
+1037,Rain,LU,LU09,Rothenburg-Hildisrieden,FALSE,2022
+1039,Römerswil,LU,LU18,Hochdorf,TRUE,2022
+1040,Rothenburg,LU,LU09,Rothenburg-Hildisrieden,TRUE,2022
+1041,Schongau,LU,LU19,Seetal,TRUE,2022
+1051,Adligenswil,LU,LU10,Ebikon,TRUE,2022
+1052,Buchrain,LU,LU12,Luzernes Reusstal,TRUE,2022
+1053,Dierikon,LU,LU12,Luzernes Reusstal,FALSE,2022
+1054,Ebikon,LU,LU02,Luzern-Löwen,TRUE,2022
+1055,Gisikon,LU,LU12,Luzernes Reusstal,FALSE,2022
+1056,Greppen,LU,LU34,Weggis,FALSE,2022
+1058,Horw,LU,LU15,Horw,TRUE,2022
+1059,Kriens,LU,LU05,Kriens,TRUE,2022
+1061,Luzern,LU,LU07,Littau-Reussbühl,TRUE,2022
+1062,Malters,LU,LU06,Malters-Eigental,TRUE,2022
+1063,Meggen,LU,LU04,Luzern-Dreilinden-Seeburg,TRUE,2022
+1064,Meierskappel,LU,LU13,Sonnseite,FALSE,2022
+1065,Root,LU,LU12,Luzernes Reusstal,TRUE,2022
+1066,Schwarzenberg,LU,LU06,Malters-Eigental,FALSE,2022
+1067,Udligenswil,LU,LU13,Sonnseite,FALSE,2022
+1068,Vitznau,LU,LU34,Weggis,FALSE,2022
+1069,Weggis,LU,LU34,Weggis,FALSE,2022
+1081,Beromünster,LU,LU17,Beromünster,TRUE,2022
+1082,Büron,LU,LU23,Oberes Suhretal,FALSE,2022
+1083,Buttisholz,LU,LU25,Ruswil-Grosswangen,FALSE,2022
+1084,Eich,LU,LU20,Nördlicher Sempachersee,FALSE,2022
+1085,Geuensee,LU,LU23,Oberes Suhretal,FALSE,2022
+1086,Grosswangen,LU,LU25,Ruswil-Grosswangen,FALSE,2022
+1088,Hildisrieden,LU,LU09,Rothenburg-Hildisrieden,FALSE,2022
+1089,Knutwil,LU,LU21,Südlicher Sempachersee,TRUE,2022
+1091,Mauensee,LU,LU21,Südlicher Sempachersee,TRUE,2022
+1093,Neuenkirch,LU,LU16,Neuenkirch,TRUE,2022
+1094,Nottwil,LU,LU21,Südlicher Sempachersee,FALSE,2022
+1095,Oberkirch,LU,LU21,Südlicher Sempachersee,TRUE,2022
+1097,Rickenbach (LU),LU,LU17,Beromünster,FALSE,2022
+1098,Ruswil,LU,LU25,Ruswil-Grosswangen,TRUE,2022
+1099,Schenkon,LU,LU17,Beromünster,TRUE,2022
+1100,Schlierbach,LU,LU23,Oberes Suhretal,FALSE,2022
+1102,Sempach,LU,LU09,Rothenburg-Hildisrieden,TRUE,2022
+1103,Sursee,LU,LU22,Sursee,FALSE,2022
+1104,Triengen,LU,LU23,Oberes Suhretal,FALSE,2022
+1107,Wolhusen,LU,LU26,Wolhusen,TRUE,2022
+1121,Alberswil,LU,LU28,Oberes Wiggertal,FALSE,2022
+1122,Altbüron,LU,LU29,Rottal-Luthern,FALSE,2022
+1123,Altishofen,LU,LU28,Oberes Wiggertal,TRUE,2022
+1125,Dagmersellen,LU,LU30,Santenberg-Wauwilermoos,TRUE,2022
+1127,Egolzwil,LU,LU30,Santenberg-Wauwilermoos,FALSE,2022
+1128,Ettiswil,LU,LU28,Oberes Wiggertal,TRUE,2022
+1129,Fischbach,LU,LU29,Rottal-Luthern,FALSE,2022
+1131,Grossdietwil,LU,LU29,Rottal-Luthern,TRUE,2022
+1132,Hergiswil bei Willisau,LU,LU27,Willisau,TRUE,2022
+1135,Luthern,LU,LU29,Rottal-Luthern,TRUE,2022
+1136,Menznau,LU,LU27,Willisau,TRUE,2022
+1137,Nebikon,LU,LU30,Santenberg-Wauwilermoos,FALSE,2022
+1139,Pfaffnau,LU,LU36,Pfaffnau,TRUE,2022
+1140,Reiden,LU,LU35,Luzernes Wiggertal,TRUE,2022
+1142,Roggliswil,LU,LU36,Pfaffnau,FALSE,2022
+1143,Schötz,LU,LU28,Oberes Wiggertal,FALSE,2022
+1145,Ufhusen,LU,BE48,Huttwil-Dürrenroth,TRUE,2022
+1146,Wauwil,LU,LU30,Santenberg-Wauwilermoos,FALSE,2022
+1147,Wikon,LU,LU35,Luzernes Wiggertal,FALSE,2022
+1150,Zell (LU),LU,LU29,Rottal-Luthern,FALSE,2022
+1151,Willisau,LU,LU27,Willisau,TRUE,2022
+1201,Altdorf (UR),UR,UR02,Altdorf,FALSE,2022
+1202,Andermatt,UR,UR05,Urseren,FALSE,2022
+1203,Attinghausen,UR,OW05,Engelberg,TRUE,2022
+1205,Bürglen (UR),UR,UR03,Schattdorf-Schächental,TRUE,2022
+1206,Erstfeld,UR,UR04,Mittleres Uri,FALSE,2022
+1207,Flüelen,UR,UR02,Altdorf,FALSE,2022
+1208,Göschenen,UR,UR04,Mittleres Uri,FALSE,2022
+1209,Gurtnellen,UR,UR04,Mittleres Uri,FALSE,2022
+1210,Hospental,UR,UR05,Urseren,FALSE,2022
+1211,Isenthal,UR,UR01,Seelisberg,FALSE,2022
+1212,Realp,UR,UR05,Urseren,FALSE,2022
+1213,Schattdorf,UR,UR03,Schattdorf-Schächental,FALSE,2022
+1214,Seedorf (UR),UR,UR01,Seelisberg,FALSE,2022
+1215,Seelisberg,UR,UR01,Seelisberg,FALSE,2022
+1216,Silenen,UR,UR04,Mittleres Uri,FALSE,2022
+1217,Sisikon,UR,UR02,Altdorf,FALSE,2022
+1218,Spiringen,UR,UR03,Schattdorf-Schächental,FALSE,2022
+1219,Unterschächen,UR,SZ05,Muotathal,TRUE,2022
+1220,Wassen,UR,UR04,Mittleres Uri,FALSE,2022
+1301,Einsiedeln,SZ,SZ09,Iberg,TRUE,2022
+1311,Gersau,SZ,SZ02,Arth-Goldau,TRUE,2022
+1321,Feusisberg,SZ,SZ11,Pfäffikon-Vorderhof,TRUE,2022
+1322,Freienbach,SZ,SZ12,Wollerau-Hinterhof,TRUE,2022
+1323,Wollerau,SZ,SZ12,Wollerau-Hinterhof,TRUE,2022
+1331,Küssnacht (SZ),SZ,SZ01,Küssnacht,FALSE,2022
+1341,Altendorf,SZ,SZ09,Iberg,TRUE,2022
+1342,Galgenen,SZ,SZ13,Lachen,TRUE,2022
+1343,Innerthal,SZ,SZ10,Wägital,FALSE,2022
+1344,Lachen,SZ,SZ13,Lachen,FALSE,2022
+1345,Reichenburg,SZ,SZ15,Tuggen-Reichenburg,FALSE,2022
+1346,Schübelbach,SZ,SZ14,Wangen-Siebnen,TRUE,2022
+1347,Tuggen,SZ,SG29,Uznach,TRUE,2022
+1348,Vorderthal,SZ,SZ10,Wägital,FALSE,2022
+1349,Wangen (SZ),SZ,SZ14,Wangen-Siebnen,TRUE,2022
+1361,Alpthal,SZ,SZ08,Einsiedeln-Alpthal,FALSE,2022
+1362,Arth,SZ,SZ02,Arth-Goldau,TRUE,2022
+1363,Illgau,SZ,SZ05,Muotathal,FALSE,2022
+1364,Ingenbohl,SZ,SZ04,Schwyz,TRUE,2022
+1365,Lauerz,SZ,SZ03,Lauerz-Sattel,FALSE,2022
+1366,Morschach,SZ,SZ05,Muotathal,TRUE,2022
+1367,Muotathal,SZ,SZ05,Muotathal,TRUE,2022
+1368,Oberiberg,SZ,SZ09,Iberg,FALSE,2022
+1369,Riemenstalden,SZ,UR02,Altdorf,FALSE,2022
+1370,Rothenthurm,SZ,SZ07,Rotenthurm,FALSE,2022
+1371,Sattel,SZ,SZ03,Lauerz-Sattel,TRUE,2022
+1372,Schwyz,SZ,SZ04,Schwyz,TRUE,2022
+1373,Steinen,SZ,SZ03,Lauerz-Sattel,FALSE,2022
+1374,Steinerberg,SZ,SZ03,Lauerz-Sattel,FALSE,2022
+1375,Unteriberg,SZ,SZ09,Iberg,FALSE,2022
+1401,Alpnach,OW,OW01,Alpnach,TRUE,2022
+1402,Engelberg,OW,NW04,Engelbergeraatal,TRUE,2022
+1403,Giswil,OW,LU32,Mittleres Entlebuch - Mariental,TRUE,2022
+1404,Kerns,OW,OW03,Melchtal,FALSE,2022
+1405,Lungern,OW,OW04,Giswil-Lungern,FALSE,2022
+1406,Sachseln,OW,OW03,Melchtal,TRUE,2022
+1407,Sarnen,OW,OW02,Sarnen,TRUE,2022
+1501,Beckenried,NW,NW03,Bürgenstock-Seelisberg,FALSE,2022
+1502,Buochs,NW,NW03,Bürgenstock-Seelisberg,FALSE,2022
+1503,Dallenwil,NW,NW04,Engelbergeraatal,FALSE,2022
+1504,Emmetten,NW,NW03,Bürgenstock-Seelisberg,TRUE,2022
+1505,Ennetbürgen,NW,NW03,Bürgenstock-Seelisberg,TRUE,2022
+1506,Ennetmoos,NW,NW02,Stans,TRUE,2022
+1507,Hergiswil (NW),NW,LU05,Kriens,TRUE,2022
+1508,Oberdorf (NW),NW,NW04,Engelbergeraatal,TRUE,2022
+1509,Stans,NW,NW02,Stans,TRUE,2022
+1510,Stansstad,NW,NW01,Pilatus-Bürgenstock,FALSE,2022
+1511,Wolfenschiessen,NW,NW04,Engelbergeraatal,TRUE,2022
+1630,Glarus Nord,GL,GL03,Ziegelbrücke,TRUE,2022
+1631,Glarus Süd,GL,GL05,Linthal,TRUE,2022
+1632,Glarus,GL,GL01,Glarus,TRUE,2022
+1701,Baar,ZG,ZG03,Menzingen,TRUE,2022
+1702,Cham,ZG,ZG07,Hünenberg-Rotkreuz,TRUE,2022
+1703,Hünenberg,ZG,ZG07,Hünenberg-Rotkreuz,TRUE,2022
+1704,Menzingen,ZG,ZG05,Aegeri,TRUE,2022
+1705,Neuheim,ZG,ZG03,Menzingen,TRUE,2022
+1706,Oberägeri,ZG,SZ07,Rotenthurm,TRUE,2022
+1707,Risch,ZG,ZG07,Hünenberg-Rotkreuz,FALSE,2022
+1708,Steinhausen,ZG,ZG02,Cham,TRUE,2022
+1709,Unterägeri,ZG,ZG05,Aegeri,FALSE,2022
+1710,Walchwil,ZG,ZG06,Walchwil,FALSE,2022
+1711,Zug,ZG,ZG06,Walchwil,TRUE,2022
+2008,Châtillon (FR),FR,FR28,Estavayer,FALSE,2022
+2011,Cugy (FR),FR,FR27,Broye-Enclaves,FALSE,2022
+2022,Gletterens,FR,FR29,Domdidier,FALSE,2022
+2025,Lully (FR),FR,FR28,Estavayer,FALSE,2022
+2029,Montagny (FR),FR,FR29,Domdidier,TRUE,2022
+2035,Nuvilly,FR,FR27,Broye-Enclaves,FALSE,2022
+2038,Prévondavaux,FR,VD60,Moudon-Thierrens,FALSE,2022
+2041,Saint-Aubin (FR),FR,FR29,Domdidier,FALSE,2022
+2043,Sévaz,FR,FR28,Estavayer,FALSE,2022
+2044,Surpierre,FR,FR27,Broye-Enclaves,TRUE,2022
+2045,Vallon,FR,FR29,Domdidier,FALSE,2022
+2050,Les Montets,FR,FR27,Broye-Enclaves,TRUE,2022
+2051,Delley-Portalban,FR,FR29,Domdidier,FALSE,2022
+2053,Belmont-Broye,FR,FR29,Domdidier,TRUE,2022
+2054,Estavayer,FR,FR28,Estavayer,TRUE,2022
+2055,Cheyres-Châbles,FR,FR27,Broye-Enclaves,FALSE,2022
+2056,Fétigny-Ménières,FR,FR27,Broye-Enclaves,FALSE,2022
+2063,Billens-Hennens,FR,FR26,Romont,FALSE,2022
+2067,Le Châtelard,FR,FR23,Gibloux-Ouest,FALSE,2022
+2068,Châtonnaye,FR,FR23,Gibloux-Ouest,FALSE,2022
+2079,Grangettes,FR,FR23,Gibloux-Ouest,FALSE,2022
+2086,Massonnens,FR,FR23,Gibloux-Ouest,FALSE,2022
+2087,Mézières (FR),FR,FR26,Romont,FALSE,2022
+2096,Romont (FR),FR,FR26,Romont,FALSE,2022
+2097,Rue,FR,FR22,Haute-Glâne,TRUE,2022
+2099,Siviriez,FR,FR22,Haute-Glâne,TRUE,2022
+2102,Ursy,FR,FR22,Haute-Glâne,FALSE,2022
+2113,Vuisternens-devant-Romont,FR,FR23,Gibloux-Ouest,FALSE,2022
+2114,Villorsonnens,FR,FR23,Gibloux-Ouest,FALSE,2022
+2115,Torny,FR,FR23,Gibloux-Ouest,FALSE,2022
+2117,Villaz,FR,FR23,Gibloux-Ouest,TRUE,2022
+2121,Haut-Intyamon,FR,FR12,Gruyères-Intyamon,FALSE,2022
+2122,Pont-en-Ogoz,FR,FR10,Gibloux-Lac de Gruyère,FALSE,2022
+2123,Botterens,FR,FR11,Broc-Berra-Jaun,FALSE,2022
+2124,Broc,FR,FR11,Broc-Berra-Jaun,FALSE,2022
+2125,Bulle,FR,FR09,Bulle,TRUE,2022
+2128,Châtel-sur-Montsalvens,FR,FR11,Broc-Berra-Jaun,FALSE,2022
+2129,Corbières,FR,FR11,Broc-Berra-Jaun,TRUE,2022
+2130,Crésuz,FR,FR11,Broc-Berra-Jaun,FALSE,2022
+2131,Echarlens,FR,FR08,Gibloux-Sud,TRUE,2022
+2134,Grandvillard,FR,FR12,Gruyères-Intyamon,FALSE,2022
+2135,Gruyères,FR,FR12,Gruyères-Intyamon,TRUE,2022
+2137,Hauteville,FR,FR11,Broc-Berra-Jaun,FALSE,2022
+2138,Jaun,FR,FR11,Broc-Berra-Jaun,TRUE,2022
+2140,Marsens,FR,FR10,Gibloux-Lac de Gruyère,FALSE,2022
+2143,Morlon,FR,FR10,Gibloux-Lac de Gruyère,FALSE,2022
+2145,Le Pâquier (FR),FR,FR09,Bulle,TRUE,2022
+2147,Pont-la-Ville,FR,FR11,Broc-Berra-Jaun,FALSE,2022
+2148,Riaz,FR,FR08,Gibloux-Sud,TRUE,2022
+2149,La Roche,FR,FR05,Le Mouret,TRUE,2022
+2152,Sâles,FR,FR08,Gibloux-Sud,FALSE,2022
+2153,Sorens,FR,FR10,Gibloux-Lac de Gruyère,FALSE,2022
+2155,Vaulruz,FR,FR08,Gibloux-Sud,TRUE,2022
+2160,Vuadens,FR,FR08,Gibloux-Sud,TRUE,2022
+2162,Bas-Intyamon,FR,FR12,Gruyères-Intyamon,FALSE,2022
+2163,Val-de-Charmey,FR,FR11,Broc-Berra-Jaun,TRUE,2022
+2173,Autigny,FR,FR01,Gibloux-Nord,TRUE,2022
+2174,Avry,FR,FR06,Basse Glâne,FALSE,2022
+2175,Belfaux,FR,FR03,Belfaux,FALSE,2022
+2177,Chénens,FR,FR01,Gibloux-Nord,FALSE,2022
+2183,Corminboeuf,FR,FR03,Belfaux,TRUE,2022
+2186,Cottens (FR),FR,FR01,Gibloux-Nord,FALSE,2022
+2194,Ferpicloz,FR,FR05,Le Mouret,FALSE,2022
+2196,Fribourg,FR,FR02,Fribourg,TRUE,2022
+2197,Givisiez,FR,FR07,Fribourg-Ouest,FALSE,2022
+2198,Granges-Paccot,FR,FR07,Fribourg-Ouest,FALSE,2022
+2206,Marly,FR,FR04,Marly,TRUE,2022
+2208,Matran,FR,FR06,Basse Glâne,FALSE,2022
+2211,Neyruz (FR),FR,FR06,Basse Glâne,FALSE,2022
+2216,Pierrafortscha,FR,FR04,Marly,FALSE,2022
+2220,Le Mouret,FR,FR05,Le Mouret,TRUE,2022
+2226,Treyvaux,FR,FR05,Le Mouret,FALSE,2022
+2228,Villars-sur-Glâne,FR,FR07,Fribourg-Ouest,FALSE,2022
+2230,Villarsel-sur-Marly,FR,FR04,Marly,TRUE,2022
+2233,Hauterive (FR),FR,FR06,Basse Glâne,FALSE,2022
+2234,La Brillaz,FR,FR06,Basse Glâne,FALSE,2022
+2235,La Sonnaz,FR,FR03,Belfaux,FALSE,2022
+2236,Gibloux,FR,FR01,Gibloux-Nord,FALSE,2022
+2237,Prez,FR,FR06,Basse Glâne,TRUE,2022
+2238,Bois-d'Amont,FR,FR05,Le Mouret,TRUE,2022
+2239,Grolley-Ponthaux,FR,FR03,Belfaux,FALSE,2022
+2250,Courgevaux,FR,FR21,Murten,FALSE,2022
+2254,Courtepin,FR,FR17,Lac francophone,TRUE,2022
+2257,Cressier (FR),FR,FR17,Lac francophone,FALSE,2022
+2258,Fräschels,FR,FR20,Kerzers,FALSE,2022
+2261,Greng,FR,FR21,Murten,FALSE,2022
+2262,Gurmels,FR,FR19,Deutschsprachiger See,TRUE,2022
+2265,Kerzers,FR,BE96,Gümmenen-Exklaven,TRUE,2022
+2266,Kleinbösingen,FR,FR19,Deutschsprachiger See,FALSE,2022
+2271,Meyriez,FR,FR21,Murten,FALSE,2022
+2272,Misery-Courtion,FR,FR17,Lac francophone,FALSE,2022
+2274,Muntelier,FR,FR21,Murten,FALSE,2022
+2275,Murten,FR,FR19,Deutschsprachiger See,TRUE,2022
+2276,Ried bei Kerzers,FR,FR20,Kerzers,FALSE,2022
+2284,Mont-Vully,FR,FR18,Vully,TRUE,2022
+2292,Brünisried,FR,FR13,Obersense,FALSE,2022
+2293,Düdingen,FR,FR02,Fribourg,TRUE,2022
+2294,Giffers,FR,FR13,Obersense,FALSE,2022
+2295,Bösingen,FR,FR15,Untersense,TRUE,2022
+2296,Heitenried,FR,FR14,Tafers,FALSE,2022
+2299,Plaffeien,FR,FR13,Obersense,TRUE,2022
+2300,Plasselb,FR,FR13,Obersense,FALSE,2022
+2301,Rechthalten,FR,FR13,Obersense,FALSE,2022
+2303,St. Silvester,FR,FR13,Obersense,TRUE,2022
+2304,St. Ursen,FR,FR14,Tafers,TRUE,2022
+2305,Schmitten (FR),FR,FR14,Tafers,TRUE,2022
+2306,Tafers,FR,FR14,Tafers,TRUE,2022
+2307,Tentlingen,FR,FR13,Obersense,FALSE,2022
+2308,Ueberstorf,FR,FR15,Untersense,FALSE,2022
+2309,Wünnewil-Flamatt,FR,FR15,Untersense,TRUE,2022
+2321,Attalens,FR,FR25,Attalens,TRUE,2022
+2323,Bossonnens,FR,FR25,Attalens,FALSE,2022
+2325,Châtel-Saint-Denis,FR,FR24,Châtel-St-Denis,FALSE,2022
+2328,Granges (Veveyse),FR,FR25,Attalens,FALSE,2022
+2333,Remaufens,FR,FR24,Châtel-St-Denis,TRUE,2022
+2335,Saint-Martin (FR),FR,FR24,Châtel-St-Denis,FALSE,2022
+2336,Semsales,FR,FR08,Gibloux-Sud,TRUE,2022
+2337,Le Flon,FR,FR22,Haute-Glâne,FALSE,2022
+2338,La Verrerie,FR,FR24,Châtel-St-Denis,FALSE,2022
+2391,Staatswald Galm,FR,FR19,Deutschsprachiger See,FALSE,2022
+2401,Egerkingen,SO,SO09,Mittleres Gau,FALSE,2022
+2402,Härkingen,SO,SO09,Mittleres Gau,FALSE,2022
+2403,Kestenholz,SO,SO10,Oberes Gäu,FALSE,2022
+2404,Neuendorf,SO,SO09,Mittleres Gau,FALSE,2022
+2405,Niederbuchsiten,SO,SO10,Oberes Gäu,FALSE,2022
+2406,Oberbuchsiten,SO,SO10,Oberes Gäu,TRUE,2022
+2407,Oensingen,SO,SO10,Oberes Gäu,TRUE,2022
+2408,Wolfwil,SO,SO10,Oberes Gäu,FALSE,2022
+2421,Aedermannsdorf,SO,SO15,Balsthal-Passwang,TRUE,2022
+2422,Balsthal,SO,SO15,Balsthal-Passwang,FALSE,2022
+2424,Herbetswil,SO,SO16,Oberes Dünnern,FALSE,2022
+2425,Holderbank (SO),SO,BL20,Oberhauenstein,TRUE,2022
+2426,Laupersdorf,SO,SO15,Balsthal-Passwang,TRUE,2022
+2427,Matzendorf,SO,SO15,Balsthal-Passwang,TRUE,2022
+2428,Mümliswil-Ramiswil,SO,SO15,Balsthal-Passwang,TRUE,2022
+2430,Welschenrohr-Gänsbrunnen,SO,SO16,Oberes Dünnern,FALSE,2022
+2445,Biezwil,SO,SO18,Bucheggberg,FALSE,2022
+2455,Lüterkofen-Ichertswil,SO,SO18,Bucheggberg,FALSE,2022
+2457,Messen,SO,SO18,Bucheggberg,FALSE,2022
+2461,Schnottwil,SO,SO18,Bucheggberg,FALSE,2022
+2463,Unterramsern,SO,SO18,Bucheggberg,FALSE,2022
+2464,Lüsslingen-Nennigkofen,SO,SO18,Bucheggberg,FALSE,2022
+2465,Buchegg,SO,SO18,Bucheggberg,FALSE,2022
+2471,Bättwil,SO,BL05,Oberes Birsig,TRUE,2022
+2472,Büren (SO),SO,SO04,Dorneck,FALSE,2022
+2473,Dornach,SO,SO04,Dorneck,FALSE,2022
+2474,Gempen,SO,SO04,Dorneck,FALSE,2022
+2475,Hochwald,SO,SO04,Dorneck,FALSE,2022
+2476,Hofstetten-Flüh,SO,SO03,Aeusseres Schwarzbubenland,FALSE,2022
+2477,Metzerlen-Mariastein,SO,SO03,Aeusseres Schwarzbubenland,FALSE,2022
+2478,Nuglar-St. Pantaleon,SO,SO04,Dorneck,FALSE,2022
+2479,Rodersdorf,SO,SO03,Aeusseres Schwarzbubenland,FALSE,2022
+2480,Seewen,SO,SO04,Dorneck,TRUE,2022
+2481,Witterswil,SO,SO03,Aeusseres Schwarzbubenland,FALSE,2022
+2491,Hauenstein-Ifenthal,SO,SO11,Trimbach,FALSE,2022
+2492,Kienberg,SO,SO06,Erlinsbach-Kienberg,FALSE,2022
+2493,Lostorf,SO,SO11,Trimbach,TRUE,2022
+2495,Niedergösgen,SO,SO06,Erlinsbach-Kienberg,FALSE,2022
+2497,Obergösgen,SO,SO12,Lostorf,FALSE,2022
+2499,Stüsslingen,SO,SO06,Erlinsbach-Kienberg,FALSE,2022
+2500,Trimbach,SO,SO11,Trimbach,TRUE,2022
+2501,Winznau,SO,SO12,Lostorf,FALSE,2022
+2502,Wisen (SO),SO,SO11,Trimbach,FALSE,2022
+2503,Erlinsbach (SO),SO,AG08,Erlinsbach-Staffelegg,TRUE,2022
+2511,Aeschi (SO),SO,BE45,Thörigen-Seeberg,TRUE,2022
+2513,Biberist,SO,SO18,Bucheggberg,TRUE,2022
+2514,Bolken,SO,SO24,Wasseramt,FALSE,2022
+2516,Deitingen,SO,SO22,Solothurn-Ost,FALSE,2022
+2517,Derendingen,SO,SO22,Solothurn-Ost,TRUE,2022
+2518,Etziken,SO,SO24,Wasseramt,FALSE,2022
+2519,Gerlafingen,SO,SO23,Derendingen-Gerlafingen,FALSE,2022
+2523,Horriwil,SO,SO24,Wasseramt,FALSE,2022
+2524,Hüniken,SO,SO24,Wasseramt,FALSE,2022
+2525,Kriegstetten,SO,SO23,Derendingen-Gerlafingen,TRUE,2022
+2526,Lohn-Ammannsegg,SO,SO25,Biberist,FALSE,2022
+2527,Luterbach,SO,SO22,Solothurn-Ost,TRUE,2022
+2528,Obergerlafingen,SO,SO23,Derendingen-Gerlafingen,FALSE,2022
+2530,Recherswil,SO,SO24,Wasseramt,FALSE,2022
+2532,Subingen,SO,SO22,Solothurn-Ost,FALSE,2022
+2534,Zuchwil,SO,SO19,Solothurn,TRUE,2022
+2535,Drei Höfe,SO,SO24,Wasseramt,FALSE,2022
+2541,Balm bei Günsberg,SO,SO20,Weissenstein,FALSE,2022
+2542,Bellach,SO,SO17,Bellach-Selzach,TRUE,2022
+2543,Bettlach,SO,SO02,Bettlach,FALSE,2022
+2544,Feldbrunnen-St. Niklaus,SO,SO20,Weissenstein,FALSE,2022
+2545,Flumenthal,SO,SO20,Weissenstein,TRUE,2022
+2546,Grenchen,SO,SO01,Grenchen,FALSE,2022
+2547,Günsberg,SO,SO16,Oberes Dünnern,TRUE,2022
+2548,Hubersdorf,SO,SO20,Weissenstein,FALSE,2022
+2549,Kammersrohr,SO,SO20,Weissenstein,FALSE,2022
+2550,Langendorf,SO,SO20,Weissenstein,FALSE,2022
+2551,Lommiswil,SO,SO17,Bellach-Selzach,FALSE,2022
+2553,Oberdorf (SO),SO,SO20,Weissenstein,FALSE,2022
+2554,Riedholz,SO,SO20,Weissenstein,FALSE,2022
+2555,Rüttenen,SO,SO20,Weissenstein,TRUE,2022
+2556,Selzach,SO,SO17,Bellach-Selzach,TRUE,2022
+2571,Boningen,SO,AG01,Aarburg,TRUE,2022
+2572,Däniken,SO,SO14,Däniken-Schönenwerd,FALSE,2022
+2573,Dulliken,SO,SO13,Dulliken,FALSE,2022
+2574,Eppenberg-Wöschnau,SO,SO14,Däniken-Schönenwerd,FALSE,2022
+2575,Fulenbach,SO,SO09,Mittleres Gau,FALSE,2022
+2576,Gretzenbach,SO,SO14,Däniken-Schönenwerd,FALSE,2022
+2578,Gunzgen,SO,SO08,Unteres Gäu,TRUE,2022
+2579,Hägendorf,SO,SO08,Unteres Gäu,TRUE,2022
+2580,Kappel (SO),SO,SO08,Unteres Gäu,TRUE,2022
+2581,Olten,SO,AG01,Aarburg,TRUE,2022
+2582,Rickenbach (SO),SO,SO08,Unteres Gäu,FALSE,2022
+2583,Schönenwerd,SO,SO14,Däniken-Schönenwerd,FALSE,2022
+2584,Starrkirch-Wil,SO,SO13,Dulliken,TRUE,2022
+2585,Walterswil (SO),SO,SO13,Dulliken,FALSE,2022
+2586,Wangen bei Olten,SO,SO08,Unteres Gäu,TRUE,2022
+2601,Solothurn,SO,SO19,Solothurn,FALSE,2022
+2611,Bärschwil,SO,BL01,Oberes Laufental,TRUE,2022
+2612,Beinwil (SO),SO,JU04,Val Terbi,TRUE,2022
+2613,Breitenbach,SO,SO05,Thierstein,FALSE,2022
+2614,Büsserach,SO,SO05,Thierstein,FALSE,2022
+2615,Erschwil,SO,SO05,Thierstein,FALSE,2022
+2616,Fehren,SO,SO05,Thierstein,FALSE,2022
+2617,Grindel,SO,SO05,Thierstein,FALSE,2022
+2618,Himmelried,SO,SO04,Dorneck,TRUE,2022
+2619,Kleinlützel,SO,BL01,Oberes Laufental,TRUE,2022
+2620,Meltingen,SO,SO05,Thierstein,FALSE,2022
+2621,Nunningen,SO,SO05,Thierstein,FALSE,2022
+2622,Zullwil,SO,SO05,Thierstein,FALSE,2022
+2701,Basel,BS,BS01,Basel-City,TRUE,2022
+2702,Bettingen,BS,BS10,Riehen-Bettingen,FALSE,2022
+2703,Riehen,BS,BS08,Basel-Kleinbasel,TRUE,2022
+2761,Aesch (BL),BL,BL02,Unteres Laufental,TRUE,2022
+2762,Allschwil,BL,BL06,Allschwil-Schönenbuch,FALSE,2022
+2763,Arlesheim,BL,BL11,Arlesheim,FALSE,2022
+2764,Biel-Benken,BL,BL05,Oberes Birsig,FALSE,2022
+2765,Binningen,BL,BL03,Binningen,TRUE,2022
+2766,Birsfelden,BL,BL07,Birsfelden,FALSE,2022
+2767,Bottmingen,BL,BL03,Binningen,TRUE,2022
+2768,Ettingen,BL,BL05,Oberes Birsig,FALSE,2022
+2769,Münchenstein,BL,BL10,Münchenstein,TRUE,2022
+2770,Muttenz,BL,BL07,Birsfelden,TRUE,2022
+2771,Oberwil (BL),BL,BL04,Unteres Birsig,FALSE,2022
+2772,Pfeffingen,BL,BL12,Oberbirstal,FALSE,2022
+2773,Reinach (BL),BL,BL11,Arlesheim,TRUE,2022
+2774,Schönenbuch,BL,BL06,Allschwil-Schönenbuch,FALSE,2022
+2775,Therwil,BL,BL05,Oberes Birsig,TRUE,2022
+2781,Blauen,BL,BL02,Unteres Laufental,FALSE,2022
+2782,Brislach,BL,BL01,Oberes Laufental,TRUE,2022
+2783,Burg im Leimental,BL,BL01,Oberes Laufental,FALSE,2022
+2784,Dittingen,BL,BL01,Oberes Laufental,FALSE,2022
+2785,Duggingen,BL,BL02,Unteres Laufental,FALSE,2022
+2786,Grellingen,BL,BL02,Unteres Laufental,FALSE,2022
+2787,Laufen,BL,BL01,Oberes Laufental,TRUE,2022
+2788,Liesberg,BL,BL01,Oberes Laufental,FALSE,2022
+2789,Nenzlingen,BL,BL02,Unteres Laufental,FALSE,2022
+2790,Roggenburg,BL,BL01,Oberes Laufental,TRUE,2022
+2791,Röschenz,BL,BL01,Oberes Laufental,FALSE,2022
+2792,Wahlen,BL,BL01,Oberes Laufental,FALSE,2022
+2793,Zwingen,BL,BL01,Oberes Laufental,TRUE,2022
+2821,Arisdorf,BL,AG50,Kaiseraugst-Magden,TRUE,2022
+2822,Augst,BL,BL09,Pratteln-Augst,TRUE,2022
+2823,Bubendorf,BL,BL16,Liestal,TRUE,2022
+2824,Frenkendorf,BL,BL09,Pratteln-Augst,TRUE,2022
+2825,Füllinsdorf,BL,BL15,Unterergolztal,FALSE,2022
+2826,Giebenach,BL,AG50,Kaiseraugst-Magden,TRUE,2022
+2827,Hersberg,BL,BL19,Oberergolz-Buus,FALSE,2022
+2828,Lausen,BL,BL18,Sissach-Lausen,FALSE,2022
+2829,Liestal,BL,BL15,Unterergolztal,TRUE,2022
+2830,Lupsingen,BL,BL17,Bubendorf,FALSE,2022
+2831,Pratteln,BL,BL09,Pratteln-Augst,TRUE,2022
+2832,Ramlinsburg,BL,BL17,Bubendorf,FALSE,2022
+2833,Seltisberg,BL,BL17,Bubendorf,TRUE,2022
+2834,Ziefen,BL,BL14,Reigoldswilertal,FALSE,2022
+2841,Anwil,BL,BL19,Oberergolz-Buus,FALSE,2022
+2842,Böckten,BL,BL18,Sissach-Lausen,TRUE,2022
+2843,Buckten,BL,BL21,Homburgertal,FALSE,2022
+2844,Buus,BL,BL19,Oberergolz-Buus,FALSE,2022
+2845,Diepflingen,BL,BL21,Homburgertal,FALSE,2022
+2846,Gelterkinden,BL,BL21,Homburgertal,TRUE,2022
+2847,Häfelfingen,BL,BL21,Homburgertal,FALSE,2022
+2848,Hemmiken,BL,BL19,Oberergolz-Buus,TRUE,2022
+2849,Itingen,BL,BL18,Sissach-Lausen,FALSE,2022
+2850,Känerkinden,BL,BL21,Homburgertal,FALSE,2022
+2851,Kilchberg (BL),BL,BL23,Gelterkinden-Eital,FALSE,2022
+2852,Läufelfingen,BL,BL21,Homburgertal,TRUE,2022
+2853,Maisprach,BL,BL19,Oberergolz-Buus,FALSE,2022
+2854,Nusshof,BL,BL19,Oberergolz-Buus,FALSE,2022
+2855,Oltingen,BL,BL23,Gelterkinden-Eital,FALSE,2022
+2856,Ormalingen,BL,BL19,Oberergolz-Buus,TRUE,2022
+2857,Rickenbach (BL),BL,BL19,Oberergolz-Buus,FALSE,2022
+2858,Rothenfluh,BL,BL19,Oberergolz-Buus,FALSE,2022
+2859,Rümlingen,BL,BL21,Homburgertal,FALSE,2022
+2860,Rünenberg,BL,BL21,Homburgertal,TRUE,2022
+2861,Sissach,BL,BL18,Sissach-Lausen,FALSE,2022
+2862,Tecknau,BL,BL23,Gelterkinden-Eital,FALSE,2022
+2863,Tenniken,BL,BL21,Homburgertal,TRUE,2022
+2864,Thürnen,BL,BL18,Sissach-Lausen,TRUE,2022
+2865,Wenslingen,BL,BL23,Gelterkinden-Eital,FALSE,2022
+2866,Wintersingen,BL,BL19,Oberergolz-Buus,FALSE,2022
+2867,Wittinsburg,BL,BL21,Homburgertal,FALSE,2022
+2868,Zeglingen,BL,BL23,Gelterkinden-Eital,FALSE,2022
+2869,Zunzgen,BL,BL22,Diegtertal,FALSE,2022
+2881,Arboldswil,BL,BL14,Reigoldswilertal,FALSE,2022
+2882,Bennwil,BL,BL22,Diegtertal,TRUE,2022
+2883,Bretzwil,BL,BL14,Reigoldswilertal,FALSE,2022
+2884,Diegten,BL,BL21,Homburgertal,TRUE,2022
+2885,Eptingen,BL,BL22,Diegtertal,FALSE,2022
+2886,Hölstein,BL,BL20,Oberhauenstein,TRUE,2022
+2887,Lampenberg,BL,BL17,Bubendorf,FALSE,2022
+2888,Langenbruck,BL,BL20,Oberhauenstein,FALSE,2022
+2889,Lauwil,BL,BL14,Reigoldswilertal,TRUE,2022
+2890,Liedertswil,BL,BL20,Oberhauenstein,FALSE,2022
+2891,Niederdorf,BL,BL20,Oberhauenstein,TRUE,2022
+2892,Oberdorf (BL),BL,BL20,Oberhauenstein,FALSE,2022
+2893,Reigoldswil,BL,BL14,Reigoldswilertal,FALSE,2022
+2894,Titterten,BL,BL14,Reigoldswilertal,FALSE,2022
+2895,Waldenburg,BL,BL20,Oberhauenstein,TRUE,2022
+2901,Gächlingen,SH,SH05,Randen,FALSE,2022
+2903,Löhningen,SH,SH04,Klettgau,FALSE,2022
+2904,Neunkirch,SH,SH04,Klettgau,FALSE,2022
+2914,Büttenhardt,SH,SH01,Schaffhausen-Stadt,TRUE,2022
+2915,Dörflingen,SH,SH06,Reiat,FALSE,2022
+2917,Lohn (SH),SH,SH06,Reiat,FALSE,2022
+2919,Stetten (SH),SH,SH06,Reiat,FALSE,2022
+2920,Thayngen,SH,SH06,Reiat,FALSE,2022
+2931,Bargen (SH),SH,SH05,Randen,FALSE,2022
+2932,Beringen,SH,SH04,Klettgau,FALSE,2022
+2933,Buchberg,SH,SH08,Buchberg,FALSE,2022
+2936,Merishausen,SH,SH05,Randen,FALSE,2022
+2937,Neuhausen am Rheinfall,SH,SH01,Schaffhausen-Stadt,TRUE,2022
+2938,Rüdlingen,SH,SH08,Buchberg,FALSE,2022
+2939,Schaffhausen,SH,SH01,Schaffhausen-Stadt,TRUE,2022
+2951,Beggingen,SH,SH05,Randen,FALSE,2022
+2952,Schleitheim,SH,SH05,Randen,FALSE,2022
+2953,Siblingen,SH,SH05,Randen,FALSE,2022
+2961,Buch (SH),SH,SH07,Stein am Rhein,FALSE,2022
+2962,Hemishofen,SH,SH07,Stein am Rhein,FALSE,2022
+2963,Ramsen,SH,SH07,Stein am Rhein,FALSE,2022
+2964,Stein am Rhein,SH,SH07,Stein am Rhein,FALSE,2022
+2971,Hallau,SH,SH05,Randen,FALSE,2022
+2972,Oberhallau,SH,SH05,Randen,FALSE,2022
+2973,Trasadingen,SH,SH04,Klettgau,FALSE,2022
+2974,Wilchingen,SH,SH04,Klettgau,FALSE,2022
+3001,Herisau,AR,AR04,Herisau,TRUE,2022
+3002,Hundwil,AR,AR03,Appenzeller Hinterland,TRUE,2022
+3003,Schönengrund,AR,AR03,Appenzeller Hinterland,FALSE,2022
+3004,Schwellbrunn,AR,AR03,Appenzeller Hinterland,TRUE,2022
+3005,Stein (AR),AR,AR03,Appenzeller Hinterland,TRUE,2022
+3006,Urnäsch,AR,AR03,Appenzeller Hinterland,FALSE,2022
+3007,Waldstatt,AR,AR03,Appenzeller Hinterland,TRUE,2022
+3021,Bühler,AR,AR01,Appenzeller Mittelland,TRUE,2022
+3022,Gais,AR,AR02,Teufen-Gais,TRUE,2022
+3023,Speicher,AR,AR01,Appenzeller Mittelland,FALSE,2022
+3024,Teufen (AR),AR,AR02,Teufen-Gais,TRUE,2022
+3025,Trogen,AR,AR01,Appenzeller Mittelland,FALSE,2022
+3031,Grub (AR),AR,AR01,Appenzeller Mittelland,FALSE,2022
+3032,Heiden,AR,AR05,Appenzeller Vorderland,TRUE,2022
+3033,Lutzenberg,AR,AR05,Appenzeller Vorderland,FALSE,2022
+3034,Rehetobel,AR,AR01,Appenzeller Mittelland,TRUE,2022
+3035,Reute (AR),AR,AR05,Appenzeller Vorderland,TRUE,2022
+3036,Wald (AR),AR,AR01,Appenzeller Mittelland,FALSE,2022
+3037,Walzenhausen,AR,AR05,Appenzeller Vorderland,FALSE,2022
+3038,Wolfhalden,AR,AR05,Appenzeller Vorderland,TRUE,2022
+3101,Appenzell,AI,AI02,Inneres Landesteil,TRUE,2022
+3102,Gonten,AI,AI02,Inneres Landesteil,FALSE,2022
+3104,Schlatt-Haslen,AI,AR02,Teufen-Gais,TRUE,2022
+3111,Oberegg,AI,AR05,Appenzeller Vorderland,TRUE,2022
+3112,Schwende-Rüte,AI,AI02,Inneres Landesteil,TRUE,2022
+3201,Häggenschwil,SG,SG11,Wittenbach-Muolen,TRUE,2022
+3202,Muolen,SG,SG11,Wittenbach-Muolen,TRUE,2022
+3203,St. Gallen,SG,AR01,Appenzeller Mittelland,TRUE,2022
+3204,Wittenbach,SG,SG11,Wittenbach-Muolen,TRUE,2022
+3211,Berg (SG),SG,SG11,Wittenbach-Muolen,TRUE,2022
+3212,Eggersriet,SG,AR01,Appenzeller Mittelland,TRUE,2022
+3213,Goldach,SG,SG07,Goldach-Eggen,TRUE,2022
+3214,Mörschwil,SG,SG12,Steinach-Mörschwil,FALSE,2022
+3215,Rorschach,SG,SG13,Rorschach,FALSE,2022
+3216,Rorschacherberg,SG,AR05,Appenzeller Vorderland,TRUE,2022
+3217,Steinach,SG,SG12,Steinach-Mörschwil,FALSE,2022
+3218,Tübach,SG,SG12,Steinach-Mörschwil,TRUE,2022
+3219,Untereggen,SG,SG07,Goldach-Eggen,TRUE,2022
+3231,Au (SG),SG,SG16,Heerbrugg,FALSE,2022
+3232,Balgach,SG,SG17,Rebstein,TRUE,2022
+3233,Berneck,SG,SG16,Heerbrugg,TRUE,2022
+3234,Diepoldsau,SG,SG18,Widnau-Diepoldsau,TRUE,2022
+3235,Rheineck,SG,SG14,Rheineck,TRUE,2022
+3236,St. Margrethen,SG,AR05,Appenzeller Vorderland,TRUE,2022
+3237,Thal,SG,SG14,Rheineck,TRUE,2022
+3238,Widnau,SG,SG16,Heerbrugg,TRUE,2022
+3251,Altstätten,SG,SG19,Altstätten,TRUE,2022
+3252,Eichberg,SG,SG19,Altstätten,FALSE,2022
+3253,Marbach (SG),SG,SG17,Rebstein,FALSE,2022
+3254,Oberriet (SG),SG,SG20,Rheintal,TRUE,2022
+3255,Rebstein,SG,SG17,Rebstein,FALSE,2022
+3256,Rüthi (SG),SG,SG20,Rheintal,FALSE,2022
+3271,Buchs (SG),SG,SG21,Gams-Sennwald,TRUE,2022
+3272,Gams,SG,SG21,Gams-Sennwald,TRUE,2022
+3273,Grabs,SG,SG22,Werdenberg,TRUE,2022
+3274,Sennwald,SG,SG21,Gams-Sennwald,FALSE,2022
+3275,Sevelen,SG,SG23,Wartau,TRUE,2022
+3276,Wartau,SG,SG23,Wartau,TRUE,2022
+3291,Bad Ragaz,SG,SG24,Bad Ragaz - Taminatal,FALSE,2022
+3292,Flums,SG,SG26,Flums - Flumserberg,TRUE,2022
+3293,Mels,SG,SG25,Sargans - Weisstannental,FALSE,2022
+3294,Pfäfers,SG,SG24,Bad Ragaz - Taminatal,FALSE,2022
+3295,Quarten,SG,SG26,Flums - Flumserberg,TRUE,2022
+3296,Sargans,SG,SG25,Sargans - Weisstannental,FALSE,2022
+3297,Vilters-Wangs,SG,SG24,Bad Ragaz - Taminatal,FALSE,2022
+3298,Walenstadt,SG,SG26,Flums - Flumserberg,TRUE,2022
+3311,Amden,SG,SG27,Walensee,FALSE,2022
+3312,Benken (SG),SG,SG31,Gaster,TRUE,2022
+3313,Kaltbrunn,SG,SG31,Gaster,FALSE,2022
+3315,Schänis,SG,SG31,Gaster,TRUE,2022
+3316,Weesen,SG,SG27,Walensee,FALSE,2022
+3338,Schmerikon,SG,SG29,Uznach,FALSE,2022
+3339,Uznach,SG,SG29,Uznach,TRUE,2022
+3340,Rapperswil-Jona,SG,SG28,Eschenbach,TRUE,2022
+3341,Gommiswald,SG,SG32,Rickenpass,TRUE,2022
+3342,Eschenbach (SG),SG,SG28,Eschenbach,TRUE,2022
+3352,Ebnat-Kappel,SG,SG36,Obertoggenburg,TRUE,2022
+3359,Wildhaus-Alt St. Johann,SG,SG36,Obertoggenburg,TRUE,2022
+3360,Nesslau,SG,SG36,Obertoggenburg,TRUE,2022
+3374,Lichtensteig,SG,SG35,Wattwil,FALSE,2022
+3379,Wattwil,SG,SG35,Wattwil,TRUE,2022
+3392,Kirchberg (SG),SG,SG42,Kirchberg,TRUE,2022
+3393,Lütisburg,SG,SG33,Necker,TRUE,2022
+3394,Mosnang,SG,SG34,Mosnang,TRUE,2022
+3395,Bütschwil-Ganterschwil,SG,SG34,Mosnang,TRUE,2022
+3396,Neckertal,SG,SG33,Necker,TRUE,2022
+3401,Degersheim,SG,SG08,Flawil-Degersheim,FALSE,2022
+3402,Flawil,SG,SG08,Flawil-Degersheim,TRUE,2022
+3405,Jonschwil,SG,SG38,Untertoggenburg,TRUE,2022
+3407,Oberuzwil,SG,SG39,Uzwil,TRUE,2022
+3408,Uzwil,SG,SG38,Untertoggenburg,TRUE,2022
+3422,Niederbüren,SG,SG09,Gossau,TRUE,2022
+3423,Niederhelfenschwil,SG,SG41,Zuzwil,TRUE,2022
+3424,Oberbüren,SG,SG37,Niederuzwil-Oberbüren,TRUE,2022
+3426,Zuzwil (SG),SG,SG41,Zuzwil,TRUE,2022
+3427,Wil (SG),SG,SG40,Wil,TRUE,2022
+3441,Andwil (SG),SG,SG10,Waldkirch,FALSE,2022
+3442,Gaiserwald,SG,SG06,Gaiserwald,TRUE,2022
+3443,Gossau (SG),SG,SG10,Waldkirch,TRUE,2022
+3444,Waldkirch,SG,SG10,Waldkirch,TRUE,2022
+3506,Vaz/Obervaz,GR,GR11,Churwalden-Lenzerheide,TRUE,2022
+3513,Lantsch/Lenz,GR,GR11,Churwalden-Lenzerheide,FALSE,2022
+3514,Schmitten (GR),GR,GR12,Albula-Surses,FALSE,2022
+3542,Albula/Alvra,GR,GR12,Albula-Surses,FALSE,2022
+3543,Surses,GR,GR12,Albula-Surses,FALSE,2022
+3544,Bergün Filisur,GR,GR12,Albula-Surses,FALSE,2022
+3551,Brusio,GR,GR25,Bernina,FALSE,2022
+3561,Poschiavo,GR,GR25,Bernina,FALSE,2022
+3572,Falera,GR,GR15,Flims-Laax,FALSE,2022
+3575,Laax,GR,GR15,Flims-Laax,FALSE,2022
+3581,Sagogn,GR,GR17,Ilanz,FALSE,2022
+3582,Schluein,GR,GR17,Ilanz,FALSE,2022
+3603,Vals,GR,GR16,Lumnezia-Vals-Safien,FALSE,2022
+3618,Lumnezia,GR,GR16,Lumnezia-Vals-Safien,FALSE,2022
+3619,Ilanz/Glion,GR,GR16,Lumnezia-Vals-Safien,TRUE,2022
+3633,Fürstenau,GR,GR13,Domleschg-Unterheizenberg,FALSE,2022
+3637,Rothenbrunnen,GR,GR13,Domleschg-Unterheizenberg,FALSE,2022
+3638,Scharans,GR,GR13,Domleschg-Unterheizenberg,FALSE,2022
+3640,Sils im Domleschg,GR,GR13,Domleschg-Unterheizenberg,FALSE,2022
+3661,Cazis,GR,GR13,Domleschg-Unterheizenberg,FALSE,2022
+3662,Flerden,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3663,Masein,GR,GR13,Domleschg-Unterheizenberg,TRUE,2022
+3668,Thusis,GR,GR13,Domleschg-Unterheizenberg,TRUE,2022
+3669,Tschappina,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3670,Urmein,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3672,Safiental,GR,GR16,Lumnezia-Vals-Safien,TRUE,2022
+3673,Domleschg,GR,GR13,Domleschg-Unterheizenberg,FALSE,2022
+3681,Avers,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3695,Sufers,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3701,Andeer,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3711,Rongellen,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3712,Zillis-Reischen,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3713,Ferrera,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3714,Rheinwald,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3715,Muntogna da Schons,GR,GR14,Thusis-Viamala-Rheinwald,FALSE,2022
+3721,Bonaduz,GR,GR02,Unterimboden,FALSE,2022
+3722,Domat/Ems,GR,GR03,Domat/Ems,FALSE,2022
+3723,Rhäzüns,GR,GR02,Unterimboden,FALSE,2022
+3731,Felsberg,GR,GR02,Unterimboden,FALSE,2022
+3732,Flims,GR,GR15,Flims-Laax,FALSE,2022
+3733,Tamins,GR,GR02,Unterimboden,TRUE,2022
+3734,Trin,GR,GR15,Flims-Laax,TRUE,2022
+3746,Zernez,GR,GR20,Engiadina bassa,FALSE,2022
+3752,Samnaun,GR,GR20,Engiadina bassa,FALSE,2022
+3762,Scuol,GR,GR20,Engiadina bassa,FALSE,2022
+3764,Valsot,GR,GR20,Engiadina bassa,FALSE,2022
+3781,Bever,GR,GR23,Engiadin 'ota,FALSE,2022
+3782,Celerina/Schlarigna,GR,GR22,St.Moritz,FALSE,2022
+3783,Madulain,GR,GR23,Engiadin 'ota,FALSE,2022
+3784,Pontresina,GR,GR22,St.Moritz,FALSE,2022
+3785,La Punt Chamues-ch,GR,GR23,Engiadin 'ota,FALSE,2022
+3786,Samedan,GR,GR22,St.Moritz,TRUE,2022
+3787,St. Moritz,GR,GR22,St.Moritz,FALSE,2022
+3788,S-chanf,GR,GR23,Engiadin 'ota,FALSE,2022
+3789,Sils im Engadin/Segl,GR,GR22,St.Moritz,FALSE,2022
+3790,Silvaplana,GR,GR22,St.Moritz,FALSE,2022
+3791,Zuoz,GR,GR23,Engiadin 'ota,FALSE,2022
+3792,Bregaglia,GR,GR24,Val Bregaglia,TRUE,2022
+3804,Buseno,GR,GR26,Mesolcina,FALSE,2022
+3805,Castaneda,GR,GR26,Mesolcina,FALSE,2022
+3808,Rossa,GR,GR26,Mesolcina,FALSE,2022
+3810,Santa Maria in Calanca,GR,GR26,Mesolcina,FALSE,2022
+3821,Lostallo,GR,GR26,Mesolcina,FALSE,2022
+3822,Mesocco,GR,GR26,Mesolcina,FALSE,2022
+3823,Soazza,GR,GR26,Mesolcina,FALSE,2022
+3831,Cama,GR,GR26,Mesolcina,FALSE,2022
+3832,Grono,GR,GR26,Mesolcina,FALSE,2022
+3834,Roveredo (GR),GR,GR26,Mesolcina,FALSE,2022
+3835,San Vittore,GR,GR26,Mesolcina,TRUE,2022
+3837,Calanca,GR,GR26,Mesolcina,FALSE,2022
+3847,Val Müstair,GR,GR21,Val Müstair,FALSE,2022
+3851,Davos,GR,GR09,Davos,TRUE,2022
+3861,Fideris,GR,GR08,Klosters-Oberes Prättigau,FALSE,2022
+3862,Furna,GR,GR07,Unteres Prättigau,FALSE,2022
+3863,Jenaz,GR,GR07,Unteres Prättigau,FALSE,2022
+3871,Klosters,GR,GR08,Klosters-Oberes Prättigau,TRUE,2022
+3881,Conters im Prättigau,GR,GR08,Klosters-Oberes Prättigau,FALSE,2022
+3882,Küblis,GR,GR08,Klosters-Oberes Prättigau,FALSE,2022
+3891,Luzein,GR,GR08,Klosters-Oberes Prättigau,TRUE,2022
+3901,Chur,GR,GR10,Schanfigg,TRUE,2022
+3911,Churwalden,GR,GR11,Churwalden-Lenzerheide,TRUE,2022
+3921,Arosa,GR,GR10,Schanfigg,TRUE,2022
+3945,Trimmis,GR,GR04,Fünf Dörfer,TRUE,2022
+3946,Untervaz,GR,GR04,Fünf Dörfer,FALSE,2022
+3947,Zizers,GR,GR04,Fünf Dörfer,TRUE,2022
+3951,Fläsch,GR,GR06,Maienfeld,FALSE,2022
+3952,Jenins,GR,GR06,Maienfeld,FALSE,2022
+3953,Maienfeld,GR,GR05,Landquart,TRUE,2022
+3954,Malans,GR,GR06,Maienfeld,FALSE,2022
+3955,Landquart,GR,GR05,Landquart,TRUE,2022
+3961,Grüsch,GR,GR07,Unteres Prättigau,FALSE,2022
+3962,Schiers,GR,GR07,Unteres Prättigau,FALSE,2022
+3972,Seewis im Prättigau,GR,GR07,Unteres Prättigau,FALSE,2022
+3981,Breil/Brigels,GR,GR18,Ruis,FALSE,2022
+3982,Disentis/Mustér,GR,GR19,Disentis,FALSE,2022
+3983,Medel (Lucmagn),GR,GR19,Disentis,FALSE,2022
+3985,Sumvitg,GR,GR19,Disentis,TRUE,2022
+3986,Tujetsch,GR,GR19,Disentis,FALSE,2022
+3987,Trun,GR,GR18,Ruis,FALSE,2022
+3988,Obersaxen Mundaun,GR,GR17,Ilanz,TRUE,2022
+4001,Aarau,AG,AG07,Aarau,TRUE,2022
+4002,Biberstein,AG,AG08,Erlinsbach-Staffelegg,FALSE,2022
+4003,Buchs (AG),AG,AG09,Buchs-Rohr,FALSE,2022
+4004,Densbüren,AG,AG08,Erlinsbach-Staffelegg,FALSE,2022
+4005,Erlinsbach (AG),AG,AG08,Erlinsbach-Staffelegg,FALSE,2022
+4006,Gränichen,AG,AG20,Wynental,FALSE,2022
+4007,Hirschthal,AG,AG12,Suhretal,FALSE,2022
+4008,Küttigen,AG,AG08,Erlinsbach-Staffelegg,FALSE,2022
+4009,Muhen,AG,AG12,Suhretal,FALSE,2022
+4010,Oberentfelden,AG,AG11,Entfelden,FALSE,2022
+4012,Suhr,AG,AG07,Aarau,TRUE,2022
+4013,Unterentfelden,AG,AG11,Entfelden,FALSE,2022
+4021,Baden,AG,AG33,Fislisbach Ausserbaden,TRUE,2022
+4022,Bellikon,AG,AG40,Mutschellen-Reppischtal,FALSE,2022
+4023,Bergdietikon,AG,AG40,Mutschellen-Reppischtal,FALSE,2022
+4024,Birmenstorf (AG),AG,AG30,Birmenstorf-Turgi,TRUE,2022
+4026,Ennetbaden,AG,AG34,Ennetbaden-Ehrendingen,FALSE,2022
+4027,Fislisbach,AG,AG33,Fislisbach Ausserbaden,FALSE,2022
+4028,Freienwil,AG,AG35,Obersiggenthal,FALSE,2022
+4029,Gebenstorf,AG,AG30,Birmenstorf-Turgi,FALSE,2022
+4030,Killwangen,AG,AG37,Neuenhof-Würenlos,FALSE,2022
+4031,Künten,AG,AG39,Rohrdorf,FALSE,2022
+4032,Mägenwil,AG,AG41,Mellingen-Reusstal,FALSE,2022
+4033,Mellingen,AG,AG41,Mellingen-Reusstal,FALSE,2022
+4034,Neuenhof,AG,AG37,Neuenhof-Würenlos,FALSE,2022
+4035,Niederrohrdorf,AG,AG39,Rohrdorf,FALSE,2022
+4037,Oberrohrdorf,AG,AG39,Rohrdorf,FALSE,2022
+4038,Obersiggenthal,AG,AG35,Obersiggenthal,FALSE,2022
+4039,Remetschwil,AG,AG39,Rohrdorf,FALSE,2022
+4040,Spreitenbach,AG,AG38,Spreitenbach,TRUE,2022
+4041,Stetten (AG),AG,AG39,Rohrdorf,FALSE,2022
+4044,Untersiggenthal,AG,AG31,Untersiggenthal-Würenlingen,TRUE,2022
+4045,Wettingen,AG,AG36,Wettingen,FALSE,2022
+4046,Wohlenschwil,AG,AG41,Mellingen-Reusstal,FALSE,2022
+4047,Würenlingen,AG,AG31,Untersiggenthal-Würenlingen,FALSE,2022
+4048,Würenlos,AG,AG36,Wettingen,TRUE,2022
+4049,Ehrendingen,AG,AG34,Ennetbaden-Ehrendingen,FALSE,2022
+4061,Arni (AG),AG,AG43,Lunkhofen-Jonental,FALSE,2022
+4062,Berikon,AG,AG40,Mutschellen-Reppischtal,TRUE,2022
+4063,Bremgarten (AG),AG,AG42,Bremgarten-Mutschellen,TRUE,2022
+4064,Büttikon,AG,AG46,Villmergen-Erusbach,FALSE,2022
+4065,Dottikon,AG,AG44,Unterbünztal,FALSE,2022
+4066,Eggenwil,AG,AG39,Rohrdorf,FALSE,2022
+4067,Fischbach-Göslikon,AG,AG41,Mellingen-Reusstal,FALSE,2022
+4068,Hägglingen,AG,AG41,Mellingen-Reusstal,TRUE,2022
+4071,Jonen,AG,AG43,Lunkhofen-Jonental,FALSE,2022
+4072,Niederwil (AG),AG,AG41,Mellingen-Reusstal,FALSE,2022
+4073,Oberlunkhofen,AG,AG43,Lunkhofen-Jonental,FALSE,2022
+4074,Oberwil-Lieli,AG,AG43,Lunkhofen-Jonental,FALSE,2022
+4075,Rudolfstetten-Friedlisberg,AG,AG40,Mutschellen-Reppischtal,FALSE,2022
+4076,Sarmenstorf,AG,AG46,Villmergen-Erusbach,FALSE,2022
+4077,Tägerig,AG,AG41,Mellingen-Reusstal,FALSE,2022
+4078,Uezwil,AG,AG46,Villmergen-Erusbach,FALSE,2022
+4079,Unterlunkhofen,AG,AG43,Lunkhofen-Jonental,FALSE,2022
+4080,Villmergen,AG,AG45,Wohlen,TRUE,2022
+4081,Widen,AG,AG40,Mutschellen-Reppischtal,FALSE,2022
+4082,Wohlen (AG),AG,AG45,Wohlen,TRUE,2022
+4083,Zufikon,AG,AG42,Bremgarten-Mutschellen,FALSE,2022
+4084,Islisberg,AG,AG43,Lunkhofen-Jonental,FALSE,2022
+4091,Auenstein,AG,AG22,Schinznach,FALSE,2022
+4092,Birr,AG,AG26,Birrfeld,FALSE,2022
+4093,Birrhard,AG,AG26,Birrfeld,FALSE,2022
+4095,Brugg,AG,AG22,Schinznach,TRUE,2022
+4099,Habsburg,AG,AG26,Birrfeld,FALSE,2022
+4100,Hausen (AG),AG,AG24,Windisch,FALSE,2022
+4104,Lupfig,AG,AG26,Birrfeld,TRUE,2022
+4105,Mandach,AG,AG29,Leibstadt-Unteraar,FALSE,2022
+4106,Mönthal,AG,AG25,Bözberg-Villigen,TRUE,2022
+4107,Mülligen,AG,AG26,Birrfeld,FALSE,2022
+4110,Remigen,AG,AG25,Bözberg-Villigen,FALSE,2022
+4111,Riniken,AG,AG25,Bözberg-Villigen,FALSE,2022
+4112,Rüfenach,AG,AG23,Brugg,TRUE,2022
+4117,Thalheim (AG),AG,AG22,Schinznach,FALSE,2022
+4120,Veltheim (AG),AG,AG22,Schinznach,FALSE,2022
+4121,Villigen,AG,AG25,Bözberg-Villigen,FALSE,2022
+4123,Windisch,AG,AG24,Windisch,FALSE,2022
+4124,Bözberg,AG,AG25,Bözberg-Villigen,FALSE,2022
+4125,Schinznach,AG,AG22,Schinznach,FALSE,2022
+4131,Beinwil am See,AG,AG19,Reinach-Beinwil,FALSE,2022
+4132,Birrwil,AG,AG18,Aatal,FALSE,2022
+4134,Dürrenäsch,AG,AG18,Aatal,TRUE,2022
+4135,Gontenschwil,AG,AG13,Kulm,FALSE,2022
+4136,Holziken,AG,AG05,Mühlebach-Uerke,FALSE,2022
+4137,Leimbach (AG),AG,AG13,Kulm,FALSE,2022
+4138,Leutwil,AG,AG18,Aatal,FALSE,2022
+4139,Menziken,AG,AG21,Menziken,FALSE,2022
+4140,Oberkulm,AG,AG13,Kulm,FALSE,2022
+4141,Reinach (AG),AG,AG19,Reinach-Beinwil,FALSE,2022
+4142,Schlossrued,AG,AG13,Kulm,FALSE,2022
+4143,Schmiedrued,AG,AG13,Kulm,FALSE,2022
+4144,Schöftland,AG,AG12,Suhretal,FALSE,2022
+4145,Teufenthal (AG),AG,AG18,Aatal,TRUE,2022
+4146,Unterkulm,AG,AG20,Wynental,FALSE,2022
+4147,Zetzwil,AG,AG13,Kulm,FALSE,2022
+4161,Eiken,AG,AG54,Stein-Sisseln,FALSE,2022
+4163,Frick,AG,AG55,Fricktal,FALSE,2022
+4164,Gansingen,AG,AG57,Laufenburg,FALSE,2022
+4165,Gipf-Oberfrick,AG,AG56,Bruggbachtal,FALSE,2022
+4169,Kaisten,AG,AG57,Laufenburg,TRUE,2022
+4170,Laufenburg,AG,AG57,Laufenburg,FALSE,2022
+4172,Münchwilen (AG),AG,AG54,Stein-Sisseln,FALSE,2022
+4173,Oberhof,AG,AG56,Bruggbachtal,FALSE,2022
+4175,Oeschgen,AG,AG55,Fricktal,FALSE,2022
+4176,Schwaderloch,AG,AG57,Laufenburg,FALSE,2022
+4177,Sisseln,AG,AG54,Stein-Sisseln,FALSE,2022
+4181,Wittnau,AG,AG56,Bruggbachtal,FALSE,2022
+4182,Wölflinswil,AG,AG08,Erlinsbach-Staffelegg,TRUE,2022
+4183,Zeihen,AG,AG55,Fricktal,FALSE,2022
+4184,Mettauertal,AG,AG57,Laufenburg,FALSE,2022
+4185,Böztal,AG,AG55,Fricktal,FALSE,2022
+4186,Herznach-Ueken,AG,AG55,Fricktal,FALSE,2022
+4191,Ammerswil,AG,AG16,Lenzburg,FALSE,2022
+4192,Boniswil,AG,AG18,Aatal,FALSE,2022
+4193,Brunegg,AG,AG26,Birrfeld,FALSE,2022
+4194,Dintikon,AG,AG44,Unterbünztal,FALSE,2022
+4195,Egliswil,AG,AG17,Hallwiler See,TRUE,2022
+4196,Fahrwangen,AG,AG17,Hallwiler See,FALSE,2022
+4197,Hallwil,AG,AG18,Aatal,FALSE,2022
+4198,Hendschiken,AG,AG44,Unterbünztal,FALSE,2022
+4199,Holderbank (AG),AG,AG15,Niederlenz-Holderbank,FALSE,2022
+4200,Hunzenschwil,AG,AG14,Rupperswil-Schafisheim,FALSE,2022
+4201,Lenzburg,AG,AG16,Lenzburg,FALSE,2022
+4202,Meisterschwanden,AG,AG17,Hallwiler See,FALSE,2022
+4203,Möriken-Wildegg,AG,AG15,Niederlenz-Holderbank,FALSE,2022
+4204,Niederlenz,AG,AG15,Niederlenz-Holderbank,FALSE,2022
+4205,Othmarsingen,AG,AG44,Unterbünztal,FALSE,2022
+4206,Rupperswil,AG,AG14,Rupperswil-Schafisheim,TRUE,2022
+4207,Schafisheim,AG,AG14,Rupperswil-Schafisheim,FALSE,2022
+4208,Seengen,AG,AG17,Hallwiler See,FALSE,2022
+4209,Seon,AG,AG18,Aatal,FALSE,2022
+4210,Staufen,AG,AG16,Lenzburg,FALSE,2022
+4221,Abtwil,AG,AG49,Beinwil-Sins,FALSE,2022
+4222,Aristau,AG,AG48,Muri,FALSE,2022
+4223,Auw,AG,AG49,Beinwil-Sins,TRUE,2022
+4224,Beinwil (Freiamt),AG,AG49,Beinwil-Sins,FALSE,2022
+4226,Besenbüren,AG,AG47,Boswil,FALSE,2022
+4227,Bettwil,AG,AG46,Villmergen-Erusbach,TRUE,2022
+4228,Boswil,AG,AG48,Muri,TRUE,2022
+4229,Bünzen,AG,AG47,Boswil,FALSE,2022
+4230,Buttwil,AG,AG48,Muri,FALSE,2022
+4231,Dietwil,AG,AG49,Beinwil-Sins,TRUE,2022
+4232,Geltwil,AG,AG49,Beinwil-Sins,FALSE,2022
+4233,Kallern,AG,AG47,Boswil,FALSE,2022
+4234,Merenschwand,AG,AG48,Muri,TRUE,2022
+4235,Mühlau,AG,AG49,Beinwil-Sins,FALSE,2022
+4236,Muri (AG),AG,AG48,Muri,FALSE,2022
+4237,Oberrüti,AG,AG49,Beinwil-Sins,FALSE,2022
+4238,Rottenschwil,AG,AG47,Boswil,FALSE,2022
+4239,Sins,AG,AG49,Beinwil-Sins,TRUE,2022
+4240,Waltenschwil,AG,AG47,Boswil,FALSE,2022
+4251,Hellikon,AG,AG53,Möhlinbachtal-Mumpf,TRUE,2022
+4252,Kaiseraugst,AG,AG50,Kaiseraugst-Magden,FALSE,2022
+4253,Magden,AG,AG50,Kaiseraugst-Magden,FALSE,2022
+4254,Möhlin,AG,AG52,Möhlin,FALSE,2022
+4255,Mumpf,AG,AG53,Möhlinbachtal-Mumpf,FALSE,2022
+4256,Obermumpf,AG,AG53,Möhlinbachtal-Mumpf,FALSE,2022
+4257,Olsberg,AG,AG50,Kaiseraugst-Magden,TRUE,2022
+4258,Rheinfelden,AG,AG50,Kaiseraugst-Magden,TRUE,2022
+4259,Schupfart,AG,AG53,Möhlinbachtal-Mumpf,FALSE,2022
+4260,Stein (AG),AG,AG54,Stein-Sisseln,FALSE,2022
+4261,Wallbach,AG,AG53,Möhlinbachtal-Mumpf,FALSE,2022
+4262,Wegenstetten,AG,AG53,Möhlinbachtal-Mumpf,FALSE,2022
+4263,Zeiningen,AG,AG53,Möhlinbachtal-Mumpf,FALSE,2022
+4264,Zuzgen,AG,AG53,Möhlinbachtal-Mumpf,FALSE,2022
+4271,Aarburg,AG,AG01,Aarburg,TRUE,2022
+4273,Bottenwil,AG,AG05,Mühlebach-Uerke,FALSE,2022
+4274,Brittnau,AG,AG04,Aargaues Wiggertal,TRUE,2022
+4275,Kirchleerau,AG,AG12,Suhretal,FALSE,2022
+4276,Kölliken,AG,AG05,Mühlebach-Uerke,FALSE,2022
+4277,Moosleerau,AG,AG12,Suhretal,FALSE,2022
+4279,Murgenthal,AG,AG06,Rothrist-Murgenthal,TRUE,2022
+4280,Oftringen,AG,AG02,Oftringen,TRUE,2022
+4281,Reitnau,AG,AG12,Suhretal,FALSE,2022
+4282,Rothrist,AG,AG04,Aargaues Wiggertal,TRUE,2022
+4283,Safenwil,AG,AG05,Mühlebach-Uerke,FALSE,2022
+4284,Staffelbach,AG,AG12,Suhretal,FALSE,2022
+4285,Strengelbach,AG,AG04,Aargaues Wiggertal,FALSE,2022
+4286,Uerkheim,AG,AG03,Zofingen,TRUE,2022
+4287,Vordemwald,AG,AG04,Aargaues Wiggertal,TRUE,2022
+4288,Wiliberg,AG,AG05,Mühlebach-Uerke,FALSE,2022
+4289,Zofingen,AG,AG03,Zofingen,TRUE,2022
+4303,Böttstein,AG,AG29,Leibstadt-Unteraar,FALSE,2022
+4304,Döttingen,AG,AG28,Zurzach-Klingnau,FALSE,2022
+4305,Endingen,AG,AG27,Eetel-Surb,FALSE,2022
+4306,Fisibach,AG,AG27,Eetel-Surb,FALSE,2022
+4307,Full-Reuenthal,AG,AG29,Leibstadt-Unteraar,FALSE,2022
+4309,Klingnau,AG,AG28,Zurzach-Klingnau,FALSE,2022
+4310,Koblenz,AG,AG28,Zurzach-Klingnau,FALSE,2022
+4311,Leibstadt,AG,AG29,Leibstadt-Unteraar,FALSE,2022
+4312,Lengnau (AG),AG,AG27,Eetel-Surb,FALSE,2022
+4313,Leuggern,AG,AG29,Leibstadt-Unteraar,FALSE,2022
+4314,Mellikon,AG,AG27,Eetel-Surb,FALSE,2022
+4318,Schneisingen,AG,AG27,Eetel-Surb,FALSE,2022
+4319,Siglistorf,AG,AG27,Eetel-Surb,FALSE,2022
+4320,Tegerfelden,AG,AG27,Eetel-Surb,FALSE,2022
+4324,Zurzach,AG,AG27,Eetel-Surb,TRUE,2022
+4401,Arbon,TG,TG24,Arbon-Horn,FALSE,2022
+4406,Dozwil,TG,TG19,Amriswil,FALSE,2022
+4411,Egnach,TG,TG22,Egnach,FALSE,2022
+4416,Hefenhofen,TG,TG19,Amriswil,FALSE,2022
+4421,Horn,TG,TG24,Arbon-Horn,FALSE,2022
+4426,Kesswil,TG,TG21,Romanshorn,FALSE,2022
+4431,Roggwil (TG),TG,TG22,Egnach,TRUE,2022
+4436,Romanshorn,TG,TG21,Romanshorn,FALSE,2022
+4441,Salmsach,TG,TG22,Egnach,TRUE,2022
+4446,Sommeri,TG,TG19,Amriswil,FALSE,2022
+4451,Uttwil,TG,TG21,Romanshorn,FALSE,2022
+4461,Amriswil,TG,TG19,Amriswil,TRUE,2022
+4471,Bischofszell,TG,TG23,Bischofszell,FALSE,2022
+4476,Erlen,TG,TG20,Erlen-Sitterdorf,FALSE,2022
+4486,Hauptwil-Gottshaus,TG,TG23,Bischofszell,FALSE,2022
+4495,Hohentannen,TG,TG20,Erlen-Sitterdorf,FALSE,2022
+4501,Kradolf-Schönenberg,TG,TG10,Bürglen-Kradolf,FALSE,2022
+4506,Sulgen,TG,TG10,Bürglen-Kradolf,TRUE,2022
+4511,Zihlschlacht-Sitterdorf,TG,TG20,Erlen-Sitterdorf,TRUE,2022
+4536,Basadingen-Schlattingen,TG,TG13,Diessenhofen,TRUE,2022
+4545,Diessenhofen,TG,TG13,Diessenhofen,FALSE,2022
+4546,Schlatt (TG),TG,TG13,Diessenhofen,FALSE,2022
+4551,Aadorf,TG,TG05,Aadorf-Matzingen,FALSE,2022
+4561,Felben-Wellhausen,TG,TG06,Frauenfeld,TRUE,2022
+4566,Frauenfeld,TG,TG05,Aadorf-Matzingen,TRUE,2022
+4571,Gachnang,TG,TG06,Frauenfeld,FALSE,2022
+4590,Hüttlingen,TG,TG09,Mittelthurtal-Wolfsbühl,FALSE,2022
+4591,Matzingen,TG,TG05,Aadorf-Matzingen,TRUE,2022
+4601,Neunforn,TG,TG07,Unterthurtal,FALSE,2022
+4606,Stettfurt,TG,TG05,Aadorf-Matzingen,FALSE,2022
+4611,Thundorf,TG,TG06,Frauenfeld,TRUE,2022
+4616,Uesslingen-Buch,TG,TG07,Unterthurtal,FALSE,2022
+4621,Warth-Weiningen,TG,TG07,Unterthurtal,FALSE,2022
+4641,Altnau,TG,TG18,Münsterlingen-Güttingen,FALSE,2022
+4643,Bottighofen,TG,TG16,Kreuzlingen,TRUE,2022
+4646,Ermatingen,TG,TG15,Untersee,FALSE,2022
+4651,Gottlieben,TG,TG15,Untersee,FALSE,2022
+4656,Güttingen,TG,TG18,Münsterlingen-Güttingen,FALSE,2022
+4666,Kemmental,TG,TG17,Kemmental-Töbeltal,FALSE,2022
+4671,Kreuzlingen,TG,TG16,Kreuzlingen,TRUE,2022
+4681,Langrickenbach,TG,TG17,Kemmental-Töbeltal,TRUE,2022
+4683,Lengwil,TG,TG17,Kemmental-Töbeltal,FALSE,2022
+4691,Münsterlingen,TG,TG18,Münsterlingen-Güttingen,FALSE,2022
+4696,Tägerwilen,TG,TG15,Untersee,TRUE,2022
+4701,Wäldi,TG,TG08,Märstetten-Seerücken,TRUE,2022
+4711,Affeltrangen,TG,TG03,Wiler Thurgau,TRUE,2022
+4716,Bettwiesen,TG,TG03,Wiler Thurgau,FALSE,2022
+4721,Bichelsee-Balterswil,TG,TG01,Thurgauer Oberland,FALSE,2022
+4723,Braunau,TG,TG03,Wiler Thurgau,FALSE,2022
+4724,Eschlikon,TG,TG01,Thurgauer Oberland,TRUE,2022
+4726,Fischingen,TG,TG01,Thurgauer Oberland,TRUE,2022
+4741,Lommis,TG,TG03,Wiler Thurgau,FALSE,2022
+4746,Münchwilen (TG),TG,TG04,Münchwilen-Wängi,TRUE,2022
+4751,Rickenbach (TG),TG,TG02,Sirnach,TRUE,2022
+4756,Schönholzerswilen,TG,TG10,Bürglen-Kradolf,FALSE,2022
+4761,Sirnach,TG,TG02,Sirnach,FALSE,2022
+4776,Tobel-Tägerschen,TG,TG03,Wiler Thurgau,FALSE,2022
+4781,Wängi,TG,TG04,Münchwilen-Wängi,FALSE,2022
+4786,Wilen (TG),TG,TG02,Sirnach,FALSE,2022
+4791,Wuppenau,TG,TG03,Wiler Thurgau,FALSE,2022
+4801,Berlingen,TG,TG15,Untersee,FALSE,2022
+4806,Eschenz,TG,TG14,Seerücken,FALSE,2022
+4811,Herdern,TG,TG07,Unterthurtal,FALSE,2022
+4816,Homburg,TG,TG08,Märstetten-Seerücken,FALSE,2022
+4821,Hüttwilen,TG,TG07,Unterthurtal,FALSE,2022
+4826,Mammern,TG,TG14,Seerücken,TRUE,2022
+4831,Müllheim,TG,TG08,Märstetten-Seerücken,FALSE,2022
+4841,Pfyn,TG,TG07,Unterthurtal,TRUE,2022
+4846,Raperswilen,TG,TG08,Märstetten-Seerücken,FALSE,2022
+4851,Salenstein,TG,TG15,Untersee,FALSE,2022
+4864,Steckborn,TG,TG14,Seerücken,FALSE,2022
+4871,Wagenhausen,TG,TG14,Seerücken,FALSE,2022
+4881,Amlikon-Bissegg,TG,TG08,Märstetten-Seerücken,TRUE,2022
+4891,Berg (TG),TG,TG12,Sulgen-Berg,TRUE,2022
+4901,Birwinken,TG,TG17,Kemmental-Töbeltal,TRUE,2022
+4911,Bürglen (TG),TG,TG10,Bürglen-Kradolf,TRUE,2022
+4921,Bussnang,TG,TG10,Bürglen-Kradolf,TRUE,2022
+4941,Märstetten,TG,TG08,Märstetten-Seerücken,FALSE,2022
+4946,Weinfelden,TG,TG10,Bürglen-Kradolf,TRUE,2022
+4951,Wigoltingen,TG,TG08,Märstetten-Seerücken,TRUE,2022
+5001,Arbedo-Castione,TI,TI14,Lumino-Carasso,FALSE,2022
+5002,Bellinzona,TI,TI15,Giubiasco-Val Morobbia,TRUE,2022
+5003,Cadenazzo,TI,TI16,Alto Piano di Magadino,FALSE,2022
+5009,Isone,TI,TI17,Alto Vedeggio,FALSE,2022
+5010,Lumino,TI,TI14,Lumino-Carasso,FALSE,2022
+5017,Sant'Antonino,TI,TI16,Alto Piano di Magadino,TRUE,2022
+5048,Acquarossa,TI,TI03,Val Blenio,FALSE,2022
+5049,Blenio,TI,TI03,Val Blenio,FALSE,2022
+5050,Serravalle,TI,TI03,Val Blenio,TRUE,2022
+5061,Airolo,TI,TI05,Alta Leventina,FALSE,2022
+5063,Bedretto,TI,TI05,Alta Leventina,FALSE,2022
+5071,Dalpe,TI,TI05,Alta Leventina,FALSE,2022
+5072,Faido,TI,TI04,Bassa Leventina,TRUE,2022
+5073,Giornico,TI,TI04,Bassa Leventina,FALSE,2022
+5076,Personico,TI,TI04,Bassa Leventina,FALSE,2022
+5077,Pollegio,TI,TI04,Bassa Leventina,FALSE,2022
+5079,Quinto,TI,TI05,Alta Leventina,FALSE,2022
+5091,Ascona,TI,TI10,Ascona-Brissago,TRUE,2022
+5096,Brione sopra Minusio,TI,TI07,Gordola-Verzasca,TRUE,2022
+5097,Brissago,TI,TI10,Ascona-Brissago,FALSE,2022
+5108,Gordola,TI,TI07,Gordola-Verzasca,FALSE,2022
+5112,Lavertezzo,TI,TI06,Magadino-Gambarogno,FALSE,2022
+5113,Locarno,TI,TI06,Magadino-Gambarogno,TRUE,2022
+5115,Losone,TI,TI09,Losone-Centovalli-Onsernone,FALSE,2022
+5117,Mergoscia,TI,TI07,Gordola-Verzasca,FALSE,2022
+5118,Minusio,TI,TI11,Minusio-Orselina,FALSE,2022
+5120,Muralto,TI,TI08,Locarno,FALSE,2022
+5121,Orselina,TI,TI08,Locarno,TRUE,2022
+5125,Ronco sopra Ascona,TI,TI10,Ascona-Brissago,FALSE,2022
+5131,Tenero-Contra,TI,TI07,Gordola-Verzasca,FALSE,2022
+5136,Onsernone,TI,TI09,Losone-Centovalli-Onsernone,FALSE,2022
+5138,Cugnasco-Gerra,TI,TI06,Magadino-Gambarogno,TRUE,2022
+5141,Agno,TI,TI23,Magliaso-Val d'Agno,FALSE,2022
+5143,Aranno,TI,TI23,Magliaso-Val d'Agno,FALSE,2022
+5144,Arogno,TI,TI29,Riva-Valle Mara,FALSE,2022
+5148,Bedano,TI,TI18,Alto Val d'Agno,FALSE,2022
+5151,Bioggio,TI,TI23,Magliaso-Val d'Agno,FALSE,2022
+5154,Bissone,TI,TI29,Riva-Valle Mara,FALSE,2022
+5160,Brusino Arsizio,TI,TI29,Riva-Valle Mara,FALSE,2022
+5161,Cademario,TI,TI23,Magliaso-Val d'Agno,FALSE,2022
+5162,Cadempino,TI,TI18,Alto Val d'Agno,FALSE,2022
+5167,Canobbio,TI,TI25,Savosa-Comano,FALSE,2022
+5171,Caslano,TI,TI24,Malcantone,FALSE,2022
+5176,Comano,TI,TI25,Savosa-Comano,FALSE,2022
+5180,Cureglia,TI,TI25,Savosa-Comano,FALSE,2022
+5186,Grancia,TI,TI19,Collina d'Oro-Arbòstora,FALSE,2022
+5187,Gravesano,TI,TI18,Alto Val d'Agno,FALSE,2022
+5189,Lamone,TI,TI18,Alto Val d'Agno,TRUE,2022
+5192,Lugano,TI,TI19,Collina d'Oro-Arbòstora,TRUE,2022
+5193,Magliaso,TI,TI23,Magliaso-Val d'Agno,FALSE,2022
+5194,Manno,TI,TI18,Alto Val d'Agno,TRUE,2022
+5196,Massagno,TI,TI20,Lugano,FALSE,2022
+5198,Melide,TI,TI19,Collina d'Oro-Arbòstora,FALSE,2022
+5199,Mezzovico-Vira,TI,TI17,Alto Vedeggio,FALSE,2022
+5203,Morcote,TI,TI19,Collina d'Oro-Arbòstora,FALSE,2022
+5205,Muzzano,TI,TI22,Breganzona,TRUE,2022
+5206,Neggio,TI,TI23,Magliaso-Val d'Agno,FALSE,2022
+5208,Origlio,TI,TI26,Capriasca-Valcolla,FALSE,2022
+5210,Paradiso,TI,TI20,Lugano,FALSE,2022
+5212,Ponte Capriasca,TI,TI26,Capriasca-Valcolla,FALSE,2022
+5214,Porza,TI,TI25,Savosa-Comano,FALSE,2022
+5216,Pura,TI,TI24,Malcantone,FALSE,2022
+5221,Savosa,TI,TI25,Savosa-Comano,FALSE,2022
+5225,Sorengo,TI,TI22,Breganzona,FALSE,2022
+5226,Capriasca,TI,TI26,Capriasca-Valcolla,TRUE,2022
+5227,Torricella-Taverne,TI,TI17,Alto Vedeggio,FALSE,2022
+5230,Vernate,TI,TI23,Magliaso-Val d'Agno,FALSE,2022
+5231,Vezia,TI,TI18,Alto Val d'Agno,FALSE,2022
+5233,Vico Morcote,TI,TI19,Collina d'Oro-Arbòstora,FALSE,2022
+5236,Collina d'Oro,TI,TI19,Collina d'Oro-Arbòstora,TRUE,2022
+5237,Alto Malcantone,TI,TI24,Malcantone,FALSE,2022
+5238,Monteceneri,TI,TI17,Alto Vedeggio,FALSE,2022
+5239,Tresa,TI,TI24,Malcantone,FALSE,2022
+5240,Val Mara,TI,TI29,Riva-Valle Mara,FALSE,2022
+5242,Balerna,TI,TI30,Balerna-Novazzano,TRUE,2022
+5249,Castel San Pietro,TI,TI30,Balerna-Novazzano,TRUE,2022
+5250,Chiasso,TI,TI31,Chiasso,FALSE,2022
+5251,Coldrerio,TI,TI30,Balerna-Novazzano,FALSE,2022
+5254,Mendrisio,TI,TI34,Stabio-Meride,TRUE,2022
+5257,Morbio Inferiore,TI,TI32,Val di Muggio,FALSE,2022
+5260,Novazzano,TI,TI30,Balerna-Novazzano,FALSE,2022
+5263,Riva San Vitale,TI,TI29,Riva-Valle Mara,FALSE,2022
+5266,Stabio,TI,TI34,Stabio-Meride,FALSE,2022
+5268,Vacallo,TI,TI32,Val di Muggio,FALSE,2022
+5269,Breggia,TI,TI32,Val di Muggio,FALSE,2022
+5281,Biasca,TI,TI02,Biasca,TRUE,2022
+5287,Riviera,TI,TI01,Riviera,TRUE,2022
+5304,Bosco/Gurin,TI,TI12,Vallemaggia,FALSE,2022
+5307,Campo (Vallemaggia),TI,TI12,Vallemaggia,FALSE,2022
+5309,Cerentino,TI,TI12,Vallemaggia,FALSE,2022
+5310,Cevio,TI,TI12,Vallemaggia,FALSE,2022
+5315,Linescio,TI,TI12,Vallemaggia,FALSE,2022
+5317,Maggia,TI,TI12,Vallemaggia,FALSE,2022
+5323,Lavizzara,TI,TI12,Vallemaggia,FALSE,2022
+5324,Avegno Gordevio,TI,TI12,Vallemaggia,FALSE,2022
+5391,Comunanza Cadenazzo/Monteceneri,TI,TI17,Alto Vedeggio,FALSE,2022
+5395,Lema,TI,TI24,Malcantone,FALSE,2022
+5396,Terre di Pedemonte,TI,TI09,Losone-Centovalli-Onsernone,FALSE,2022
+5397,Centovalli,TI,TI09,Losone-Centovalli-Onsernone,FALSE,2022
+5398,Gambarogno,TI,TI06,Magadino-Gambarogno,TRUE,2022
+5399,Verzasca,TI,TI07,Gordola-Verzasca,FALSE,2022
+5401,Aigle,VD,VD41,Les Ormonts,TRUE,2022
+5402,Bex,VD,VD44,Bex,FALSE,2022
+5403,Chessel,VD,VD40,Villeneuve-Chablais,FALSE,2022
+5404,Corbeyrier,VD,VD40,Villeneuve-Chablais,FALSE,2022
+5405,Gryon,VD,VD44,Bex,FALSE,2022
+5406,Lavey-Morcles,VD,VD44,Bex,FALSE,2022
+5407,Leysin,VD,VD41,Les Ormonts,FALSE,2022
+5408,Noville,VD,VD40,Villeneuve-Chablais,FALSE,2022
+5409,Ollon,VD,VD42,Ollon-Villars,TRUE,2022
+5410,Ormont-Dessous,VD,VD41,Les Ormonts,TRUE,2022
+5411,Ormont-Dessus,VD,VD41,Les Ormonts,FALSE,2022
+5412,Rennaz,VD,VD40,Villeneuve-Chablais,FALSE,2022
+5413,Roche (VD),VD,VD40,Villeneuve-Chablais,FALSE,2022
+5414,Villeneuve (VD),VD,VD40,Villeneuve-Chablais,FALSE,2022
+5415,Yvorne,VD,VD40,Villeneuve-Chablais,FALSE,2022
+5422,Aubonne,VD,VD23,Pied-du-Jura,TRUE,2022
+5423,Ballens,VD,VD23,Pied-du-Jura,FALSE,2022
+5424,Berolle,VD,VD23,Pied-du-Jura,FALSE,2022
+5425,Bière,VD,VD23,Pied-du-Jura,FALSE,2022
+5426,Bougy-Villars,VD,VD25,Rolle-La Côte,FALSE,2022
+5427,Féchy,VD,VD24,Aubonne-Littoral,TRUE,2022
+5428,Gimel,VD,VD23,Pied-du-Jura,FALSE,2022
+5429,Longirod,VD,VD23,Pied-du-Jura,FALSE,2022
+5430,Marchissy,VD,VD23,Pied-du-Jura,FALSE,2022
+5431,Mollens (VD),VD,VD23,Pied-du-Jura,FALSE,2022
+5434,Saint-George,VD,VD23,Pied-du-Jura,FALSE,2022
+5435,Saint-Livres,VD,VD23,Pied-du-Jura,TRUE,2022
+5436,Saint-Oyens,VD,VD23,Pied-du-Jura,FALSE,2022
+5437,Saubraz,VD,VD23,Pied-du-Jura,FALSE,2022
+5451,Avenches,VD,FR17,Lac francophone,TRUE,2022
+5456,Cudrefin,VD,VD01,Avenches,FALSE,2022
+5458,Faoug,VD,VD01,Avenches,FALSE,2022
+5464,Vully-les-Lacs,VD,VD01,Avenches,TRUE,2022
+5471,Bettens,VD,VD46,Venoge-Est,TRUE,2022
+5472,Bournens,VD,VD46,Venoge-Est,FALSE,2022
+5473,Boussens,VD,VD46,Venoge-Est,FALSE,2022
+5474,La Chaux (Cossonay),VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5475,Chavannes-le-Veyron,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5476,Chevilly,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5477,Cossonay,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5479,Cuarnens,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5480,Daillens,VD,VD46,Venoge-Est,FALSE,2022
+5481,Dizy,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5482,Eclépens,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5483,Ferreyres,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5484,Gollion,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5485,Grancy,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5486,L'Isle,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5487,Lussery-Villars,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5488,Mauraz,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5489,Mex (VD),VD,VD46,Venoge-Est,FALSE,2022
+5490,Moiry,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5491,Mont-la-Ville,VD,VD49,Cossonay-Pied-du-Jura,TRUE,2022
+5492,Montricher,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5493,Orny,VD,VD50,La Sarraz-Nozon,TRUE,2022
+5495,Penthalaz,VD,VD46,Venoge-Est,FALSE,2022
+5496,Penthaz,VD,VD46,Venoge-Est,FALSE,2022
+5497,Pompaples,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5498,La Sarraz,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5499,Senarclens,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5501,Sullens,VD,VD46,Venoge-Est,FALSE,2022
+5503,Vufflens-la-Ville,VD,VD46,Venoge-Est,FALSE,2022
+5511,Assens,VD,VD47,Echallens,FALSE,2022
+5512,Bercher,VD,VD48,Jorat-Essertines,FALSE,2022
+5514,Bottens,VD,VD48,Jorat-Essertines,FALSE,2022
+5515,Bretigny-sur-Morrens,VD,VD16,Hauts-de-Lausanne,FALSE,2022
+5516,Cugy (VD),VD,VD16,Hauts-de-Lausanne,FALSE,2022
+5518,Echallens,VD,VD47,Echallens,FALSE,2022
+5520,Essertines-sur-Yverdon,VD,VD48,Jorat-Essertines,FALSE,2022
+5521,Etagnières,VD,VD47,Echallens,FALSE,2022
+5522,Fey,VD,VD48,Jorat-Essertines,FALSE,2022
+5523,Froideville,VD,VD16,Hauts-de-Lausanne,FALSE,2022
+5527,Morrens (VD),VD,VD16,Hauts-de-Lausanne,FALSE,2022
+5529,Oulens-sous-Echallens,VD,VD52,Chavornay-Talent,FALSE,2022
+5530,Pailly,VD,VD48,Jorat-Essertines,FALSE,2022
+5531,Penthéréaz,VD,VD52,Chavornay-Talent,FALSE,2022
+5533,Poliez-Pittet,VD,VD48,Jorat-Essertines,FALSE,2022
+5534,Rueyres,VD,VD48,Jorat-Essertines,FALSE,2022
+5535,Saint-Barthélemy (VD),VD,VD47,Echallens,FALSE,2022
+5537,Villars-le-Terroir,VD,VD47,Echallens,FALSE,2022
+5539,Vuarrens,VD,VD48,Jorat-Essertines,FALSE,2022
+5540,Montilliez,VD,VD48,Jorat-Essertines,FALSE,2022
+5541,Goumoëns,VD,VD52,Chavornay-Talent,FALSE,2022
+5551,Bonvillars,VD,VD55,Val d'Arnon-Provence,FALSE,2022
+5552,Bullet,VD,VD57,Balcon-du-Jura,FALSE,2022
+5553,Champagne,VD,VD55,Val d'Arnon-Provence,FALSE,2022
+5554,Concise,VD,NE05,Bevaix-Béroche,TRUE,2022
+5555,Corcelles-près-Concise,VD,VD55,Val d'Arnon-Provence,FALSE,2022
+5556,Fiez,VD,VD55,Val d'Arnon-Provence,TRUE,2022
+5557,Fontaines-sur-Grandson,VD,VD55,Val d'Arnon-Provence,TRUE,2022
+5559,Giez,VD,VD56,Yverdon-Couronne,FALSE,2022
+5560,Grandevent,VD,VD55,Val d'Arnon-Provence,TRUE,2022
+5561,Grandson,VD,VD56,Yverdon-Couronne,FALSE,2022
+5562,Mauborget,VD,VD57,Balcon-du-Jura,FALSE,2022
+5563,Mutrux,VD,VD55,Val d'Arnon-Provence,FALSE,2022
+5564,Novalles,VD,VD55,Val d'Arnon-Provence,FALSE,2022
+5565,Onnens (VD),VD,VD55,Val d'Arnon-Provence,FALSE,2022
+5566,Provence,VD,NE13,Bas Val de Travers,TRUE,2022
+5568,Sainte-Croix,VD,VD57,Balcon-du-Jura,TRUE,2022
+5571,Tévenon,VD,VD55,Val d'Arnon-Provence,TRUE,2022
+5581,Belmont-sur-Lausanne,VD,VD17,Savigny-Belmont,FALSE,2022
+5582,Cheseaux-sur-Lausanne,VD,VD15,Romanel-Cheseaux,FALSE,2022
+5583,Crissier,VD,VD14,Bussigny-Crissier,TRUE,2022
+5584,Epalinges,VD,VD02,Epalinges-Forains,FALSE,2022
+5585,Jouxtens-Mézery,VD,VD07,Prilly,FALSE,2022
+5586,Lausanne,VD,VD03,Lausanne-Centre,TRUE,2022
+5587,Le Mont-sur-Lausanne,VD,VD16,Hauts-de-Lausanne,FALSE,2022
+5588,Paudex,VD,VD18,Lutry,FALSE,2022
+5589,Prilly,VD,VD07,Prilly,FALSE,2022
+5590,Pully,VD,VD02,Epalinges-Forains,TRUE,2022
+5591,Renens (VD),VD,VD12,Renens,FALSE,2022
+5592,Romanel-sur-Lausanne,VD,VD15,Romanel-Cheseaux,FALSE,2022
+5601,Chexbres,VD,VD32,Puidoux-Chexbres,FALSE,2022
+5604,Forel (Lavaux),VD,VD33,Cully-Lavaux,TRUE,2022
+5606,Lutry,VD,VD17,Savigny-Belmont,TRUE,2022
+5607,Puidoux,VD,VD32,Puidoux-Chexbres,TRUE,2022
+5609,Rivaz,VD,VD32,Puidoux-Chexbres,FALSE,2022
+5610,Saint-Saphorin (Lavaux),VD,VD32,Puidoux-Chexbres,FALSE,2022
+5611,Savigny,VD,VD17,Savigny-Belmont,TRUE,2022
+5613,Bourg-en-Lavaux,VD,VD33,Cully-Lavaux,TRUE,2022
+5621,Aclens,VD,VD21,Hauts-de-Morges,FALSE,2022
+5622,Bremblens,VD,VD21,Hauts-de-Morges,FALSE,2022
+5623,Buchillon,VD,VD24,Aubonne-Littoral,FALSE,2022
+5624,Bussigny,VD,VD14,Bussigny-Crissier,FALSE,2022
+5627,Chavannes-près-Renens,VD,VD13,Ecublens-Chavannes,FALSE,2022
+5628,Chigny,VD,VD21,Hauts-de-Morges,FALSE,2022
+5629,Clarmont,VD,VD21,Hauts-de-Morges,FALSE,2022
+5631,Denens,VD,VD22,St-Prex,FALSE,2022
+5632,Denges,VD,VD19,Basse-Venoge,FALSE,2022
+5633,Echandens,VD,VD19,Basse-Venoge,FALSE,2022
+5634,Echichens,VD,VD21,Hauts-de-Morges,FALSE,2022
+5635,Ecublens (VD),VD,VD13,Ecublens-Chavannes,FALSE,2022
+5636,Etoy,VD,VD24,Aubonne-Littoral,FALSE,2022
+5637,Lavigny,VD,VD24,Aubonne-Littoral,FALSE,2022
+5638,Lonay,VD,VD19,Basse-Venoge,FALSE,2022
+5639,Lully (VD),VD,VD22,St-Prex,FALSE,2022
+5640,Lussy-sur-Morges,VD,VD22,St-Prex,FALSE,2022
+5642,Morges,VD,VD20,Morges,FALSE,2022
+5643,Préverenges,VD,VD19,Basse-Venoge,FALSE,2022
+5645,Romanel-sur-Morges,VD,VD21,Hauts-de-Morges,FALSE,2022
+5646,Saint-Prex,VD,VD22,St-Prex,FALSE,2022
+5648,Saint-Sulpice (VD),VD,VD13,Ecublens-Chavannes,FALSE,2022
+5649,Tolochenaz,VD,VD22,St-Prex,FALSE,2022
+5650,Vaux-sur-Morges,VD,VD21,Hauts-de-Morges,FALSE,2022
+5651,Villars-Sainte-Croix,VD,VD14,Bussigny-Crissier,FALSE,2022
+5652,Villars-sous-Yens,VD,VD22,St-Prex,FALSE,2022
+5653,Vufflens-le-Château,VD,VD21,Hauts-de-Morges,FALSE,2022
+5654,Vullierens,VD,VD21,Hauts-de-Morges,FALSE,2022
+5655,Yens,VD,VD21,Hauts-de-Morges,FALSE,2022
+5656,Hautemorges,VD,VD21,Hauts-de-Morges,TRUE,2022
+5661,Boulens,VD,VD48,Jorat-Essertines,TRUE,2022
+5663,Bussy-sur-Moudon,VD,VD60,Moudon-Thierrens,FALSE,2022
+5665,Chavannes-sur-Moudon,VD,VD60,Moudon-Thierrens,FALSE,2022
+5669,Curtilles,VD,VD63,Moyenne-Broye,FALSE,2022
+5671,Dompierre (VD),VD,VD63,Moyenne-Broye,FALSE,2022
+5673,Hermenches,VD,VD61,Haut-Jorat,FALSE,2022
+5674,Lovatens,VD,VD63,Moyenne-Broye,FALSE,2022
+5675,Lucens,VD,VD63,Moyenne-Broye,TRUE,2022
+5678,Moudon,VD,VD60,Moudon-Thierrens,FALSE,2022
+5680,Ogens,VD,VD60,Moudon-Thierrens,FALSE,2022
+5683,Prévonloup,VD,VD63,Moyenne-Broye,FALSE,2022
+5684,Rossenges,VD,VD61,Haut-Jorat,FALSE,2022
+5688,Syens,VD,VD60,Moudon-Thierrens,FALSE,2022
+5690,Villars-le-Comte,VD,VD60,Moudon-Thierrens,FALSE,2022
+5692,Vucherens,VD,VD61,Haut-Jorat,FALSE,2022
+5693,Montanaire,VD,VD60,Moudon-Thierrens,TRUE,2022
+5701,Arnex-sur-Nyon,VD,VD28,Bonmont,FALSE,2022
+5702,Arzier-Le Muids,VD,VD30,Trélex-Givrine,FALSE,2022
+5703,Bassins,VD,VD30,Trélex-Givrine,FALSE,2022
+5704,Begnins,VD,VD29,Promenthouse,FALSE,2022
+5705,Bogis-Bossey,VD,VD31,Terre-Sainte,FALSE,2022
+5706,Borex,VD,VD28,Bonmont,FALSE,2022
+5707,Chavannes-de-Bogis,VD,VD31,Terre-Sainte,FALSE,2022
+5708,Chavannes-des-Bois,VD,GE29,Versoix-Céligny,FALSE,2022
+5709,Chéserex,VD,VD28,Bonmont,FALSE,2022
+5710,Coinsins,VD,VD29,Promenthouse,FALSE,2022
+5711,Commugny,VD,VD31,Terre-Sainte,FALSE,2022
+5712,Coppet,VD,VD31,Terre-Sainte,FALSE,2022
+5713,Crans (VD),VD,VD28,Bonmont,FALSE,2022
+5714,Crassier,VD,VD28,Bonmont,FALSE,2022
+5715,Duillier,VD,VD29,Promenthouse,FALSE,2022
+5716,Eysins,VD,VD28,Bonmont,FALSE,2022
+5717,Founex,VD,VD31,Terre-Sainte,FALSE,2022
+5718,Genolier,VD,VD30,Trélex-Givrine,FALSE,2022
+5719,Gingins,VD,VD28,Bonmont,FALSE,2022
+5720,Givrins,VD,VD30,Trélex-Givrine,FALSE,2022
+5721,Gland,VD,VD26,Gland,FALSE,2022
+5722,Grens,VD,VD28,Bonmont,FALSE,2022
+5723,Mies,VD,GE29,Versoix-Céligny,TRUE,2022
+5724,Nyon,VD,VD27,Nyon,FALSE,2022
+5725,Prangins,VD,VD27,Nyon,TRUE,2022
+5726,La Rippe,VD,VD28,Bonmont,FALSE,2022
+5727,Saint-Cergue,VD,VD30,Trélex-Givrine,TRUE,2022
+5728,Signy-Avenex,VD,VD28,Bonmont,FALSE,2022
+5729,Tannay,VD,VD31,Terre-Sainte,FALSE,2022
+5730,Trélex,VD,VD30,Trélex-Givrine,FALSE,2022
+5731,Le Vaud,VD,VD23,Pied-du-Jura,FALSE,2022
+5732,Vich,VD,VD29,Promenthouse,FALSE,2022
+5741,L'Abergement,VD,VD51,Orbe-Gorges,FALSE,2022
+5742,Agiez,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5743,Arnex-sur-Orbe,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5744,Ballaigues,VD,VD58,Vallorbe-Ballaigues,FALSE,2022
+5745,Baulmes,VD,VD56,Yverdon-Couronne,TRUE,2022
+5746,Bavois,VD,VD52,Chavornay-Talent,FALSE,2022
+5747,Bofflens,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5748,Bretonnières,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5749,Chavornay,VD,VD52,Chavornay-Talent,TRUE,2022
+5750,Les Clées,VD,VD51,Orbe-Gorges,FALSE,2022
+5752,Croy,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5754,Juriens,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5755,Lignerolle,VD,VD51,Orbe-Gorges,FALSE,2022
+5756,Montcherand,VD,VD51,Orbe-Gorges,FALSE,2022
+5757,Orbe,VD,VD51,Orbe-Gorges,FALSE,2022
+5758,La Praz,VD,VD49,Cossonay-Pied-du-Jura,FALSE,2022
+5759,Premier,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5760,Rances,VD,VD51,Orbe-Gorges,FALSE,2022
+5761,Romainmôtier-Envy,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5762,Sergey,VD,VD51,Orbe-Gorges,FALSE,2022
+5763,Valeyres-sous-Rances,VD,VD51,Orbe-Gorges,FALSE,2022
+5764,Vallorbe,VD,VD58,Vallorbe-Ballaigues,FALSE,2022
+5765,Vaulion,VD,VD50,La Sarraz-Nozon,FALSE,2022
+5766,Vuiteboeuf,VD,VD56,Yverdon-Couronne,FALSE,2022
+5785,Corcelles-le-Jorat,VD,VD61,Haut-Jorat,FALSE,2022
+5790,Maracon,VD,VD62,Oron-Palézieux,FALSE,2022
+5792,Montpreveyres,VD,VD61,Haut-Jorat,FALSE,2022
+5798,Ropraz,VD,VD61,Haut-Jorat,FALSE,2022
+5799,Servion,VD,VD61,Haut-Jorat,FALSE,2022
+5803,Vulliens,VD,VD61,Haut-Jorat,FALSE,2022
+5804,Jorat-Menthue,VD,VD48,Jorat-Essertines,TRUE,2022
+5805,Oron,VD,VD62,Oron-Palézieux,FALSE,2022
+5806,Jorat-Mézières,VD,VD61,Haut-Jorat,FALSE,2022
+5812,Champtauroz,VD,VD63,Moyenne-Broye,FALSE,2022
+5813,Chevroux,VD,VD64,Payerne,FALSE,2022
+5816,Corcelles-près-Payerne,VD,FR29,Domdidier,TRUE,2022
+5817,Grandcour,VD,VD64,Payerne,FALSE,2022
+5819,Henniez,VD,VD63,Moyenne-Broye,FALSE,2022
+5821,Missy,VD,FR29,Domdidier,FALSE,2022
+5822,Payerne,VD,VD64,Payerne,FALSE,2022
+5827,Trey,VD,VD63,Moyenne-Broye,FALSE,2022
+5828,Treytorrens (Payerne),VD,VD63,Moyenne-Broye,FALSE,2022
+5830,Villarzel,VD,VD63,Moyenne-Broye,FALSE,2022
+5831,Valbroye,VD,VD63,Moyenne-Broye,TRUE,2022
+5841,Château-d'Oex,VD,VD45,Pays-d'Enhaut,FALSE,2022
+5842,Rossinière,VD,VD45,Pays-d'Enhaut,FALSE,2022
+5843,Rougemont,VD,VD45,Pays-d'Enhaut,FALSE,2022
+5851,Allaman,VD,VD24,Aubonne-Littoral,FALSE,2022
+5852,Bursinel,VD,VD25,Rolle-La Côte,FALSE,2022
+5853,Bursins,VD,VD25,Rolle-La Côte,TRUE,2022
+5854,Burtigny,VD,VD29,Promenthouse,FALSE,2022
+5855,Dully,VD,VD25,Rolle-La Côte,FALSE,2022
+5856,Essertines-sur-Rolle,VD,VD25,Rolle-La Côte,TRUE,2022
+5857,Gilly,VD,VD25,Rolle-La Côte,TRUE,2022
+5858,Luins,VD,VD25,Rolle-La Côte,FALSE,2022
+5859,Mont-sur-Rolle,VD,VD25,Rolle-La Côte,FALSE,2022
+5860,Perroy,VD,VD25,Rolle-La Côte,FALSE,2022
+5861,Rolle,VD,VD25,Rolle-La Côte,FALSE,2022
+5862,Tartegnin,VD,VD25,Rolle-La Côte,FALSE,2022
+5863,Vinzel,VD,VD25,Rolle-La Côte,TRUE,2022
+5871,L'Abbaye,VD,VD59,Vallée de Joux,FALSE,2022
+5872,Le Chenit,VD,VD59,Vallée de Joux,FALSE,2022
+5873,Le Lieu,VD,VD59,Vallée de Joux,FALSE,2022
+5882,Chardonne,VD,VD35,Mont-Pèlerin,FALSE,2022
+5883,Corseaux,VD,VD35,Mont-Pèlerin,FALSE,2022
+5884,Corsier-sur-Vevey,VD,VD35,Mont-Pèlerin,FALSE,2022
+5885,Jongny,VD,VD35,Mont-Pèlerin,FALSE,2022
+5886,Montreux,VD,VD38,Clarens-Les Avants,TRUE,2022
+5889,La Tour-de-Peilz,VD,VD37,La Tour-de-Peilz,FALSE,2022
+5890,Vevey,VD,VD34,Vevey,FALSE,2022
+5891,Veytaux,VD,VD39,Montreux-Chillon,FALSE,2022
+5892,Blonay - Saint-Légier,VD,VD36,Hauts-de-la-Tour,FALSE,2022
+5902,Belmont-sur-Yverdon,VD,VD54,Yvonand-Menthue,FALSE,2022
+5903,Bioley-Magnoux,VD,VD54,Yvonand-Menthue,TRUE,2022
+5904,Chamblon,VD,VD56,Yverdon-Couronne,FALSE,2022
+5905,Champvent,VD,VD56,Yverdon-Couronne,FALSE,2022
+5907,Chavannes-le-Chêne,VD,VD54,Yvonand-Menthue,FALSE,2022
+5908,Chêne-Pâquier,VD,VD54,Yvonand-Menthue,FALSE,2022
+5909,Cheseaux-Noréaz,VD,VD53,Yverdon,FALSE,2022
+5910,Cronay,VD,VD54,Yvonand-Menthue,FALSE,2022
+5911,Cuarny,VD,VD53,Yverdon,TRUE,2022
+5912,Démoret,VD,VD54,Yvonand-Menthue,FALSE,2022
+5913,Donneloye,VD,VD54,Yvonand-Menthue,FALSE,2022
+5914,Ependes (VD),VD,VD54,Yvonand-Menthue,FALSE,2022
+5919,Mathod,VD,VD56,Yverdon-Couronne,FALSE,2022
+5921,Molondin,VD,VD54,Yvonand-Menthue,FALSE,2022
+5922,Montagny-près-Yverdon,VD,VD56,Yverdon-Couronne,FALSE,2022
+5923,Oppens,VD,VD54,Yvonand-Menthue,FALSE,2022
+5924,Orges,VD,VD56,Yverdon-Couronne,FALSE,2022
+5925,Orzens,VD,VD54,Yvonand-Menthue,FALSE,2022
+5926,Pomy,VD,VD54,Yvonand-Menthue,FALSE,2022
+5928,Rovray,VD,VD54,Yvonand-Menthue,FALSE,2022
+5929,Suchy,VD,VD54,Yvonand-Menthue,FALSE,2022
+5930,Suscévaz,VD,VD56,Yverdon-Couronne,FALSE,2022
+5931,Treycovagnes,VD,VD56,Yverdon-Couronne,FALSE,2022
+5932,Ursins,VD,VD54,Yvonand-Menthue,FALSE,2022
+5933,Valeyres-sous-Montagny,VD,VD56,Yverdon-Couronne,FALSE,2022
+5934,Valeyres-sous-Ursins,VD,VD54,Yvonand-Menthue,FALSE,2022
+5935,Villars-Epeney,VD,VD54,Yvonand-Menthue,FALSE,2022
+5937,Vugelles-La Mothe,VD,VD55,Val d'Arnon-Provence,FALSE,2022
+5938,Yverdon-les-Bains,VD,VD53,Yverdon,TRUE,2022
+5939,Yvonand,VD,VD54,Yvonand-Menthue,FALSE,2022
+6002,Brig-Glis,VS,VS02,Brig-Glis,FALSE,2022
+6004,Eggerberg,VS,VS09,Visp,FALSE,2022
+6007,Naters,VS,VS04,Naters-Mörel,TRUE,2022
+6008,Ried-Brig,VS,VS03,Simplonpass,TRUE,2022
+6009,Simplon,VS,VS03,Simplonpass,FALSE,2022
+6010,Termen,VS,VS03,Simplonpass,TRUE,2022
+6011,Zwischbergen,VS,VS03,Simplonpass,FALSE,2022
+6021,Ardon,VS,VS18,Chamoson-Vétroz,FALSE,2022
+6022,Chamoson,VS,VS18,Chamoson-Vétroz,TRUE,2022
+6023,Conthey,VS,VS21,Conthey,TRUE,2022
+6024,Nendaz,VS,VS23,Nendaz,FALSE,2022
+6025,Vétroz,VS,VS18,Chamoson-Vétroz,TRUE,2022
+6032,Bourg-Saint-Pierre,VS,VS28,Entremont,FALSE,2022
+6033,Liddes,VS,VS28,Entremont,FALSE,2022
+6034,Orsières,VS,VS28,Entremont,FALSE,2022
+6035,Sembrancher,VS,VS28,Entremont,FALSE,2022
+6037,Val de Bagnes,VS,VS29,Bagnes,TRUE,2022
+6052,Bellwald,VS,VS01,Goms,FALSE,2022
+6054,Binn,VS,VS01,Goms,FALSE,2022
+6056,Ernen,VS,VS01,Goms,FALSE,2022
+6057,Fiesch,VS,VS01,Goms,FALSE,2022
+6058,Fieschertal,VS,VS01,Goms,FALSE,2022
+6061,Lax,VS,VS01,Goms,FALSE,2022
+6076,Obergoms,VS,VS01,Goms,FALSE,2022
+6077,Goms,VS,VS01,Goms,FALSE,2022
+6082,Ayent,VS,VS19,Sion-Couronne Est,TRUE,2022
+6083,Evolène,VS,VS20,Hérens,FALSE,2022
+6084,Hérémence,VS,VS20,Hérens,FALSE,2022
+6087,Saint-Martin (VS),VS,VS20,Hérens,FALSE,2022
+6089,Vex,VS,VS20,Hérens,TRUE,2022
+6090,Mont-Noble,VS,VS20,Hérens,TRUE,2022
+6101,Agarn,VS,VS10,Susten-Gampel,FALSE,2022
+6102,Albinen,VS,VS11,Leuk-Leukerbad,FALSE,2022
+6104,Ergisch,VS,VS10,Susten-Gampel,FALSE,2022
+6109,Inden,VS,VS11,Leuk-Leukerbad,FALSE,2022
+6110,Leuk,VS,VS10,Susten-Gampel,TRUE,2022
+6111,Leukerbad,VS,VS11,Leuk-Leukerbad,FALSE,2022
+6112,Oberems,VS,VS10,Susten-Gampel,FALSE,2022
+6113,Salgesch,VS,VS11,Leuk-Leukerbad,TRUE,2022
+6116,Varen,VS,VS11,Leuk-Leukerbad,FALSE,2022
+6117,Guttet-Feschel,VS,VS11,Leuk-Leukerbad,FALSE,2022
+6118,Gampel-Bratsch,VS,VS10,Susten-Gampel,TRUE,2022
+6119,Turtmann-Unterems,VS,VS10,Susten-Gampel,TRUE,2022
+6131,Bovernier,VS,VS24,Forclaz-Vallée du Trient,FALSE,2022
+6133,Fully,VS,VS26,Fully-Leytron,FALSE,2022
+6134,Isérables,VS,VS25,Charrat-Riddes,FALSE,2022
+6135,Leytron,VS,VS26,Fully-Leytron,FALSE,2022
+6136,Martigny,VS,VS24,Forclaz-Vallée du Trient,TRUE,2022
+6137,Martigny-Combe,VS,VS24,Forclaz-Vallée du Trient,TRUE,2022
+6139,Riddes,VS,VS25,Charrat-Riddes,FALSE,2022
+6140,Saillon,VS,VS26,Fully-Leytron,FALSE,2022
+6141,Saxon,VS,VS25,Charrat-Riddes,FALSE,2022
+6142,Trient,VS,VS24,Forclaz-Vallée du Trient,FALSE,2022
+6151,Champéry,VS,VS33,Val d'Illiez,FALSE,2022
+6152,Collombey-Muraz,VS,VS30,Collombey-Muraz,TRUE,2022
+6153,Monthey,VS,VS32,Monthey,TRUE,2022
+6154,Port-Valais,VS,VS34,Bas-Chablais Valaisan,FALSE,2022
+6155,Saint-Gingolph,VS,VS34,Bas-Chablais Valaisan,FALSE,2022
+6156,Troistorrents,VS,VS33,Val d'Illiez,TRUE,2022
+6157,Val-d'Illiez,VS,VS33,Val d'Illiez,FALSE,2022
+6158,Vionnaz,VS,VS30,Collombey-Muraz,FALSE,2022
+6159,Vouvry,VS,VS34,Bas-Chablais Valaisan,TRUE,2022
+6172,Bister,VS,VS04,Naters-Mörel,FALSE,2022
+6173,Bitsch,VS,VS04,Naters-Mörel,FALSE,2022
+6177,Grengiols,VS,VS01,Goms,FALSE,2022
+6181,Riederalp,VS,VS04,Naters-Mörel,FALSE,2022
+6191,Ausserberg,VS,VS06,Raron-Lötschental,FALSE,2022
+6192,Blatten,VS,VS06,Raron-Lötschental,FALSE,2022
+6193,Bürchen,VS,VS06,Raron-Lötschental,FALSE,2022
+6194,Eischoll,VS,VS06,Raron-Lötschental,FALSE,2022
+6195,Ferden,VS,VS06,Raron-Lötschental,FALSE,2022
+6197,Kippel,VS,VS06,Raron-Lötschental,FALSE,2022
+6198,Niedergesteln,VS,VS06,Raron-Lötschental,FALSE,2022
+6199,Raron,VS,VS06,Raron-Lötschental,TRUE,2022
+6201,Unterbäch,VS,VS06,Raron-Lötschental,FALSE,2022
+6202,Wiler (Lötschen),VS,VS06,Raron-Lötschental,FALSE,2022
+6203,Mörel-Filet,VS,VS04,Naters-Mörel,FALSE,2022
+6204,Steg-Hohtenn,VS,VS06,Raron-Lötschental,FALSE,2022
+6205,Bettmeralp,VS,VS04,Naters-Mörel,TRUE,2022
+6211,Collonges,VS,VS24,Forclaz-Vallée du Trient,FALSE,2022
+6212,Dorénaz,VS,VS24,Forclaz-Vallée du Trient,FALSE,2022
+6213,Evionnaz,VS,VS31,St-Maurice,FALSE,2022
+6214,Finhaut,VS,VS24,Forclaz-Vallée du Trient,FALSE,2022
+6215,Massongex,VS,VS31,St-Maurice,TRUE,2022
+6217,Saint-Maurice,VS,VS31,St-Maurice,FALSE,2022
+6218,Salvan,VS,VS24,Forclaz-Vallée du Trient,TRUE,2022
+6219,Vernayaz,VS,VS24,Forclaz-Vallée du Trient,TRUE,2022
+6220,Vérossaz,VS,VS31,St-Maurice,FALSE,2022
+6232,Chalais,VS,VS12,Chalais-Lens,FALSE,2022
+6235,Chippis,VS,VS13,Sierre,FALSE,2022
+6238,Grône,VS,VS12,Chalais-Lens,FALSE,2022
+6239,Icogne,VS,VS12,Chalais-Lens,TRUE,2022
+6240,Lens,VS,VS12,Chalais-Lens,TRUE,2022
+6246,Saint-Léonard,VS,VS12,Chalais-Lens,TRUE,2022
+6248,Sierre,VS,VS12,Chalais-Lens,TRUE,2022
+6252,Anniviers,VS,VS13,Sierre,TRUE,2022
+6253,Crans-Montana,VS,VS16,Hauts-de-Sierre,TRUE,2022
+6254,Noble-Contrée,VS,VS16,Hauts-de-Sierre,TRUE,2022
+6261,Arbaz,VS,VS19,Sion-Couronne Est,TRUE,2022
+6263,Grimisuat,VS,VS17,Sion,TRUE,2022
+6265,Savièse,VS,VS17,Sion,TRUE,2022
+6266,Sion,VS,VS23,Nendaz,TRUE,2022
+6267,Veysonnaz,VS,VS23,Nendaz,FALSE,2022
+6281,Baltschieder,VS,VS09,Visp,FALSE,2022
+6282,Eisten,VS,VS05,Saastal,FALSE,2022
+6283,Embd,VS,VS05,Saastal,TRUE,2022
+6285,Grächen,VS,VS08,Mattertal,FALSE,2022
+6286,Lalden,VS,VS09,Visp,FALSE,2022
+6287,Randa,VS,VS08,Mattertal,FALSE,2022
+6288,Saas-Almagell,VS,VS05,Saastal,FALSE,2022
+6289,Saas-Balen,VS,VS05,Saastal,FALSE,2022
+6290,Saas-Fee,VS,VS05,Saastal,FALSE,2022
+6291,Saas-Grund,VS,VS05,Saastal,FALSE,2022
+6292,St. Niklaus,VS,VS08,Mattertal,FALSE,2022
+6293,Stalden (VS),VS,VS05,Saastal,TRUE,2022
+6294,Staldenried,VS,VS05,Saastal,FALSE,2022
+6295,Täsch,VS,VS08,Mattertal,FALSE,2022
+6296,Törbel,VS,VS05,Saastal,TRUE,2022
+6297,Visp,VS,VS09,Visp,FALSE,2022
+6298,Visperterminen,VS,VS09,Visp,TRUE,2022
+6299,Zeneggen,VS,VS09,Visp,FALSE,2022
+6300,Zermatt,VS,VS07,Zermatt,FALSE,2022
+6404,Boudry,NE,NE03,Colombier-Gorges de l'Areuse,TRUE,2022
+6408,Cortaillod,NE,NE04,Boudry-Areuse,TRUE,2022
+6413,Rochefort,NE,NE02,Peseux-Corcelles,TRUE,2022
+6416,Milvignes,NE,NE02,Peseux-Corcelles,TRUE,2022
+6417,La Grande Béroche,NE,NE05,Bevaix-Béroche,TRUE,2022
+6421,La Chaux-de-Fonds,NE,BE98,Erguel,TRUE,2022
+6422,Les Planchettes,NE,NE12,La Chaux-de-Fonds,FALSE,2022
+6423,La Sagne,NE,NE10,Sagne-Martel-Brévine,FALSE,2022
+6432,La Brévine,NE,NE10,Sagne-Martel-Brévine,TRUE,2022
+6433,Brot-Plamboz,NE,NE10,Sagne-Martel-Brévine,FALSE,2022
+6434,Le Cerneux-Péquignot,NE,NE10,Sagne-Martel-Brévine,TRUE,2022
+6435,La Chaux-du-Milieu,NE,NE10,Sagne-Martel-Brévine,TRUE,2022
+6436,Le Locle,NE,NE11,Le Locle,FALSE,2022
+6437,Les Ponts-de-Martel,NE,NE10,Sagne-Martel-Brévine,TRUE,2022
+6451,Cornaux,NE,NE09,Canal de Thielle,TRUE,2022
+6452,Cressier (NE),NE,NE09,Canal de Thielle,TRUE,2022
+6455,Le Landeron,NE,NE09,Canal de Thielle,TRUE,2022
+6456,Lignières,NE,NE09,Canal de Thielle,FALSE,2022
+6458,Neuchâtel,NE,NE02,Peseux-Corcelles,TRUE,2022
+6487,Val-de-Ruz,NE,NE06,Seyon-Vue des Alpes,TRUE,2022
+6504,La Côte-aux-Fées,NE,NE14,Haut Val de Travers,FALSE,2022
+6511,Les Verrières,NE,NE10,Sagne-Martel-Brévine,TRUE,2022
+6512,Val-de-Travers,NE,NE13,Bas Val de Travers,TRUE,2022
+6513,Laténa,NE,NE08,Marin-St-Blaise,TRUE,2022
+6601,Aire-la-Ville,GE,GE25,Mandement-Vallée du Rhône,FALSE,2022
+6602,Anières,GE,GE28,Collonge-Hermance,FALSE,2022
+6603,Avully,GE,GE25,Mandement-Vallée du Rhône,FALSE,2022
+6604,Avusy,GE,GE25,Mandement-Vallée du Rhône,FALSE,2022
+6605,Bardonnex,GE,GE22,Plan-Perly,FALSE,2022
+6606,Bellevue,GE,GE26,Léman Rive Droite,FALSE,2022
+6607,Bernex,GE,GE23,Bernex-Confignon,TRUE,2022
+6608,Carouge (GE),GE,GE21,Carouge,FALSE,2022
+6609,Cartigny,GE,GE25,Mandement-Vallée du Rhône,FALSE,2022
+6610,Céligny,GE,GE29,Versoix-Céligny,FALSE,2022
+6611,Chancy,GE,GE25,Mandement-Vallée du Rhône,FALSE,2022
+6612,Chêne-Bougeries,GE,GE18,Chêne-Conches,FALSE,2022
+6613,Chêne-Bourg,GE,GE19,Chêne-Bourg,FALSE,2022
+6614,Choulex,GE,GE27,Vandoeuvres-Campagne,FALSE,2022
+6615,Collex-Bossy,GE,GE26,Léman Rive Droite,TRUE,2022
+6616,Collonge-Bellerive,GE,GE17,Cologny-Vésenaz,TRUE,2022
+6617,Cologny,GE,GE17,Cologny-Vésenaz,FALSE,2022
+6618,Confignon,GE,GE22,Plan-Perly,TRUE,2022
+6619,Corsier (GE),GE,GE28,Collonge-Hermance,FALSE,2022
+6620,Dardagny,GE,GE25,Mandement-Vallée du Rhône,FALSE,2022
+6621,Genève,GE,GE01,Genève-Cornavin,TRUE,2022
+6622,Genthod,GE,GE26,Léman Rive Droite,FALSE,2022
+6623,Le Grand-Saconnex,GE,GE15,Le Grand-Saconnex,TRUE,2022
+6624,Gy,GE,GE27,Vandoeuvres-Campagne,FALSE,2022
+6625,Hermance,GE,GE28,Collonge-Hermance,FALSE,2022
+6626,Jussy,GE,GE27,Vandoeuvres-Campagne,FALSE,2022
+6627,Laconnex,GE,GE25,Mandement-Vallée du Rhône,FALSE,2022
+6628,Lancy,GE,GE10,Grand-Lancy,TRUE,2022
+6629,Meinier,GE,GE27,Vandoeuvres-Campagne,FALSE,2022
+6630,Meyrin,GE,GE12,Vernier Village,TRUE,2022
+6631,Onex,GE,GE10,Grand-Lancy,TRUE,2022
+6632,Perly-Certoux,GE,GE22,Plan-Perly,FALSE,2022
+6633,Plan-les-Ouates,GE,GE22,Plan-Perly,TRUE,2022
+6634,Pregny-Chambésy,GE,GE02,Genève-Servette-Nations,TRUE,2022
+6635,Presinge,GE,GE27,Vandoeuvres-Campagne,FALSE,2022
+6636,Puplinge,GE,GE27,Vandoeuvres-Campagne,FALSE,2022
+6637,Russin,GE,GE25,Mandement-Vallée du Rhône,FALSE,2022
+6638,Satigny,GE,GE25,Mandement-Vallée du Rhône,TRUE,2022
+6639,Soral,GE,GE25,Mandement-Vallée du Rhône,FALSE,2022
+6640,Thônex,GE,GE20,Thônex,FALSE,2022
+6641,Troinex,GE,GE24,Veyrier-Troinex,FALSE,2022
+6642,Vandoeuvres,GE,GE27,Vandoeuvres-Campagne,FALSE,2022
+6643,Vernier,GE,GE13,Cointrin-Avanchets,TRUE,2022
+6644,Versoix,GE,GE29,Versoix-Céligny,FALSE,2022
+6645,Veyrier,GE,GE24,Veyrier-Troinex,FALSE,2022
+6702,Boécourt,JU,JU03,La Sorne,TRUE,2022
+6703,Bourrignon,JU,JU02,Delémont,FALSE,2022
+6704,Châtillon (JU),JU,JU03,La Sorne,FALSE,2022
+6706,Courchapoix,JU,JU04,Val Terbi,FALSE,2022
+6708,Courrendlin,JU,JU04,Val Terbi,TRUE,2022
+6709,Courroux,JU,JU04,Val Terbi,TRUE,2022
+6710,Courtételle,JU,JU03,La Sorne,FALSE,2022
+6711,Delémont,JU,JU02,Delémont,TRUE,2022
+6712,Develier,JU,JU02,Delémont,TRUE,2022
+6713,Ederswiler,JU,BL01,Oberes Laufental,TRUE,2022
+6715,Mervelier,JU,JU04,Val Terbi,FALSE,2022
+6716,Mettembert,JU,JU02,Delémont,FALSE,2022
+6718,Movelier,JU,JU02,Delémont,FALSE,2022
+6719,Pleigne,JU,JU02,Delémont,TRUE,2022
+6721,Rossemaison,JU,JU03,La Sorne,FALSE,2022
+6722,Saulcy,JU,JU01,Les Franches-Montagnes,TRUE,2022
+6724,Soyhières,JU,JU02,Delémont,FALSE,2022
+6729,Haute-Sorne,JU,JU03,La Sorne,TRUE,2022
+6730,Val Terbi,JU,JU04,Val Terbi,FALSE,2022
+6741,Le Bémont (JU),JU,JU01,Les Franches-Montagnes,FALSE,2022
+6742,Les Bois,JU,BE98,Erguel,TRUE,2022
+6743,Les Breuleux,JU,JU01,Les Franches-Montagnes,FALSE,2022
+6745,Les Enfers,JU,JU01,Les Franches-Montagnes,FALSE,2022
+6748,Les Genevez (JU),JU,JU01,Les Franches-Montagnes,FALSE,2022
+6750,Lajoux (JU),JU,JU01,Les Franches-Montagnes,FALSE,2022
+6751,Montfaucon,JU,JU01,Les Franches-Montagnes,FALSE,2022
+6753,Muriaux,JU,JU01,Les Franches-Montagnes,FALSE,2022
+6754,Le Noirmont,JU,JU01,Les Franches-Montagnes,FALSE,2022
+6757,Saignelégier,JU,JU01,Les Franches-Montagnes,FALSE,2022
+6758,Saint-Brais,JU,JU05,Clos-du-Doubs-Courgenay,TRUE,2022
+6759,Soubey,JU,JU05,Clos-du-Doubs-Courgenay,FALSE,2022
+6771,Alle,JU,JU08,Haute-Allaine-Bonfol,FALSE,2022
+6774,Boncourt,JU,JU07,Basse-Allaine-Damvant,FALSE,2022
+6778,Bure,JU,JU07,Basse-Allaine-Damvant,FALSE,2022
+6781,Coeuve,JU,JU08,Haute-Allaine-Bonfol,FALSE,2022
+6782,Cornol,JU,JU08,Haute-Allaine-Bonfol,FALSE,2022
+6783,Courchavon,JU,JU07,Basse-Allaine-Damvant,FALSE,2022
+6784,Courgenay,JU,JU05,Clos-du-Doubs-Courgenay,FALSE,2022
+6785,Courtedoux,JU,JU06,Porrentruy,TRUE,2022
+6789,Fahy,JU,JU07,Basse-Allaine-Damvant,FALSE,2022
+6790,Fontenais,JU,JU05,Clos-du-Doubs-Courgenay,TRUE,2022
+6792,Grandfontaine,JU,JU07,Basse-Allaine-Damvant,FALSE,2022
+6800,Porrentruy,JU,JU06,Porrentruy,FALSE,2022
+6806,Vendlincourt,JU,JU08,Haute-Allaine-Bonfol,FALSE,2022
+6807,Basse-Allaine,JU,JU07,Basse-Allaine-Damvant,FALSE,2022
+6808,Clos du Doubs,JU,JU05,Clos-du-Doubs-Courgenay,FALSE,2022
+6809,Haute-Ajoie,JU,JU07,Basse-Allaine-Damvant,FALSE,2022
+6810,La Baroche,JU,JU08,Haute-Allaine-Bonfol,TRUE,2022
+6811,Damphreux-Lugnez,JU,JU08,Haute-Allaine-Bonfol,FALSE,2022
+6812,Basse-Vendline,JU,JU08,Haute-Allaine-Bonfol,FALSE,2022
+6831,Moutier,JU,BE43,Moutier,FALSE,2022

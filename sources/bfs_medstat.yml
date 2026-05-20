@@ -1,0 +1,35 @@
+name: MedStat Regions
+provider: Swiss Federal Statistical Office (BFS / OFS)
+url: https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/nomenklaturen/medsreg.html
+description: >
+  MedStat is a geographic classification used in Swiss hospital and health
+  statistics. Switzerland is divided into 106 MedStat regions, aggregating
+  municipalities into units used for inpatient statistics (Medical Statistics
+  of Hospitals).
+license: OPEN-BY-ASK (BFS open data, attribution required)
+formats:
+  - XLSX
+vintages_available: null  # confirm from BFS
+last_accessed: 20/05/2026
+local_raw_path: raw/medstat.xlsx
+sheets:
+  REGION=CH: PLZ to MedStat mapping for Swiss residents (primary lookup)
+  REGION: MedStat region codes, names, and MOBSPAT (MS-Region) crosswalk
+  MOBSPAT: MS-Region (Mobilité Spatiale) codes and names
+  REGION<>CH: Foreign region codes for non-Swiss residents
+columns_REGION=CH:
+  NPA/PLZ: postal code (4-digit)
+  PLZ_NAME: PLZ + locality name combined
+  NAME: locality name
+  KT: canton abbreviation
+  MedStat: MedStat region code (e.g. VD02)
+columns_REGION:
+  REGION: MedStat region code
+  TEXT: MedStat region name
+  MOBSPAT: MS-Region (Mobilité Spatiale) code
+  KT: canton abbreviation
+notes: >
+  MedStat regions are used in the BFS Medical Statistics of Hospitals
+  (Medizinische Statistik der Krankenhäuser). The REGION=CH sheet provides
+  the PLZ-to-MedStat mapping needed to bridge PLZ and municipality data.
+  The REGION sheet provides MedStat region names and links to MS-Regions.

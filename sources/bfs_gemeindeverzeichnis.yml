@@ -1,0 +1,38 @@
+name: BFS Gemeindeverzeichnis (Municipality Register)
+provider: Swiss Federal Statistical Office (BFS / OFS)
+url: https://www.agvchapp.bfs.admin.ch/de
+description: >
+  The official historicised register of Swiss municipalities, maintained by BFS.
+  Downloaded from the BFS application as an eCH-0071 XML export.
+license: OPEN-BY-ASK (BFS open data, attribution required)
+last_accessed: 20/05/2026
+
+files:
+  Municipality_historical_directory.xml:
+    description: Full historicised municipality register in eCH-0071 XML format
+    format: XML (eCH-0071 standard)
+    schema: http://www.ech.ch/xmlns/eCH-0071/1
+    total_entries: 5868  # current + historical
+    abolished_entries: 3714
+    xml_elements:
+      historyMunicipalityId: unique historical record ID
+      municipalityId: BFS municipality number (primary identifier)
+      municipalityLongName: full municipality name
+      municipalityShortName: abbreviated name
+      cantonAbbreviation: canton code
+      districtHistId: historical district ID
+      municipalityAdmissionDate: date municipality became valid (YYYY-MM-DD)
+      municipalityAdmissionMode: admission type code
+      municipalityAdmissionNumber: mutation number for admission event
+      municipalityAbolitionDate: date municipality was dissolved (YYYY-MM-DD, absent if still active)
+      municipalityAbolitionMode: abolition type code (e.g. 24 = merger)
+      municipalityAbolitionNumber: mutation number for abolition event
+      municipalityStatus: status code
+      municipalityDateOfChange: date of last change
+    notes: >
+      Used to build annual active-municipality lists and the 2012-2022
+      harmonisation crosswalk. A municipality is active in a given year if
+      municipalityAdmissionDate <= that year AND municipalityAbolitionDate is
+      absent or >= that year. Chains of mergers are resolved by tracing
+      mutation event numbers (admissionNumber / abolitionNumber), not BFS
+      numbers, since BFS numbers can be reused across validity periods.

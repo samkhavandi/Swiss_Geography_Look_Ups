@@ -1,0 +1,16 @@
+# Template for adding a new data source
+# Copy this file, rename it, and fill in the fields
+
+name: null
+provider: null
+url: null
+description: >
+  Brief description of what this source contains and how it's used.
+license: null
+formats:
+  - null
+vintages_available: null
+last_accessed: null  # YYYY-MM-DD
+local_raw_path: raw/<source-name>/
+notes: >
+  Any caveats, quirks, or things to be aware of when using this source.
