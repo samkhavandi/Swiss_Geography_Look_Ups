@@ -12,6 +12,7 @@ postal codes, MedStat regions, districts, cantons).
 | Folder | Contents |
 |--------|----------|
 | `lookups/` | Ready-to-use lookup CSVs — the main output |
+| `geometries/` | GeoJSON boundary files for mapping and spatial joins |
 | `raw/` | Source files from BFS and Swiss Post (committed for reproducibility) |
 | `scripts/build/` | R scripts that produce the lookups from raw data |
 | `scripts/fetch/` | R scripts to re-download source files from their original URLs |
@@ -71,6 +72,23 @@ Intermediate tables for a single year. Useful if you only need one step of the c
 Use this if you have an external dataset with historical BFS numbers and want to
 join it to a 2022-boundary reference, rather than using the full master lookup.
 
+## Boundary files (`geometries/`)
+
+GeoJSON files for each administrative level. All files are in WGS84 (EPSG:4326).
+Join them to the lookup tables using the key column listed below.
+
+| File | Features | Join key | Source |
+|------|----------|----------|--------|
+| `municipality_2025.geojson` | 2,137 | `bfs_nr` | BFS Generalisierte Gemeindegrenzen 2025-01-01 |
+| `district_2025.geojson` | 143 | `district_id` | BFS Generalisierte Gemeindegrenzen 2025-01-01 |
+| `canton.geojson` | 26 | `canton_abbr` | BFS Generalisierte Gemeindegrenzen 2025-01-01 |
+| `medstat.geojson` | 705 | `medstat_id` | Versorgungsatlas.ch |
+
+> **Note on vintage:** The boundary files use a 2025-01-01 snapshot. A small number
+> of municipality mergers after 2022 mean the 2025 boundaries will not exactly match
+> the 2022 lookup vintage, but differences are minimal for most analyses. For strict
+> 2022 accuracy, download the 2022 vintage from BFS and re-run `scripts/build/build_geometries.R`.
+
 ## Quick start (R)
 
 ```r
@@ -91,6 +109,98 @@ your_data |>
     dplyr::distinct(master, bfs_nr, year, bfs_nr_2022, municipality_2022),
     by = c("bfs_nr", "year")
   )
+```
+
+## Merging boundary files for mapping
+
+Use the `sf` package to load a boundary file and join your data to it for mapping.
+Choose the file that matches the geographic level in your analysis.
+
+### Municipality boundaries
+
+Join on `bfs_nr`. Use `bfs_nr_2022` from the harmonised lookup to align historical
+data with the 2025 boundaries.
+
+```r
+library(sf)
+library(dplyr)
+library(readr)
+
+boundaries <- read_sf("geometries/municipality_2025.geojson")
+master     <- read_csv("lookups/master_lookup_harmonised_2012_2022.csv")
+
+# Aggregate your data to municipality level (2022 boundaries) then join
+your_summary <- your_data |>
+  group_by(bfs_nr_2022) |>
+  summarise(value = mean(outcome))
+
+map_data <- boundaries |>
+  left_join(your_summary, by = c("bfs_nr" = "bfs_nr_2022"))
+```
+
+### District boundaries
+
+Join on `district_id`.
+
+```r
+boundaries <- read_sf("geometries/district_2025.geojson")
+
+your_summary <- master |>
+  filter(year == 2022) |>
+  group_by(district_id) |>
+  summarise(value = mean(outcome))
+
+map_data <- boundaries |>
+  left_join(your_summary, by = "district_id")
+```
+
+### Canton boundaries
+
+Join on `canton_abbr`.
+
+```r
+boundaries <- read_sf("geometries/canton.geojson")
+
+your_summary <- master |>
+  filter(year == 2022) |>
+  group_by(canton_abbr) |>
+  summarise(value = mean(outcome))
+
+map_data <- boundaries |>
+  left_join(your_summary, by = c("canton" = "canton_abbr"))
+```
+
+### MedStat boundaries
+
+Join on `medstat_id`. MedStat is not in the master lookup directly — use
+`lookups/annual/municipality_medstat_2022.csv` or `plz_medstat_2022.csv`
+to get `medstat_id` for your data first.
+
+```r
+boundaries <- read_sf("geometries/medstat.geojson")
+
+medstat_lookup <- read_csv("lookups/annual/municipality_medstat_2022.csv")
+
+your_summary <- your_data |>
+  left_join(medstat_lookup, by = "bfs_nr") |>
+  group_by(medstat_id) |>
+  summarise(value = mean(outcome))
+
+map_data <- boundaries |>
+  left_join(your_summary, by = "medstat_id")
+```
+
+### Plotting the result
+
+Once you have `map_data`, plot with `ggplot2`:
+
+```r
+library(ggplot2)
+
+ggplot(map_data) +
+  geom_sf(aes(fill = value)) +
+  scale_fill_viridis_c() +
+  theme_void()
 ```
 
 ## Why PLZ is the intermediary for MedStat
@@ -119,7 +229,7 @@ The raw source files are committed to this repository, so you can rebuild
 everything immediately without downloading anything:
 
 ```r
-Rscript scripts/run_all.R      # rebuild all lookup files
+Rscript scripts/run_all.R      # rebuild all lookup files and geometry files
 Rscript validation/validate.R  # check outputs
 ```
 
@@ -142,6 +252,13 @@ most common region among other PLZs in the same municipality.
 **One municipality unresolved in the crosswalk.** Schlosswil (BFS 624, BE) split
 into multiple successors and cannot be automatically mapped to a single 2022
 equivalent. Its `bfs_nr_2022` is blank in the crosswalk and harmonised master.
+
+**MedStat boundary file has 705 of 706 regions.** One region is absent from the
+versorgungsatlas.ch source. Affected rows will have no geometry when joined.
+
+**Boundary vintage is 2025, lookups are 2022.** The BFS boundary files use a
+2025-01-01 snapshot. Municipality mergers between 2022 and 2025 mean a small
+number of 2022 BFS numbers will not match a 2025 boundary polygon.
 
 ## Data sources
 
