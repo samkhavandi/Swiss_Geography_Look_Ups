@@ -7,6 +7,12 @@ raw/*
 !raw/Municipality_historical_directory.xml
 !raw/PLZ.csv
 !raw/medstat.xlsx
+!raw/boundaries/
+raw/boundaries/*
+!raw/boundaries/Communes_G1_2056.geojson
+!raw/boundaries/Districts_G1_2056.geojson
+!raw/boundaries/Cantons_G1_2056.geojson
+!raw/boundaries/medstat.geojson
 
 # R
 .Rhistory

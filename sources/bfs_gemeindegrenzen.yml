@@ -1,0 +1,15 @@
+name: BFS Generalisierte Gemeindegrenzen
+provider: Swiss Federal Statistical Office (BFS)
+product_code: "00.03-875"
+url: https://www.bfs.admin.ch/bfs/en/home/statistics/regional-statistics/base-maps/cartographic-bases.html
+format: GeoJSON (EPSG:2056, CH1903+/LV95)
+vintage: "2025-01-01"
+files:
+  - raw/boundaries/Communes_G1_2056.geojson   # municipalities
+  - raw/boundaries/Districts_G1_2056.geojson  # districts
+  - raw/boundaries/Cantons_G1_2056.geojson    # cantons
+license: OPEN-BY (BFS open data, attribution required)
+note: >
+  Generalised boundaries suitable for thematic mapping. Not full-resolution cadastral
+  data. Vintage is 2025-01-01; a small number of municipality mergers may differ
+  from the 2022 lookup vintage. For strict 2022 accuracy, download the 2022 vintage.

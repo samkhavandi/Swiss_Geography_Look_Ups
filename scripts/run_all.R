@@ -41,4 +41,7 @@ source("scripts/build/build_master_lookup.R")
 message("\n--- Building harmonised master lookup ---")
 source("scripts/build/build_harmonised_master.R")
 
+message("\n--- Building geometry files ---")
+source("scripts/build/build_geometries.R")
+
 message("\nDone. Run validation/validate.R to check outputs.")
