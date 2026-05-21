@@ -97,7 +97,7 @@ All files can be loaded directly from GitHub — no need to clone the repository
 library(readr)
 library(dplyr)
 
-base <- "https://raw.githubusercontent.com/samkhavandi/swiss_geo_lookups/main/"
+base <- "https://raw.githubusercontent.com/samkhavandi/Swiss_Geography_Look_Ups/main/"
 
 # Load the harmonised master lookup (recommended for most analyses)
 master <- read_csv(paste0(base, "lookups/master_lookup_harmonised_2012_2022.csv"))
@@ -124,7 +124,7 @@ Choose the file that matches the geographic level in your analysis.
 All boundary files can also be loaded directly from GitHub via URL.
 
 ```r
-base <- "https://raw.githubusercontent.com/samkhavandi/swiss_geo_lookups/main/"
+base <- "https://raw.githubusercontent.com/samkhavandi/Swiss_Geography_Look_Ups/main/"
 ```
 
 ### Municipality boundaries
@@ -137,7 +137,7 @@ library(sf)
 library(dplyr)
 library(readr)
 
-base <- "https://raw.githubusercontent.com/samkhavandi/swiss_geo_lookups/main/"
+base <- "https://raw.githubusercontent.com/samkhavandi/Swiss_Geography_Look_Ups/main/"
 
 boundaries <- read_sf(paste0(base, "geometries/municipality_2025.geojson"))
 master     <- read_csv(paste0(base, "lookups/master_lookup_harmonised_2012_2022.csv"))
