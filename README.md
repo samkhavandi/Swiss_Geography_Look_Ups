@@ -91,22 +91,27 @@ Join them to the lookup tables using the key column listed below.
 
 ## Quick start (R)
 
+All files can be loaded directly from GitHub — no need to clone the repository.
+
 ```r
 library(readr)
+library(dplyr)
+
+base <- "https://raw.githubusercontent.com/samkhavandi/swiss_geo_lookups/main/"
 
 # Load the harmonised master lookup (recommended for most analyses)
-master <- read_csv("lookups/master_lookup_harmonised_2012_2022.csv")
+master <- read_csv(paste0(base, "lookups/master_lookup_harmonised_2012_2022.csv"))
 
 # Example: find all PLZs in a canton for a given year
 master |>
-  dplyr::filter(canton_abbr == "ZH", year == 2018) |>
-  dplyr::select(bfs_nr, municipality, plz, medstat_id) |>
-  dplyr::distinct()
+  filter(canton_abbr == "ZH", year == 2018) |>
+  select(bfs_nr, municipality, plz, medstat_id) |>
+  distinct()
 
 # Example: map historical BFS numbers in your dataset to 2022 boundaries
 your_data |>
-  dplyr::left_join(
-    dplyr::distinct(master, bfs_nr, year, bfs_nr_2022, municipality_2022),
+  left_join(
+    distinct(master, bfs_nr, year, bfs_nr_2022, municipality_2022),
     by = c("bfs_nr", "year")
   )
 ```
@@ -115,6 +120,12 @@ your_data |>
 
 Use the `sf` package to load a boundary file and join your data to it for mapping.
 Choose the file that matches the geographic level in your analysis.
+
+All boundary files can also be loaded directly from GitHub via URL.
+
+```r
+base <- "https://raw.githubusercontent.com/samkhavandi/swiss_geo_lookups/main/"
+```
 
 ### Municipality boundaries
 
@@ -126,8 +137,10 @@ library(sf)
 library(dplyr)
 library(readr)
 
-boundaries <- read_sf("geometries/municipality_2025.geojson")
-master     <- read_csv("lookups/master_lookup_harmonised_2012_2022.csv")
+base <- "https://raw.githubusercontent.com/samkhavandi/swiss_geo_lookups/main/"
+
+boundaries <- read_sf(paste0(base, "geometries/municipality_2025.geojson"))
+master     <- read_csv(paste0(base, "lookups/master_lookup_harmonised_2012_2022.csv"))
 
 # Aggregate your data to municipality level (2022 boundaries) then join
 your_summary <- your_data |>
@@ -143,7 +156,7 @@ map_data <- boundaries |>
 Join on `district_id`.
 
 ```r
-boundaries <- read_sf("geometries/district_2025.geojson")
+boundaries <- read_sf(paste0(base, "geometries/district_2025.geojson"))
 
 your_summary <- master |>
   filter(year == 2022) |>
@@ -159,7 +172,7 @@ map_data <- boundaries |>
 Join on `canton_abbr`.
 
 ```r
-boundaries <- read_sf("geometries/canton.geojson")
+boundaries <- read_sf(paste0(base, "geometries/canton.geojson"))
 
 your_summary <- master |>
   filter(year == 2022) |>
@@ -180,9 +193,9 @@ municipality), but is not suited for populating a MedStat map (some regions
 win no majority votes and would appear empty).
 
 ```r
-boundaries  <- read_sf("geometries/medstat.geojson")
-plz_medstat <- read_csv("lookups/annual/plz_medstat_2022.csv")
-muni_plz    <- read_csv("lookups/annual/municipality_plz_2022.csv")
+boundaries  <- read_sf(paste0(base, "geometries/medstat.geojson"))
+plz_medstat <- read_csv(paste0(base, "lookups/annual/plz_medstat_2022.csv"))
+muni_plz    <- read_csv(paste0(base, "lookups/annual/municipality_plz_2022.csv"))
 
 # Join your municipality-level data to MedStat via PLZ chain
 your_summary <- your_data |>
