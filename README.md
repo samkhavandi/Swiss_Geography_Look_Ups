@@ -172,17 +172,22 @@ map_data <- boundaries |>
 
 ### MedStat boundaries
 
-Join on `medstat_id`. MedStat is not in the master lookup directly — use
-`lookups/annual/municipality_medstat_2022.csv` or `plz_medstat_2022.csv`
-to get `medstat_id` for your data first.
+Join on `medstat_id`. Use `plz_medstat_2022.csv` as the intermediary — this
+covers all 705 regions because MedStat is defined at PLZ level. The
+`municipality_medstat` file uses majority-rule to assign each municipality to
+one MedStat region and is the right choice for analysis (one row per
+municipality), but is not suited for populating a MedStat map (some regions
+win no majority votes and would appear empty).
 
 ```r
-boundaries <- read_sf("geometries/medstat.geojson")
+boundaries  <- read_sf("geometries/medstat.geojson")
+plz_medstat <- read_csv("lookups/annual/plz_medstat_2022.csv")
+muni_plz    <- read_csv("lookups/annual/municipality_plz_2022.csv")
 
-medstat_lookup <- read_csv("lookups/annual/municipality_medstat_2022.csv")
-
+# Join your municipality-level data to MedStat via PLZ chain
 your_summary <- your_data |>
-  left_join(medstat_lookup, by = "bfs_nr") |>
+  left_join(muni_plz |> distinct(bfs_nr, plz), by = "bfs_nr") |>
+  left_join(plz_medstat |> distinct(plz, medstat_id), by = "plz") |>
   group_by(medstat_id) |>
   summarise(value = mean(outcome))
 
