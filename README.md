@@ -91,133 +91,128 @@ Join them to the lookup tables using the key column listed below.
 
 ## Quick start (R)
 
-All files can be loaded directly from GitHub — no need to clone the repository.
+All examples below run as-is — no external data needed. Copy, paste, run.
 
 ```r
 library(readr)
 library(dplyr)
 
-base <- "https://raw.githubusercontent.com/samkhavandi/Swiss_Geography_Look_Ups/main/"
-
-# Load the harmonised master lookup (recommended for most analyses)
+base   <- "https://raw.githubusercontent.com/samkhavandi/Swiss_Geography_Look_Ups/main/"
 master <- read_csv(paste0(base, "lookups/master_lookup_harmonised_2012_2022.csv"))
 
-# Example: find all PLZs in a canton for a given year
+# All PLZs in Zurich canton for 2018
 master |>
   filter(canton_abbr == "ZH", year == 2018) |>
   select(bfs_nr, municipality, plz, medstat_id) |>
   distinct()
 
-# Example: map historical BFS numbers in your dataset to 2022 boundaries
-your_data |>
-  left_join(
-    distinct(master, bfs_nr, year, bfs_nr_2022, municipality_2022),
-    by = c("bfs_nr", "year")
-  )
+# How many municipalities per canton in 2022?
+master |>
+  filter(year == 2022) |>
+  distinct(canton_abbr, bfs_nr) |>
+  count(canton_abbr, sort = TRUE)
+
+# Which 2012 municipalities no longer exist under the same BFS number in 2022?
+# (i.e. were merged or absorbed by 2022)
+master |>
+  filter(year == 2012, bfs_nr != bfs_nr_2022) |>
+  distinct(bfs_nr, municipality, bfs_nr_2022, municipality_2022)
 ```
 
-## Merging boundary files for mapping
+## Mapping examples
 
-Use the `sf` package to load a boundary file and join your data to it for mapping.
-Choose the file that matches the geographic level in your analysis.
-
-All boundary files can also be loaded directly from GitHub via URL.
-
-```r
-base <- "https://raw.githubusercontent.com/samkhavandi/Swiss_Geography_Look_Ups/main/"
-```
-
-### Municipality boundaries
-
-Join on `bfs_nr`. Use `bfs_nr_2022` from the harmonised lookup to align historical
-data with the 2025 boundaries.
+All mapping examples run as-is using only files from this repository.
 
 ```r
 library(sf)
 library(dplyr)
 library(readr)
-
-base <- "https://raw.githubusercontent.com/samkhavandi/Swiss_Geography_Look_Ups/main/"
-
-boundaries <- read_sf(paste0(base, "geometries/municipality_2025.geojson"))
-master     <- read_csv(paste0(base, "lookups/master_lookup_harmonised_2012_2022.csv"))
-
-# Aggregate your data to municipality level (2022 boundaries) then join
-your_summary <- your_data |>
-  group_by(bfs_nr_2022) |>
-  summarise(value = mean(outcome))
-
-map_data <- boundaries |>
-  left_join(your_summary, by = c("bfs_nr" = "bfs_nr_2022"))
-```
-
-### District boundaries
-
-Join on `district_id`.
-
-```r
-boundaries <- read_sf(paste0(base, "geometries/district_2025.geojson"))
-
-your_summary <- master |>
-  filter(year == 2022) |>
-  group_by(district_id) |>
-  summarise(value = mean(outcome))
-
-map_data <- boundaries |>
-  left_join(your_summary, by = "district_id")
-```
-
-### Canton boundaries
-
-Join on `canton_abbr`.
-
-```r
-boundaries <- read_sf(paste0(base, "geometries/canton.geojson"))
-
-your_summary <- master |>
-  filter(year == 2022) |>
-  group_by(canton_abbr) |>
-  summarise(value = mean(outcome))
-
-map_data <- boundaries |>
-  left_join(your_summary, by = c("canton" = "canton_abbr"))
-```
-
-### MedStat boundaries
-
-Join on `medstat_id`. Use `plz_medstat_2022.csv` as the intermediary — this
-covers all 705 regions because MedStat is defined at PLZ level. The
-`municipality_medstat` file uses majority-rule to assign each municipality to
-one MedStat region and is the right choice for analysis (one row per
-municipality), but is not suited for populating a MedStat map (some regions
-win no majority votes and would appear empty).
-
-```r
-boundaries  <- read_sf(paste0(base, "geometries/medstat.geojson"))
-plz_medstat <- read_csv(paste0(base, "lookups/annual/plz_medstat_2022.csv"))
-muni_plz    <- read_csv(paste0(base, "lookups/annual/municipality_plz_2022.csv"))
-
-# Join your municipality-level data to MedStat via PLZ chain
-your_summary <- your_data |>
-  left_join(muni_plz |> distinct(bfs_nr, plz), by = "bfs_nr") |>
-  left_join(plz_medstat |> distinct(plz, medstat_id), by = "plz") |>
-  group_by(medstat_id) |>
-  summarise(value = mean(outcome))
-
-map_data <- boundaries |>
-  left_join(your_summary, by = "medstat_id")
-```
-
-### Plotting the result
-
-Once you have `map_data`, plot with `ggplot2`:
-
-```r
 library(ggplot2)
 
-ggplot(map_data) +
-  geom_sf(aes(fill = value)) +
-  scale_fill_viridis_c() +
+base <- "https://raw.githubusercontent.com/samkhavandi/Swiss_Geography_Look_Ups/main/"
+```
+
+### Municipalities — number of PLZs per municipality
+
+```r
+master     <- read_csv(paste0(base, "lookups/master_lookup_harmonised_2012_2022.csv"))
+boundaries <- read_sf(paste0(base, "geometries/municipality_2025.geojson"))
+
+n_plz <- master |>
+  filter(year == 2022) |>
+  group_by(bfs_nr_2022) |>
+  summarise(n_plz = n_distinct(plz))
+
+boundaries |>
+  left_join(n_plz, by = c("bfs_nr" = "bfs_nr_2022")) |>
+  ggplot() +
+  geom_sf(aes(fill = n_plz), colour = NA) +
+  scale_fill_viridis_c(name = "PLZs") +
+  labs(title = "Number of postal codes per municipality (2022)") +
+  theme_void()
+```
+
+### Districts — number of municipalities per district
+
+```r
+master     <- read_csv(paste0(base, "lookups/master_lookup_harmonised_2012_2022.csv"))
+boundaries <- read_sf(paste0(base, "geometries/district_2025.geojson"))
+
+n_muni <- master |>
+  filter(year == 2022) |>
+  distinct(district_id, bfs_nr) |>
+  count(district_id, name = "n_municipalities")
+
+boundaries |>
+  left_join(n_muni, by = "district_id") |>
+  ggplot() +
+  geom_sf(aes(fill = n_municipalities), colour = NA) +
+  scale_fill_viridis_c(name = "Municipalities") +
+  labs(title = "Number of municipalities per district (2022)") +
+  theme_void()
+```
+
+### Cantons — number of MedStat regions per canton
+
+```r
+plz_medstat <- read_csv(paste0(base, "lookups/annual/plz_medstat_2022.csv"))
+boundaries  <- read_sf(paste0(base, "geometries/canton.geojson"))
+
+n_medstat <- plz_medstat |>
+  distinct(canton, medstat_id) |>
+  count(canton, name = "n_medstat")
+
+boundaries |>
+  left_join(n_medstat, by = c("canton" = "canton")) |>
+  ggplot() +
+  geom_sf(aes(fill = n_medstat), colour = "white", linewidth = 0.3) +
+  scale_fill_viridis_c(name = "MedStat regions") +
+  labs(title = "Number of MedStat regions per canton (2022)") +
+  theme_void()
+```
+
+### MedStat — number of municipalities per region
+
+Join on `medstat_id`. The PLZ chain is used here rather than the majority-rule
+`municipality_medstat` file — see [Why PLZ is the intermediary](#why-plz-is-the-intermediary-for-medstat).
+
+```r
+muni_plz    <- read_csv(paste0(base, "lookups/annual/municipality_plz_2022.csv"))
+plz_medstat <- read_csv(paste0(base, "lookups/annual/plz_medstat_2022.csv"))
+boundaries  <- read_sf(paste0(base, "geometries/medstat.geojson"))
+
+n_muni <- muni_plz |>
+  distinct(bfs_nr, plz) |>
+  inner_join(plz_medstat |> distinct(plz, medstat_id), by = "plz") |>
+  distinct(medstat_id, bfs_nr) |>
+  count(medstat_id, name = "n_municipalities")
+
+boundaries |>
+  left_join(n_muni, by = "medstat_id") |>
+  ggplot() +
+  geom_sf(aes(fill = n_municipalities), colour = NA) +
+  scale_fill_viridis_c(name = "Municipalities") +
+  labs(title = "Number of municipalities per MedStat region (2022)") +
   theme_void()
 ```
 
